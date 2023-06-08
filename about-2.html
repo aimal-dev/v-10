@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+    <!-- font awsm -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.css" integrity="sha512-5TGRCl3hPoqtruhO+mubTuySHOfcEBvyIfiWHoCK8wDLmf6C1U73OUoNCU6ZvyT/8vfCcha1INDIo8dabDmQjw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.min.js" integrity="sha512-naEQG74IcOLQ6K/B1PmhIcZ4i3YE2FXs2zm603E1Q3shbron+PmYLg44/q+xAymD/RvskZ2H8l1Qa7I5qELlrg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <title>Heritages</title>
+</head>
+<style></style>
+
+<body class="body-1">
+    <nav class="navbar nav-dd fixed-top navbar-expand-xl pl-xl-3 pl-lg-2 pr-xl-3
+      pr-lg-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Home.html">
+                <img src="assets/images/logo.svg" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-sliders-h"></i>
+        </button>
+
+            <div class="collapse navbar-collapse text-xl-block text-center" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <select id="inputState" class="form-control mr-3">
+              <option selected>CYBERJAYA</option>
+              <option>CYBERJAYA</option>
+            </select>
+                    <div class="search">
+                        <img src="assets/images/search.svg" alt="" />
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                    </div>
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2" href="updates.html" target="_blank">
+                UPDATES
+              </a>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link active nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                ABOUT
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>About</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="about-1.html">
+                      WHY LIMKOKWING
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="about-2.html">
+                      HERITAGE
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="about-3.html">
+                      ACCREDIATION & AWARDS
+                    </a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br /> 63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br /> Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                      Tel (+603) 8317 8888
+                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-md-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="academic.html" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                ACADEMIA
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Academia</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="programe.html">
+                      PROGRAMMERS
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="short-courses.html">
+                      SHORTCOURSES
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="financial.html">
+                      FINANCIAL ASSISTANCE
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="international-ser.html">
+                      INTERNATIONAL SERVICES
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="admission.html">ADMISSION</a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br /> 63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br /> Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                      Tel (+603) 8317 8888
+                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                BUSINESS
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Business</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="business-1.html">
+                      INDUSTRY PARTNER
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="business-2-1.html">
+                      LIMKOKWING GLOBAL ALLIANCE
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="business-3-1.html">
+                      AGENT NETWORK
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="business-4.html">CAREERS</a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                EXPERIENCE
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Experience</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="experience-1.html">
+                      DISCOVER MALAYSIA
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="experience-2.html">
+                      SERVICES
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">COMMUNITY</a>
+                                    <h3 class="mt-5">Student portal</h3>
+                                    <form action="">
+                                        <input type="text" name="" id="" placeholder="Username" />
+                                        <input type="password" name="" id="" placeholder="Password" />
+                                        <a href="#!" class="sim d-inline-block text-center mt-4 mr-1">
+                        LOGIN
+                      </a>
+                                        <a href="#!" class="blue d-inline-block text-center mt-4">
+                        ENROLL FOR FEB INTAKE
+                      </a>
+                                    </form>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button" href="admission.html">ENROLL NOW</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar fixed-top navbar-expand-lg" id="main-bar">
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="about-1.html">
+            Why Limkokwing
+            <span class="sr-only"></span>
+          </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="about-2.html">Heritages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about-3.html">Awards</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- =======================Nav End============================== -->
+    <section class="heritage">
+        <div class="container-fluid p-3">
+            <div class="row no-gutters">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="box-1">
+                        <div class="img">
+                            <img src="./assets/images/lady-2.png" width="100%" height="100%" alt="" />
+                        </div>
+                        <div class="sub-box">
+                            <p>
+                                “The future will always be defined by people who have the tenacity to succeed no matter what the odds may be and reach beyond the ordinary. They achieve extraordinary success, and in doing so they transform countries.”
+                            </p>
+                            <span class="text-white">
+                  -Tan Sri Lim Kok Wing
+                </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 pt-lg-0 pt-md-0 pt-3">
+                    <div class="box-2">
+                        <h1>
+                            Tan Sri Dato’ Sri Paduka Limkokwing: A Creative Genius, A Rebel At Heart.
+                        </h1>
+                        <p class="pt-3">
+                            He transformed the Malaysian private education landscape. He penetrated the Malaysian psyche to understand the importance of creativity and design. Today that formula is being embraced by governments across Africa and the developing world. Malaysia is
+                            today a leading player in global higher education because of his leadership. Youths from over 150 countries are enrolled with his University. He has forged partnerships with the Commonwealth, the United Nations, foreign governments
+                            and industry giants to transform the way youths are being educated.
+                        </p>
+                        <a href="#!" class="blue mt-3">Visit Limkokwing.com <i class=""></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 2 -->
+    <section class="heritage mt-0">
+        <div class="container-fluid p-3">
+            <div class="row no-gutters">
+                <div class="col-lg-6 col-md-6 col-12 pt-lg-0 pt-md-0 pt-3">
+                    <div class="box-2" style="
+              border-bottom-left-radius: 10px;
+              border-top-left-radius: 10px;
+              border-top-right-radius: 0px;
+              border-bottom-right-radius: 0px;
+              ">
+                        <h1>
+                            Flashback of an incredible journey that began over 30 years ago.
+                        </h1>
+                        <p class="pt-3 red">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="box-1" style="
+                    border-bottom-left-radius: 0px;
+                    border-top-left-radius: 0px;
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    ">
+                                    <div class="img">
+                                        <img src="./assets/images/triangle.png" width="100%" height="100%" alt="" />
+                                    </div>
+                                    <div class="sub-box">
+                                        <h4 class="text-white">1991 – 2000</h4>
+                                        <p class="pt-3">
+                                            Starting out as the Limkokwing Institute of Creative Technology it was the first of its kind institution to prioritise creativity. It reduced the creative talent drain and built a new genre of graduates skilled in the use of new technology. It helped
+                                            Malaysian industries make the transition into a technology-led era.
+                                        </p>
+                                        <a href="#!" class="prev-arr" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-56720246caba2137" aria-disabled="true">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                        <a href="#!" class="next-arr" class="next-arr" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-a2b45d1ea774a1a9" aria-disabled="false">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-1" style="
+                    border-bottom-left-radius: 0px;
+                    border-top-left-radius: 0px;
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    ">
+                                    <div class="img">
+                                        <img src="./assets/images/limkok.png" width="100%" height="100%" alt="" />
+                                    </div>
+                                    <div class="sub-box">
+                                        <h4 class="text-white">2000 – 2010</h4>
+                                        <p class="pt-3">
+                                            Transforming into a global institution the first Malaysian private college that became a full-fledged university and went on to break new ground, establishing campuses in Botswana, Africa and London, UK. It also moved into a purpose-built flagship campus
+                                            in Cyberjaya, Malaysia that brought students from across the world.
+                                        </p>
+                                        <a href="#!" class="prev-arr" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-56720246caba2137" aria-disabled="true">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                        <a href="#!" class="next-arr" class="next-arr" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-a2b45d1ea774a1a9" aria-disabled="false">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-1" style="
+                    border-bottom-left-radius: 0px;
+                    border-top-left-radius: 0px;
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    ">
+                                    <div class="img">
+                                        <img src="./assets/images/triangle.png" width="100%" height="100%" alt="" />
+                                    </div>
+                                    <div class="sub-box">
+                                        <h4 class="text-white">1991 – 2000</h4>
+                                        <p class="pt-3">
+                                            Starting out as the Limkokwing Institute of Creative Technology it was the first of its kind institution to prioritise creativity. It reduced the creative talent drain and built a new genre of graduates skilled in the use of new technology. It helped
+                                            Malaysian industries make the transition into a technology-led era.
+                                        </p>
+                                        <a href="#!" class="prev-arr" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-56720246caba2137" aria-disabled="true">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                        <a href="#!" class="next-arr" class="next-arr" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-a2b45d1ea774a1a9" aria-disabled="false">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-1" style="
+                    border-bottom-left-radius: 0px;
+                    border-top-left-radius: 0px;
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    ">
+                                    <div class="img">
+                                        <img src="./assets/images/limkok.png" width="100%" height="100%" alt="" />
+                                    </div>
+                                    <div class="sub-box">
+                                        <h4 class="text-white">2000 – 2010</h4>
+                                        <p class="pt-3">
+                                            Transforming into a global institution the first Malaysian private college that became a full-fledged university and went on to break new ground, establishing campuses in Botswana, Africa and London, UK. It also moved into a purpose-built flagship campus
+                                            in Cyberjaya, Malaysia that brought students from across the world.
+                                        </p>
+                                        <a href="#!" class="prev-arr" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-56720246caba2137" aria-disabled="true">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                        <a href="#!" class="next-arr" class="next-arr" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-a2b45d1ea774a1a9" aria-disabled="false">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================footer============================== -->
+    <footer class="mt-lg-5 mt-0">
+        <div class="container-fluid mt-5 pb-3 pl-xl-5 pl-lg-4 pl-3 pr-xl-5 pr-lg-4
+        pr-3">
+            <div class="row no-gutters">
+                <div class="col-xl-6 col-lg-3 col-md-12 pt-1">
+                    <h4>You recently viewed</h4>
+                </div>
+                <div class="col-xl-6 col-lg-9 col-md-12">
+                    <div class="row no-gutters">
+                        <div class="col-xl-7 col-lg-6 col-md-12 pr-lg-2">
+                            <form action="">
+                                <input type="text" placeholder="Your email address" />
+                                <button>SUBSCRIBE</button>
+                            </form>
+                        </div>
+                        <div class="col-xl-5 col-lg-6 col-md-12 text-lg-right text-center
+                foot-btn mt-lg-0 mt-md-3">
+                            <a href="#!" class="contact mr-1">
+                  CONTACT US
+                </a>
+                            <a href="#!" class="enroll">
+                  ENROLL NOW
+                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-3 pr-lg-3 pr-md-2
+            pr-sm-2">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <ul class="cen-ul mt-5">
+                        <li class="pr-4"><a class="active" href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center mt-5">
+                    <img src="./assets/images/logo.svg" alt="" />
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-5 text-lg-left text-center">
+                    <h6>
+                        © 2022 Limkokwing University of Creative Technology. All Rights Reserved.
+                    </h6>
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-2 text-lg-right text-center">
+                    <ul class="last-ul">
+                        <li>
+                            <a href="#!">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#!">Prvacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.next-arr',
+            prevEl: '.prev-arr',
+        },
+        breakpoints: {
+            600: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+            },
+        },
+    })
+</script>
+
+</html>

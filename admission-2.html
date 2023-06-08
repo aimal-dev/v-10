@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <!-- font awsm -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+      integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <title>Admission</title>
+  </head>
+
+  <body>
+    <nav
+      class="navbar nav-dd fixed-top navbar-expand-xl pl-xl-3 pl-lg-2 pr-xl-3 pr-lg-2"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-sliders-h"></i>
+        </button>
+
+        <div
+          class="collapse navbar-collapse text-xl-block text-center"
+          id="navbarSupportedContent"
+        >
+          <form class="form-inline my-2 my-lg-0">
+            <select id="inputState" class="form-control mr-3">
+              <option selected>CYBERJAYA</option>
+              <option>CYBERJAYA</option>
+            </select>
+            <div class="search">
+              <img src="assets/images/search.svg" alt="" />
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </div>
+          </form>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="home.html" target="_blank">
+                UPDATES
+              </a>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                ABOUT
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01"
+              >
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>About</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      WHY LIMKOKWING
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      HERITAGE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">
+                      ACCREDIATION & AWARDS
+                    </a>
+                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                    <p class="pt-3">
+                      Inovasi 1-1, Jalan Teknokarat 1/1
+                      <br />
+                      63000 Cyberjaya, Selangor Darul Ehsan
+                      <br />
+                      Malaysia
+                    </p>
+                    <a
+                      class="dropdown-item pl-0 mt-3"
+                      href="tel:(+603) 8317 8888"
+                    >
+                      Tel (+603) 8317 8888
+                    </a>
+                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-md-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png')"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link active nav-link2"
+                href="academic.html"
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                ACADEMIA
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01"
+              >
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Academia</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      PROGRAMMERS
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      SHORTCOURSES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      FINANCIAL ASSISTANCE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      INTERNATIONAL SERVICES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">ADMISSION</a>
+                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                    <p class="pt-3">
+                      Inovasi 1-1, Jalan Teknokarat 1/1
+                      <br />
+                      63000 Cyberjaya, Selangor Darul Ehsan
+                      <br />
+                      Malaysia
+                    </p>
+                    <a
+                      class="dropdown-item pl-0 mt-3"
+                      href="tel:(+603) 8317 8888"
+                    >
+                      Tel (+603) 8317 8888
+                    </a>
+                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png')"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                BUSINESS
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01"
+              >
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Business</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      INDUSTRY PARTNER
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      LIMKOKWING GLOBAL ALLIANCE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      AGENT NETWORK
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">CAREERS</a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png')"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                EXPERIENCE
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01"
+              >
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Experience</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      DISCOVER MALAYSIA
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      SERVICES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">COMMUNITY</a>
+                    <h3 class="mt-5">Student portal</h3>
+                    <form action="">
+                      <input type="text" name="" id="" placeholder="Username" />
+                      <input
+                        type="password"
+                        name=""
+                        id=""
+                        placeholder="Password"
+                      />
+                      <a
+                        href="#!"
+                        class="sim d-inline-block text-center mt-4 mr-1"
+                      >
+                        LOGIN
+                      </a>
+                      <a href="#!" class="blue d-inline-block text-center mt-4">
+                        ENROLL FOR FEB INTAKE
+                      </a>
+                    </form>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png')"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="button" href="#!">ENROLL NOW</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar fixed-top navbar-expand-lg" id="main-bar">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="programe.html">
+            Programmes
+            <span class="sr-only"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="short-courses.html">Short Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="financial.html">Financial Assistance</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="international-ser.html">
+            International Services
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="admission.html">Admission</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- =======================Nav End============================== -->
+    <section class="adm2" style="background: url('./assets/images/BG.png')">
+      <div class="container-fluid p-3">
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <div class="box">
+              <a href="#!">
+                <i class="fa fa-angle-left"></i>
+                Back
+              </a>
+              <h1 class="pt-5">Registration Steps for Limkokwing Cyberjaya</h1>
+              <p class="pt-3">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="img-height"
+              style="background: url('./assets/images/adm-3.png')"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Form Part -->
+    <section class="adm-form">
+      <div class="container-fluid p-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="box">
+              <h6>STEP 1</h6>
+              <h2>Filling Up Your Application Form</h2>
+              <ul class="nav nav-pills mb-3 mt-5 bg-black" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a
+                    class="nav-link active"
+                    id="pills-home-tab"
+                    data-toggle="pill"
+                    href="#pills-home"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                  >
+                    malaysian
+                  </a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a
+                    class="nav-link"
+                    id="pills-profile-tab"
+                    data-toggle="pill"
+                    href="#pills-profile"
+                    role="tab"
+                    aria-controls="pills-profile"
+                    aria-selected="false"
+                  >
+                    International
+                  </a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a
+                    class="nav-link"
+                    id="pills-contact-tab"
+                    data-toggle="pill"
+                    href="#pills-contact"
+                    role="tab"
+                    aria-controls="pills-contact"
+                    aria-selected="false"
+                  >
+                    Credit tranfer
+                  </a>
+                </li>
+              </ul>
+              <!-- content -->
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active pt-5"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                >
+                <div class="blue-ul">
+                  <h4>Malaysian Student</h4>
+                  <ul>
+                    How to complete the application :
+                    <li>
+                      Read the applicable “Terms & Conditions” before completing
+                      the form
+                    </li>
+                    <li>Complete the form in BLOCK letters</li>
+                    <li>
+                      Registration fee of RM 500. Cheques / bank drafts should
+                      be made payable to
+                      <span class="text-white">
+                        LIMKOKWING UNIVERSITY OF CREATIVE TECHNOLOGY
+                        INTERNATIONAL SDN. BHD.
+                      </span>
+                    </li>
+                    <li>
+                      Certified copies of Academic Results relevant to entry
+                      requirements
+                    </li>
+                    <li>Photocopy of Identity Card back and front copy</li>
+                    <li>
+                      1 passport sized photograph with white background (35mm x
+                      45mm)
+                    </li>
+                  </ul>
+                  <p>
+                    Additional fees payable :
+                    <br />
+                    <br />
+                    Payable after receiving the Acceptance / Offer Letter or
+                    upon arrival at Limkokwing University of Creative Technology
+                  </p>
+                  <div class="table">
+                    <table class="text-center">
+                      <thead>
+                        <tr>
+                          <th>Item Description</th>
+                          <th>Diploma / Degree / Post-Graduate</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="r-b">3 Months - RM 409</td>
+                          <td>Applying for 3 Months - 6 Months</td>
+                        </tr>
+                        <tr>
+                          <td class="r-b">3 Months - RM 409</td>
+                          <td>Applying for 3 Months - 6 Months</td>
+                        </tr>
+                        <tr>
+                          <td class="r-b">3 Months - RM 409</td>
+                          <td>Applying for 3 Months - 6 Months</td>
+                        </tr>
+                        <tr>
+                          <td class="r-b">3 Months - RM 409</td>
+                          <td>Applying for 3 Months - 6 Months</td>
+                        </tr>
+                        <tr>
+                          <td class="r-b">3 Months - RM 409</td>
+                          <td>Applying for 3 Months - 6 Months</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                >
+                  <h4 class="pt-5">International Student</h4>
+                  <ul class="blue-ul">
+                    How to complete the application :
+                    <li>
+                      Read the applicable “Terms & Conditions” before completing
+                      the form
+                    </li>
+                    <li>Complete the form in BLOCK letters</li>
+                    <li>
+                      Registration fee of RM 500. Cheques / bank drafts should
+                      be made payable to
+                      <span class="text-white">
+                        LIMKOKWING UNIVERSITY OF CREATIVE TECHNOLOGY
+                        INTERNATIONAL SDN. BHD.
+                      </span>
+                    </li>
+                    <li>
+                      Certified copies of Academic Results relevant to entry
+                      requirements
+                    </li>
+                    <li>Photocopy of Identity Card back and front copy</li>
+                    <li>
+                      1 passport sized photograph with white background (35mm x
+                      45mm)
+                    </li>
+                  </ul>
+                  <p>
+                    Additional fees payable :
+                    <br />
+                    <br />
+                    Payable after receiving the Acceptance / Offer Letter or
+                    upon arrival at Limkokwing University of Creative Technology
+                  </p>
+                  <div class="table">
+                    <table class="text-center">
+                      <thead>
+                        <tr>
+                          <th>Item Description</th>
+                          <th>Diploma / Degree / Post-Graduate</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="r-b">3 Months - RM 409</td>
+                          <td>Applying for 3 Months - 6 Months</td>
+                        </tr>
+                        <tr>
+                          <td class="r-b">3 Months - RM 409</td>
+                          <td>Applying for 3 Months - 6 Months</td>
+                        </tr>
+                        <tr>
+                          <td class="r-b">3 Months - RM 409</td>
+                          <td>Applying for 3 Months - 6 Months</td>
+                        </tr>
+                        <tr>
+                          <td class="r-b">3 Months - RM 409</td>
+                          <td>Applying for 3 Months - 6 Months</td>
+                        </tr>
+                        <tr>
+                          <td class="r-b">3 Months - RM 409</td>
+                          <td>Applying for 3 Months - 6 Months</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-contact"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-tab"
+                >
+                  <p class="pt-5">
+                    Students seeking entry with advanced standing or with credit
+                    exemptions are required to submit the following additional
+                    documents :
+                  </p>
+                  <ul class="blue-ul">
+                    <li>
+                      Read the applicable “Terms & Conditions” before completing
+                      the form
+                    </li>
+                    <li>Complete the form in BLOCK letters</li>
+                    <li>
+                      Registration fee of RM 500. Cheques / bank drafts should
+                      be made payable to
+                      <span class="text-white">
+                        LIMKOKWING UNIVERSITY OF CREATIVE TECHNOLOGY
+                        INTERNATIONAL SDN. BHD.
+                      </span>
+                    </li>
+                    <li>
+                      Certified copies of Academic Results relevant to entry
+                      requirements
+                    </li>
+                    <li>Photocopy of Identity Card back and front copy</li>
+                    <li>
+                      1 passport sized photograph with white background (35mm x
+                      45mm)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="box">
+              <h6>STEP 2</h6>
+              <h2>Payment Options</h2>
+
+              <!-- content -->
+              <p class="pt-5">
+                All cheques / bankdrafts / T.T. should be made payable to :
+              </p>
+              <div class="table mt-3">
+                <table class="text-center">
+                  <tbody class="text-left">
+                    <tr>
+                      <td class="r-bb r-b-st">Account Name</td>
+                      <td>
+                        Limkokwing University of Creative Technology
+                        International Sdn. Bhd.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="r-bb">Account No. :</td>
+                      <td>512446-301996</td>
+                    </tr>
+                    <tr>
+                      <td class="r-bb">Bank Name :</td>
+                      <td>Maybank</td>
+                    </tr>
+                    <tr>
+                      <td class="r-bb">Bank Address :</td>
+                      <td>
+                        P1-36. Persiaran Multimedia, Shaftsbury Square, 63000
+                        Cyberjaya, Selangor, Malaysia
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="r-bb r-b-ed">Swift Code :</td>
+                      <td>MBBEMYKL</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="pt-3">
+                Note: Please mail or fax the remittance slip once transaction is
+                made. Name of student and I/C or passport no. should be written
+                on the reverse side of the slip. Slip can be faxed to
+                603-8318-7913 (Cash payment payable at the Bursary Department).
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-3">
+            <div class="box">
+              <h6>STEP 3</h6>
+              <h2>Submitting Your Application</h2>
+
+              <!-- content -->
+              <p>
+                All completed forms and payments should be sent by courier or
+                registered mail to :
+              </p>
+              <p>
+                Limkokwing University of Creative Technology
+                <br />
+                The International Marketing Department, Inovasi 1-1,
+                <br />
+                Jalan Teknokrat 1/1, 63000 Cyberjaya, Selangor, Malaysia
+                <br />
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-3">
+            <div class="box">
+              <h6>STEP 4</h6>
+              <h2>Processing Your Application</h2>
+              <ul class="blue-ul">
+                <span class="text-white"
+                  >Processing Information for International Applicants</span
+                >
+                <li>
+                  Read the applicable “Terms & Conditions” before completing the
+                  form
+                </li>
+                <li>Complete the form in BLOCK letters</li>
+                <li>
+                  Registration fee of RM 500. Cheques / bank drafts should be
+                  made payable to
+                  <span class="text-white">
+                    LIMKOKWING UNIVERSITY OF CREATIVE TECHNOLOGY INTERNATIONAL
+                    SDN. BHD.
+                  </span>
+                </li>
+                <li>
+                  Certified copies of Academic Results relevant to entry
+                  requirements
+                </li>
+                <li>Photocopy of Identity Card back and front copy</li>
+                <li>
+                  1 passport sized photograph with white background (35mm x
+                  45mm)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================footer============================== -->
+    <footer class="mt-5">
+      <div
+        class="container-fluid mt-5 pb-3 pl-xl-5 pl-lg-4 pl-3 pr-xl-5 pr-lg-4 pr-3"
+      >
+        <div class="row no-gutters">
+          <div class="col-xl-6 col-lg-3 col-md-12 pt-1">
+            <h4>You recently viewed</h4>
+          </div>
+          <div class="col-xl-6 col-lg-9 col-md-12">
+            <div class="row no-gutters">
+              <div class="col-xl-7 col-lg-6 col-md-12 pr-lg-2">
+                <form action=" ">
+                  <input type="text " placeholder="Your email address " />
+                  <button>SUBSCRIBE</button>
+                </form>
+              </div>
+              <div
+                class="col-xl-5 col-lg-6 col-md-12 text-lg-right text-center foot-btn mt-lg-0 mt-md-3"
+              >
+                <a href="#! " class="contact mr-1"> CONTACT US </a>
+                <a href="#! " class="enroll"> ENROLL NOW </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3"
+          >
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3"
+          >
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3"
+          >
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3"
+          >
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3"
+          >
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-3 pr-lg-3 pr-md-2 pr-sm-2"
+          >
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <ul class="cen-ul mt-5">
+              <li class="pr-4"><a class="active" href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+            </ul>
+          </div>
+          <div class="col-12 text-center mt-5">
+            <img src="./assets/images/logo.svg " alt=" " />
+          </div>
+          <div class="col-lg-6 mt-lg-5 mt-5 text-lg-left text-center">
+            <h6>
+              © 2022 Limkokwing University of Creative Technology. All Rights
+              Reserved.
+            </h6>
+          </div>
+          <div class="col-lg-6 mt-lg-5 mt-2 text-lg-right text-center">
+            <ul class="last-ul">
+              <li>
+                <a href="#! ">Terms of Use</a>
+              </li>
+              <li>
+                <a href="#! ">Prvacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js "></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js "
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN "
+    crossorigin="anonymous "
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js "
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2 "
+    crossorigin="anonymous "
+  ></script>
+  <script>
+    $(document).ready(function () {
+      $("#toggle ").click(function () {
+        var elem = $("#toggle ").text();
+        if (elem == "View More ") {
+          //Stuff to do when btn is in the read more state
+          $("#toggle ").text("View Less ");
+          $("#text ").slideDown();
+        } else {
+          //Stuff to do when btn is in the read less state
+          $("#toggle ").text("View More ");
+          $("#text ").slideUp();
+        }
+      });
+    });
+  </script>
+</html>

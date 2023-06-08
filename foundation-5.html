@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
+    <!-- Font awsm 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/fontawesome.min.js" integrity="sha512-nKvEIGRKw2OQCR34yLfnWnvrOBxidLG9aK+vzsBxCZ/9ZxgcS4FrYcN+auWUTkCitTVZAt82InDKJ7x+QtKu6g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/solid.min.js" integrity="sha512-F0Gp9qi8/3qyo+62Pi1ZgGe6hAUxPbzOnqhhpJYAMUGDmOys95dCRCVYfQawlUeoGp1Rj/K9V7NboA9sQ9BtKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- swiper js -->
+    <link rel="stylesheet" href="./assets/swiper/swiper-bundle.css" />
+    <script src="./assets/swiper/swiper-bundle.min.js"></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style.scss">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <title>Foundation Programme 5</title>
+</head>
+
+<body class="fon-programe">
+    <!-- Nav 1 -->
+    <nav class="navbar nav-dd fixed-top navbar-expand-xl pl-xl-3 pl-lg-2 pr-xl-3
+      pr-lg-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Home.html">
+                <img src="assets/images/logo.svg" alt="" />
+            </a>
+            <select id="inputState" class="form-control d-xl-none d-block">
+                <option selected>CYBERJAYA</option>
+                <option>CYBERJAYA</option>
+            </select>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-sliders-h"></i>
+            </button>
+
+            <div class="collapse navbar-collapse text-xl-block text-center" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <select id="inputState" class="form-control mr-3 d-xl-block d-none">
+                        <option selected>CYBERJAYA</option>
+                        <option>CYBERJAYA</option>
+                    </select>
+                    <div class="search">
+                        <img src="assets/images/search.svg" alt="" />
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                    </div>
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link nav-link2 " href="updates.html" target="_blank">
+                            UPDATES
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                            ABOUT
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>About</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        WHY LIMKOKWING
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        HERITAGE
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">
+                                        ACCREDIATION & AWARDS
+                                    </a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br /> 63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br /> Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                                        Tel (+603) 8317 8888
+                                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                                        Fax(+603) 8317 8888
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-md-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu active">
+                        <a class="nav-link nav-link2 active" href="academic.html" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                            ACADEMIA
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Academia</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        PROGRAMMERS
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        SHORTCOURSES
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                                        FINANCIAL ASSISTANCE
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                                        INTERNATIONAL SERVICES
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">ADMISSION</a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br /> 63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br /> Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                                        Tel (+603) 8317 8888
+                                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                                        Fax(+603) 8317 8888
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                            BUSINESS
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Business</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        INDUSTRY PARTNER
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        LIMKOKWING GLOBAL ALLIANCE
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                                        AGENT NETWORK
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">CAREERS</a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            EXPERIENCE
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Experience</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        DISCOVER MALAYSIA
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        SERVICES
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">COMMUNITY</a>
+                                    <h3 class="mt-5">Student portal</h3>
+                                    <form action="">
+                                        <input type="text" name="" id="" placeholder="Username" />
+                                        <input type="password" name="" id="" placeholder="Password" />
+                                        <a href="#!" class="sim d-inline-block text-center mt-4 mr-1">
+                                            LOGIN
+                                        </a>
+                                        <a href="#!" class="blue d-inline-block text-center mt-4">
+                                            ENROLL FOR FEB INTAKE
+                                        </a>
+                                    </form>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button" href="#!">ENROLL NOW</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav 2 -->
+    <nav class="navbar fixed-top navbar-expand-lg" id="main-bar">
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="programe.html">
+                    Programmes
+                    <span class="sr-only"></span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="short-courses.html">Short Courses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="financial.html">Financial Assistance</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">International Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Admission</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- In Order -->
+    <section class="in-order pb-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="box">
+                        <span class="d-md-flex d-none flex-row"><a href="#!" class="light mr-2">Faculty of Foundation &
+                                Language</a> <i class="fas fa-angle-right mr-2"></i> <a href="#!"
+                                class="black">Personality Test</a></span>
+                        <h1 class="mt-lg-5 mt-0">Congratulations!
+                        </h1>
+                        <p class="pt-3">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="box-2">
+                        <div class="tag">
+                            Your personality trait is :
+                        </div>
+                        <h1>INFJ-T</h1>
+                        <h4>Advocate</h4>
+                        <div class="row mt-5">
+                            <div class="col d-lg-block d-none"></div>
+                            <div class="col-lg-2 col-md-4">
+
+                                <svg class="radial-progress" data-percentage="68" viewBox="0 0 80 80">
+                                    <circle class="incomplete " cx="40" cy="40" r="35"></circle>
+                                    <circle class="complete c1" cx="40" cy="40" r="35" style="stroke-dashoffset: 65.9734px;"></circle>
+                                    <text class="percentage" x="52%" y="50%" transform="matrix(0, 1, -1, 0, 80, 0)">68%
+                                    </text>
+                                    <text class="lit-text" x="51%" y="66%" transform="matrix(0, 1, -1, 0, 80, 0)">Turbulent
+                                    </text>
+                                </svg>
+
+
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+
+                                <svg class="radial-progress" data-percentage="91" viewBox="0 0 80 80">
+                                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                                    <circle class="complete c2" cx="40" cy="40" r="35" style="stroke-dashoffset: 65.9734px;"></circle>
+                                    <text class="percentage" x="52%" y="50%" transform="matrix(0, 1, -1, 0, 80, 0)">91%
+                                    </text>
+                                    <text class="lit-text" x="51%" y="66%" transform="matrix(0, 1, -1, 0, 80, 0)">Introverted
+                                    </text>
+                                </svg>
+
+
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+
+                                <svg class="radial-progress" data-percentage="73" viewBox="0 0 80 80">
+                                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                                    <circle class="complete c3" cx="40" cy="40" r="35" style="stroke-dashoffset: 65.9734px;"></circle>
+                                    <text class="percentage" x="52%" y="50%" transform="matrix(0, 1, -1, 0, 80, 0)">73%
+                                    </text>
+                                    <text class="lit-text" x="51%" y="66%" transform="matrix(0, 1, -1, 0, 80, 0)">Intuitive
+                                    </text>
+                                </svg>
+
+
+                            </div>
+                            <div class="col d-lg-none d-md-block"></div>
+                            <div class="col-lg-2 col-md-4">
+
+                                <svg class="radial-progress" data-percentage="57" viewBox="0 0 80 80">
+                                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                                    <circle class="complete c4" cx="40" cy="40" r="35" style="stroke-dashoffset: 65.9734px;"></circle>
+                                    <text class="percentage" x="52%" y="50%" transform="matrix(0, 1, -1, 0, 80, 0)">57%
+                                    </text>
+                                    <text class="lit-text" x="51%" y="66%" transform="matrix(0, 1, -1, 0, 80, 0)">Feeling
+                                    </text>
+                                </svg>
+
+
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+
+                                <svg class="radial-progress" data-percentage="54" viewBox="0 0 80 80">
+                                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                                    <circle class="complete c5" cx="40" cy="40" r="35" style="stroke-dashoffset: 65.9734px;"></circle>
+                                    <text class="percentage" x="52%" y="50%" transform="matrix(0, 1, -1, 0, 80, 0)">54%
+                                    </text>
+                                    <text class="lit-text" x="51%" y="66%" transform="matrix(0, 1, -1, 0, 80, 0)">Judging
+                                    </text>
+                                </svg>
+
+
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="box-3" style="background-image: url('./assets/images/latest-imgs/found-5.png'),url('./assets/images/latest-imgs/foound-6.png')">
+                        <div class="content-box">
+                            <h2>What does my results mean?</h2>
+                            <div class="pt-4">
+                                An Advocate (INFJ) is someone with the Introverted, Intuitive, Feeling, and Judging personality traits. They tend to approach life with deep thoughtfulness and imagination. Their inner vision, personal values, and a quiet, principled version of humanism
+                                guide them in all things.
+
+                            </div>
+                            <div class="pt-4">
+                                Advocates (INFJs) may be the rarest personality type of all, but they certainly leave their mark on the world. Idealistic and principled, they aren’t content to coast through life – they want to stand up and make a difference. For Advocate personalities,
+                                success doesn’t come from money or status but from seeking fulfillment, helping others, and being a force for good in the world.
+
+
+                            </div>
+                            <div class="pt-4">
+                                While they have lofty goals and ambitions, Advocates shouldn’t be mistaken for idle dreamers. People with this personality type care about integrity, and they’re rarely satisfied until they’ve done what they know to be right. Conscientious to the core,
+                                they move through life with a clear sense of their values, and they aim never to lose sight of what truly matters – not according to other people or society at large, but according to their own wisdom and intuition.
+
+                            </div>
+                            <h4 class="mt-5">Seeking Purpose</h4>
+                            <div class="pt-4">
+                                Perhaps because their personality type is so uncommon, Advocates tend to carry around a sense – whether conscious or not – of being different from most people. With their rich inner lives and their deep, abiding desire to find their life purpose, they
+                                don’t always fit in with those around them. This isn’t to say that Advocates can’t enjoy social acceptance or close relationships – only that they sometimes feel misunderstood or at odds with the world.
+                            </div>
+                            <div class="pt-4">
+                                Fortunately, this sense of being out of step doesn’t diminish Advocates’ commitment to making the world a better place. Advocates are troubled by injustice, and they typically care more about altruism than personal gain. They often feel called to use
+                                their strengths – including creativity, imagination, and sensitivity – to uplift others and spread compassion.
+                            </div>
+                            <h4 class="mt-5">A Personal Mission</h4>
+                            <div class="pt-4">
+                                Many Advocates feel that their life has a unique purpose – a mission that they were put onto this earth to fulfill. For people with this personality type, one of the most rewarding aspects of life is seeking out this purpose – and then, once they’ve found
+                                it, striving to do it justice.
+
+                            </div>
+                            <div class="pt-4">
+                                When Advocates encounter inequity or unfairness, they rarely give up – instead, they consult their intuition and their compassion to find a solution. With their innate ability to balance the heart with the head, Advocates are hardwired to right the wrongs
+                                of the world, no matter how big or small. These personalities just need to remember that while they’re busy taking care of everyone else, they need to pause sometimes and take care of themselves as well.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="box-4">
+                        <h3>Other Famous INFJs</h3>
+                        <div class="row d-lg-flex d-none">
+                            <div class="col d-lg-block d-none"></div>
+                            <div class="col-lg-2">
+                                <div class="Brands text-center">
+                                    <img src="./assets/images/latest-imgs/d-1-1.png" width="100%" alt="">
+                                    <h5 class="pt-3">Martin Luther King Jr.</h5>
+                                    <h6>Position</h6>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="Brands text-center">
+                                    <img src="./assets/images/latest-imgs/d-1-2.png" width="100%" alt="">
+                                    <h5 class="pt-3">Nelson Mandela</h5>
+                                    <h6>Position</h6>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="Brands text-center">
+                                    <img src="./assets/images/latest-imgs/d-1-3.png" width="100%" alt="">
+                                    <h5 class="pt-3">Morgan Freeman</h5>
+                                    <h6>Position</h6>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="Brands text-center">
+                                    <img src="./assets/images/latest-imgs/d-1-4.png" width="100%" alt="">
+                                    <h5 class="pt-3">Marie Kondo</h5>
+                                    <h6>Position</h6>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="Brands text-center">
+                                    <img src="./assets/images/latest-imgs/d-1-5.png" width="100%" alt="">
+                                    <h5 class="pt-3">Lady Gaga</h5>
+                                    <h6>Position</h6>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                        <div class="slider d-lg-none d-md-none d-block p-lg-0 p-md-0 p-3">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="Brands text-center">
+                                            <img src="./assets/images/latest-imgs/d-1-1.png" width="100%" alt="">
+                                            <h5 class="pt-3">Martin Luther King Jr.</h5>
+                                            <h6>Position</h6>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="Brands text-center">
+                                            <img src="./assets/images/latest-imgs/d-1-2.png" width="100%" alt="">
+                                            <h5 class="pt-3">Nelson Mandela</h5>
+                                            <h6>Position</h6>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="Brands text-center">
+                                            <img src="./assets/images/latest-imgs/d-1-3.png" width="100%" alt="">
+                                            <h5 class="pt-3">Morgan Freeman</h5>
+                                            <h6>Position</h6>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="Brands text-center">
+                                            <img src="./assets/images/latest-imgs/d-1-4.png" width="100%" alt="">
+                                            <h5 class="pt-3">Marie Kondo</h5>
+                                            <h6>Position</h6>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="Brands text-center">
+                                            <img src="./assets/images/latest-imgs/d-1-5.png" width="100%" alt="">
+                                            <h5 class="pt-3">Lady Gaga</h5>
+                                            <h6>Position</h6>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">Slide 6</div>
+                                    <div class="swiper-slide">Slide 7</div>
+                                    <div class="swiper-slide">Slide 8</div>
+                                    <div class="swiper-slide">Slide 9</div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="box-3" style="background-image: url('./assets/images/latest-imgs/found-5.png'),url('./assets/images/latest-imgs/foound-6.png')">
+                        <div class="content-box">
+                            <h2>Your suggested career path.</h2>
+                            <div class="pt-4">
+                                For Advocate personalities, jobs that involve helping and connecting with people can be deeply satisfying. It’s no surprise, then, that many Advocates gravitate toward work as counselors, therapists, psychologists, social workers, teachers, yoga instructors,
+                                and spiritual leaders. They may enjoy service industry positions that allow them to interact directly and build genuine relationships with their customers. Careers in health care can also be rewarding options, including
+                                occupations such as nursing, physical or occupational therapy, medicine, nutrition, or more holistic paths such as acupuncture.
+
+
+                            </div>
+                            <div class="pt-4">
+                                Many Advocates are passionate communicators. This explains why they are often drawn to careers in writing, creating many popular books, blogs, stories, video games, and screenplays. For people with this personality type, the opportunity to tell stories
+                                for a living can be nothing short of a dream come true. Other Advocates might pursue music, photography, design, illustration, or fine art. Even if these artistic pursuits aren’t their primary job, many Advocates find that
+                                creative side hustles offer a much-needed outlet for the themes and ideas that occupy their imaginations.
+
+
+
+                            </div>
+                            <div class="pt-4">
+                                Nonprofit workplaces, from museums to nature centers to food pantries, also hold a special appeal. With their focus on serving the community rather than drawing a profit, these organizations can be a natural fit for Advocate personalities. But even in
+                                workplaces that are very much for-profit, Advocates can find ways to direct their energy and creativity toward helping others. No matter what it says on their business cards, Advocates’ insight can enable them to spot unusual
+                                patterns and come up with outside-the-box solutions, creating real change in others’ lives.
+
+                            </div>
+                            <h4 class="mt-5">A Sense of Mission</h4>
+                            <div class="pt-4">
+                                Advocates are incredibly versatile, but some work environments may rub them the wrong way. This is especially true of workplaces that offer little independence or agency, forcing employees to adhere to rigid, repetitive protocols without regard for their
+                                individual needs or strengths. People with this personality type may also chafe at the criticism and pressure that come with cutthroat, competitive work environments.
+
+                            </div>
+                            <div class="pt-4">
+                                For this reason, many Advocates seek out more flexible, autonomous positions – or branch off altogether to start their own businesses. They may also find it gratifying to create bridges between seemingly disparate professional fields – for example, by
+                                writing about psychology or by being an environmental lawyer. Such hybrid careers can offer plenty of opportunities for Advocates to exercise their creativity and their love of learning.
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box-5">
+                        <h5>What you can achieve with</h5>
+                        <h3>Foundation in Design</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="sub-boxs">
+                                    UI/UX Designer
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="sub-boxs">
+                                    Graphic Designer
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="sub-boxs">
+                                    VFX Artist
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="sub-boxs">
+                                    Multimedia Designer
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="sub-boxs">
+                                    Art Director
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="sub-boxs">
+                                    Advertising Manager
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#!" class="dark">Enquire</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-3">
+                    <div class="box-5">
+                        <h5>What you can achieve with</h5>
+                        <h3>Foundation in Communication</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="sub-boxs">
+                                    <h6> Corporate Communication Manager</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="sub-boxs">
+                                    Strategic Communication Manager
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="sub-boxs">
+                                    Foreign Affairs Officer
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="sub-boxs">
+                                    Public Relations Consultant
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="sub-boxs">
+                                    Psychologist
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="sub-boxs">
+                                    Publicist
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#!" class="dark">Enquire</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="mt-2">
+        <div class="container-fluid mt-5 pb-3 pl-xl-5 pl-lg-4 pl-3 pr-xl-5 pr-lg-4 pr-3">
+            <div class="row no-gutters">
+                <div class="col-xl-6 col-lg-3 col-md-12 pt-1">
+                    <h4>You recently viewed</h4>
+                </div>
+                <div class="col-xl-6 col-lg-9 col-md-12">
+                    <div class="row no-gutters">
+                        <div class="col-xl-7 col-lg-6 col-md-12 pr-lg-2">
+                            <form action="">
+                                <input type="text" placeholder="Your email address">
+                                <button>SUBSCRIBE</button>
+                            </form>
+                        </div>
+                        <div class="col-xl-5 col-lg-6 col-md-12 text-lg-right text-center foot-btn mt-lg-0 mt-md-3">
+                            <a href="#!" class="contact mr-1">
+                                CONTACT US
+                            </a>
+                            <a href="#!" class="enroll">
+                                ENROLL NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row" id="recent_view_section">
+                        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-2 pr-md-2 pr-sm-2 mt-3">
+                            <a href="#!" style="text-decoration: none;">
+                                <div class="box">
+                                    <div class="img-height">
+                                        <img src="./assets/images/footer-box.svg" alt="">
+                                    </div>
+                                    <div class="p-3">
+                                        <h6 class="pt-1">Faculty of Business &amp; Communication</h6>
+                                        <h5 class="pt-1 ">
+                                            Bachelor of Business (Hons) in Accounting
+                                        </h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-2 pr-md-2 pr-sm-2 mt-3">
+                            <div class="box">
+                                <div class="img-height">
+                                    <img src="./assets/images/about-2.png" alt="">
+                                </div>
+                                <div class="p-3">
+                                    <h6 class="pt-1">Faculty of Business &amp; Communication</h6>
+                                    <h5 class="pt-1 ">
+                                        Bachelor of Business (Hons) in Accounting
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-2 pr-md-2 pr-sm-2 mt-3">
+                            <div class="box">
+                                <div class="img-height">
+                                    <img src="./assets/images/admission-bg.png" alt="">
+                                </div>
+                                <div class="p-3">
+                                    <h6 class="pt-1">Faculty of Business &amp; Communication</h6>
+                                    <h5 class="pt-1 ">
+                                        Bachelor of Business (Hons) in Accounting
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-2 pr-md-2 pr-sm-2 mt-3">
+                            <div class="box">
+                                <div class="img-height">
+                                    <img src="./assets/images/blue.png" alt="">
+                                </div>
+                                <div class="p-3">
+                                    <h6 class="pt-1">Faculty of Business &amp; Communication</h6>
+                                    <h5 class="pt-1 ">
+                                        Bachelor of Business (Hons) in Accounting
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-2 pr-md-2 pr-sm-2 mt-3">
+                            <div class="box">
+                                <div class="img-height">
+                                    <img src="./assets/images/cup-of cofee.png" alt="">
+                                </div>
+                                <div class="p-3">
+                                    <h6 class="pt-1">Faculty of Business &amp; Communication</h6>
+                                    <h5 class="pt-1 ">
+                                        Bachelor of Business (Hons) in Accounting
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-3 pr-lg-2 pr-md-2 pr-sm-2">
+                            <div class="box">
+                                <div class="img-height">
+                                    <img src="./assets/images/Game4.png" alt="">
+                                </div>
+                                <div class="p-3">
+                                    <h6 class="pt-1">Faculty of Business &amp; Communication</h6>
+                                    <h5 class="pt-1 ">
+                                        Bachelor of Business (Hons) in Accounting
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12">
+                    <ul class="cen-ul mt-5">
+                        <li class="pr-4">
+                            <a class="active" href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center mt-5">
+                    <img src="./assets/images/logo.svg" alt="">
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-5 text-lg-left text-center">
+                    <h6>
+                        © 2022 Limkokwing University of Creative Technology. All Rights Reserved.
+                    </h6>
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-2 text-lg-right text-center">
+                    <ul class="last-ul">
+                        <li>
+                            <a href="#!">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#!">Prvacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./assets/Jquery/3.1.1-jquery.min.js"></script>
+<script src="./assets/Jquery/popper.min.js"></script>
+<script src="./assets/bootstrap/bootstrap.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+    // Progress BAr
+    $(function() {
+
+        // Remove svg.radial-progress .complete inline styling
+        $('svg.radial-progress').each(function(index, value) {
+            $(this).find($('circle.complete')).removeAttr('style');
+        });
+
+        // Activate progress animation on scroll
+        $(window).scroll(function() {
+            $('svg.radial-progress').each(function(index, value) {
+                // If svg.radial-progress is approximately 25% vertically into the window when scrolling from the top or the bottom
+                if (
+                    $(window).scrollTop() > $(this).offset().top - ($(window).height() * 0.75) &&
+                    $(window).scrollTop() < $(this).offset().top + $(this).height() - ($(window).height() * 0.25)
+                ) {
+                    // Get percentage of progress
+                    percent = $(value).data('percentage');
+                    // Get radius of the svg's circle.complete
+                    radius = $(this).find($('circle.complete')).attr('r');
+                    // Get circumference (2πr)
+                    circumference = 2 * Math.PI * radius;
+                    // Get stroke-dashoffset value based on the percentage of the circumference
+                    strokeDashOffset = circumference - ((percent * circumference) / 100);
+                    // Transition progress for 1.25 seconds
+                    $(this).find($('circle.complete')).animate({
+                        'stroke-dashoffset': strokeDashOffset
+                    }, 1250);
+                }
+            });
+        }).trigger('scroll');
+
+    });
+</script>
+
+</html>

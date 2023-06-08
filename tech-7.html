@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <!-- font awsm -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+      integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"
+    ></script>
+    <!-- swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.css"
+      integrity="sha512-5TGRCl3hPoqtruhO+mubTuySHOfcEBvyIfiWHoCK8wDLmf6C1U73OUoNCU6ZvyT/8vfCcha1INDIo8dabDmQjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.min.js"
+      integrity="sha512-naEQG74IcOLQ6K/B1PmhIcZ4i3YE2FXs2zm603E1Q3shbron+PmYLg44/q+xAymD/RvskZ2H8l1Qa7I5qELlrg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/extra.css" />
+
+    <title>tech-7</title>
+  </head>
+  <body
+    class="transparent"
+    style="background: url('./assets/images/transparent.png')"
+  >
+    <nav
+      class="navbar nav-dd fixed-top scroll navbar-expand-xl pl-xl-3 pl-lg-2 pr-xl-3 pr-lg-2"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Home.html">
+          <img src="assets/images/logo.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-sliders-h"></i>
+        </button>
+
+        <div
+          class="collapse navbar-collapse text-xl-block text-center"
+          id="navbarSupportedContent"
+        >
+          <form class="form-inline my-2 my-lg-0">
+            <select id="inputState" class="form-control mr-2">
+              <option selected>CYBERJAYA</option>
+              <option>CYBERJAYA</option>
+            </select>
+            <div class="search">
+              <img src="assets/images/search.svg" alt="" />
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </div>
+          </form>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="home.html" target="_blank">
+                UPDATES
+              </a>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                ABOUT
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01"
+              >
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>About</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      WHY LIMKOKWING
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      HERITAGE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">
+                      ACCREDIATION & AWARDS
+                    </a>
+                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                    <p class="pt-3">
+                      Inovasi 1-1, Jalan Teknokarat 1/1
+                      <br />
+                      63000 Cyberjaya, Selangor Darul Ehsan
+                      <br />
+                      Malaysia
+                    </p>
+                    <a
+                      class="dropdown-item pl-0 mt-3"
+                      href="tel:(+603) 8317 8888"
+                    >
+                      Tel (+603) 8317 8888
+                    </a>
+                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-md-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png')"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link active nav-link2"
+                href="academic.html"
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                ACADEMIA
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01"
+              >
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Academia</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      PROGRAMMERS
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      SHORTCOURSES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      FINANCIAL ASSISTANCE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      INTERNATIONAL SERVICES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">ADMISSION</a>
+                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                    <p class="pt-3">
+                      Inovasi 1-1, Jalan Teknokarat 1/1
+                      <br />
+                      63000 Cyberjaya, Selangor Darul Ehsan
+                      <br />
+                      Malaysia
+                    </p>
+                    <a
+                      class="dropdown-item pl-0 mt-3"
+                      href="tel:(+603) 8317 8888"
+                    >
+                      Tel (+603) 8317 8888
+                    </a>
+                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png')"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                BUSINESS
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01"
+              >
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Business</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      INDUSTRY PARTNER
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      LIMKOKWING GLOBAL ALLIANCE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      AGENT NETWORK
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">CAREERS</a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png')"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                EXPERIENCE
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01"
+              >
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Experience</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      DISCOVER MALAYSIA
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      SERVICES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">COMMUNITY</a>
+                    <h3 class="mt-5">Student portal</h3>
+                    <form action="">
+                      <input type="text" name="" id="" placeholder="Username" />
+                      <input
+                        type="password"
+                        name=""
+                        id=""
+                        placeholder="Password"
+                      />
+                      <a
+                        href="#!"
+                        class="sim d-inline-block text-center mt-4 mr-1"
+                      >
+                        LOGIN
+                      </a>
+                      <a href="#!" class="blue d-inline-block text-center mt-4">
+                        ENROLL FOR FEB INTAKE
+                      </a>
+                    </form>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png')"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="button" href="#!">ENROLL NOW</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav
+      class="navbar fixed-top navbar-expand-lg nav-dark-black scroll"
+      id="main-bar"
+    >
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="programe.html">
+            Programmes
+            <span class="sr-only"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="short-courses.html">Short Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="financial.html">Financial Assistance</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">International Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Admission</a>
+        </li>
+      </ul>
+    </nav>
+    <!--============================================ Nav end====================================== -->
+
+    <!-- / 1-->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="box-parent-alumini">
+              <div class="row">
+                <div class="col-lg-6">
+              <a href="">    <p class="text-light">Back</p></a>
+                </div>
+              </div>
+              <div class="row no-gutters">
+                <div
+                  class="col-lg-6 col-md-12 alumni-hero-box text-lg-right pr-lg-5"
+                >
+                  <h1 class="alumni-header">
+                    Bachelor of Arts (Hons) in Animation
+                  </h1>
+                  <div class="tec-para-hero pt-3">
+                    <p class="design-para-tec">
+                      he world of animation has diversified from film, TV, games and entertainment sectors to many other industries. Digital animation is used for advanced training, simulation and planning programmes, medical diagnosis, interactive learning and architectural virtual walkthrough. Increasingly, works from advanced countries are being outsourced from countries like Malaysia.
+<br>
+<br>
+                      The Bachelor of Arts (Hons) in Animation programme explores the fundamental aspects of animation using contemporary approaches. This course will equip students with the fundamentals and principles of classical animation, which will serve as a solid foundation for any kind and style of animation. They will learn the history, style and culture of animation as well as the scriptwriting, narrative and storytelling skills required throughout an industry production pipeline.
+                      <br>
+                      <br>
+                      Students will also explore digital animation techniques using 3D and vector graphics software, as well as video and special effects in creating stunning visuals for their animated projects. They will also learn the writing skills necessary for the research and development of animation.
+                      <br>
+                      <br>
+                      The outline of the programme concentrates on all stages of the production process, similar to the workflow practiced by professionals from related industries. Students will undergo a series of hands-on professional training to develop their skills in an industry-based learning system
+                    </p>
+
+                
+                  </div>
+
+                  <div class="btn-alumni-hero pt-3">
+                <a href="">    <button class="btn-tec">Register now</button></a>
+               <a href="">     <button class="btn-tec">Financial Assistance</button></a>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                  <img src="./assets/images/latest-imgs/tv.png" width="100%" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sction 333 -->
+    <section class="section-tec-three display-tech">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <p class="tech-science-para">WHAT YOU CAN BE WITH A</p>
+            <h1 class="text-light entery-header-slider">
+              Bachelor of Science (Hons) in Business Information Technology
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="row tech-hero-main">
+        <div class="col-lg-12">
+          <div id="background-container">
+            <div class="blocks">
+              <div class="block">
+                <p class="analyst-para">Application Analyst</p>
+              </div>
+              <div class="block">
+                <p class="analyst-para">Application Analyst</p>
+              </div>
+              <div class="block">
+                <p class="analyst-para">Application Analyst</p>
+              </div>
+            </div>
+            <div class="blocks">
+              <div class="block">
+                <p class="analyst-para">Application Analyst</p>
+              </div>
+              <div class="block">
+                <p class="analyst-para">Application Analyst</p>
+              </div>
+              <div class="block">
+                <p class="analyst-para">Application Analyst</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 3 -->
+    <section class="section-tec-three display-tech-two">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <p class="tech-science-para">WHAT YOU CAN BE WITH A</p>
+            <h1 class="text-light entery-header-slider">
+              Bachelor of Science (Hons) in Business Information Technology
+            </h1>
+          </div>
+        </div>
+        <div class="row tech-hero-main">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 card-pad-tec pt-3">
+            <div class="analyst-hero">
+              <img
+                class="analyst-img"
+                src="./assets/images/latest-imgs/aa.png"
+                alt=""
+              />
+              <p class="analyst-para">Application Analyst</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 card-pad-tec pt-3">
+            <div class="analyst-hero">
+              <img
+                class="analyst-img"
+                src="./assets/images/latest-imgs/bb.png"
+                alt=""
+              />
+              <p class="analyst-para">Application Analyst</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 card-pad-tec pt-3">
+            <div class="analyst-hero">
+              <img
+                class="analyst-img"
+                src="./assets/images/latest-imgs/cc.png"
+                alt=""
+              />
+              <p class="analyst-para">Application Analyst</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 card-pad-tec pt-3">
+            <div class="analyst-hero">
+              <img
+                class="analyst-img"
+                src="./assets/images/latest-imgs/dd.png"
+                alt=""
+              />
+              <p class="analyst-para">Application Analyst</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 card-pad-tec pt-3">
+            <div class="analyst-hero">
+              <img
+                class="analyst-img"
+                src="./assets/images/latest-imgs/ee.png"
+                alt=""
+              />
+              <p class="analyst-para">Application Analyst</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 card-pad-tec pt-3">
+            <div class="analyst-hero">
+              <img
+                class="analyst-img"
+                src="./assets/images/latest-imgs/ff.png"
+                alt=""
+              />
+              <p class="analyst-para">Application Analyst</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 4 slider-->
+    <section class="alumni-box-slid">
+      <div class="container-fluid p-3">
+        <div class="row">
+          <div class="col-12">
+            <div class="box">
+              <div class="row">
+                <div class="col-lg-6 col-md-12">
+                  <h1 class="text-left text-light entery-header-slider">
+                    Programme Structure
+                  </h1>
+                </div>
+              </div>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div
+                    class="swiper-slide swip-slid"
+                    style="background: #05222f; height: 550px"
+                  >
+                    <div
+                      class="card foundation-hero"
+                      style="background: #05222f; height: 550px"
+                    >
+                      <div class="foundation-para">
+                        <a style="color: #ecb365" class="smstr-header-odd">SEMESTER 1</a>
+                        <hr class="hr-liner" />
+                        <a href="" class="comp-para pt-3">
+                          Fundamental of Computer Systems</a
+                        >
+                        <hr class="hr-linr" />
+                        <a href="" class="comp-para">
+                          Mathematics for Computing</a
+                        >
+                        <hr class="hr-linr" />
+                        <a href="" class="comp-para"
+                          >Communication Theory & Study Skills</a
+                        >
+                        <hr class="hr-linr" />
+                        <a href="  " class="comp-para">Multimedia Technology</a>
+                        <hr class="hr-linr" />
+                        <a href="" class="comp-para select-one">SELECT ONE</a>
+                        <hr class="hr-linr" />
+                        <a href="" class="comp-para">Ethnic Relations</a>
+                        <hr class="hr-linr" />
+                        <a href="" class="comp-para">Malaysian Studies 3 </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                  class="swiper-slide swip-slid"
+                  style="background: #05222f; height: 550px"
+                >
+                  <div
+                    class="card foundation-hero"
+                    style="background: #05222f; height: 550px"
+                  >
+                    <div class="foundation-para">
+                      <a style="color: #ecb365" class="smstr-header-odd">SEMESTER 2</a>
+                      <hr class="hr-liner" />
+                      <a href="" class="comp-para pt-3">
+                        Fundamental of Computer Systems</a
+                      >
+                      <hr class="hr-linr" />
+                      <a href="" class="comp-para">
+                        Mathematics for Computing</a
+                      >
+                      <hr class="hr-linr" />
+                      <a href="" class="comp-para"
+                        >Communication Theory & Study Skills</a
+                      >
+                      <hr class="hr-linr" />
+                      <a href="  " class="comp-para">Multimedia Technology</a>
+                      <hr class="hr-linr" />
+                      <a href="" class="comp-para select-one">SELECT ONE</a>
+                      <hr class="hr-linr" />
+                      <a href="" class="comp-para">Ethnic Relations</a>
+                      <hr class="hr-linr" />
+                      <a href="" class="comp-para">Malaysian Studies 3 </a>
+                    </div>
+                  </div>
+                </div>
+                  <div
+                    class="swiper-slide swip-slid"
+                    style="background: #05222f; height: 550px"
+                  >
+                    <div
+                      class="card foundation-hero"
+                      style="background: #05222f; height: 550px"
+                    >
+                      <div class="foundation-para">
+                        <a style="color: #ecb365" class="smstr-header-odd">SEMESTER 3</a>
+                        <hr class="hr-liner" />
+                        <a href="" class="comp-para">
+                          Fundamental of Computer Systems</a
+                        >
+                        <hr class="hr-linr" />
+                        <a href="" class="comp-para">
+                          Mathematics for Computing</a
+                        >
+                        <hr class="hr-linr" />
+                        <a href="" class="comp-para"
+                          >Communication Theory & Study Skills</a
+                        >
+                        <hr class="hr-linr" />
+                        <a href="  " class="comp-para">Multimedia Technology</a>
+                        <hr class="hr-linr" />
+                        <a href="" class="comp-para select-one">SELECT ONE</a>
+                        <hr class="hr-linr" />
+                        <a href="" class="comp-para">Ethnic Relations</a>
+                        <hr class="hr-linr" />
+                        <a href="" class="comp-para">Malaysian Studies 3 </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                  class="swiper-slide swip-slid"
+                  style="background: #05222f; height: 550px"
+                >
+                  <div
+                    class="card foundation-hero"
+                    style="background: #05222f; height: 550px"
+                  >
+                    <div class="foundation-para">
+                      <a style="color: #ecb365" class="smstr-header-odd">SEMESTER 4</a>
+                      <hr class="hr-liner" />
+                      <a href="" class="comp-para pt-3">
+                        Fundamental of Computer Systems</a
+                      >
+                      <hr class="hr-linr" />
+                      <a href="" class="comp-para">
+                        Mathematics for Computing</a
+                      >
+                      <hr class="hr-linr" />
+                      <a href="" class="comp-para"
+                        >Communication Theory & Study Skills</a
+                      >
+                      <hr class="hr-linr" />
+                      <a href="  " class="comp-para">Multimedia Technology</a>
+                      <hr class="hr-linr" />
+                      <a href="" class="comp-para select-one">SELECT ONE</a>
+                      <hr class="hr-linr" />
+                      <a href="" class="comp-para">Ethnic Relations</a>
+                      <hr class="hr-linr" />
+                      <a href="" class="comp-para">Malaysian Studies 3 </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                class="swiper-slide swip-slid"
+                style="background: #05222f; height: 550px"
+              >
+                <div
+                  class="card foundation-hero"
+                  style="background: #05222f; height: 550px"
+                >
+                  <div class="foundation-para">
+                    <a style="color: #ecb365" class="smstr-header-odd">SEMESTER 5</a>
+                    <hr class="hr-liner" />
+                    <a href="" class="comp-para pt-3">
+                      Fundamental of Computer Systems</a
+                    >
+                    <hr class="hr-linr" />
+                    <a href="" class="comp-para">
+                      Mathematics for Computing</a
+                    >
+                    <hr class="hr-linr" />
+                    <a href="" class="comp-para"
+                      >Communication Theory & Study Skills</a
+                    >
+                    <hr class="hr-linr" />
+                    <a href="  " class="comp-para">Multimedia Technology</a>
+                    <hr class="hr-linr" />
+                    <a href="" class="comp-para select-one">SELECT ONE</a>
+                    <hr class="hr-linr" />
+                    <a href="" class="comp-para">Ethnic Relations</a>
+                    <hr class="hr-linr" />
+                    <a href="" class="comp-para">Malaysian Studies 3 </a>
+                  </div>
+                </div>
+              </div>
+              <div
+              class="swiper-slide swip-slid"
+              style="background: #05222f; height: 550px"
+            >
+              <div
+                class="card foundation-hero"
+                style="background: #05222f; height: 550px"
+              >
+                <div class="foundation-para">
+                  <a style="color: #ecb365" class="smstr-header-odd">SEMESTER 6</a>
+                  <hr class="hr-liner" />
+                  <a href="" class="comp-para pt-3">
+                    Fundamental of Computer Systems</a
+                  >
+                  <hr class="hr-linr" />
+                  <a href="" class="comp-para">
+                    Mathematics for Computing</a
+                  >
+                  <hr class="hr-linr" />
+                  <a href="" class="comp-para"
+                    >Communication Theory & Study Skills</a
+                  >
+                  <hr class="hr-linr" />
+                  <a href="  " class="comp-para">Multimedia Technology</a>
+                  <hr class="hr-linr" />
+                  <a href="" class="comp-para select-one">SELECT ONE</a>
+                  <hr class="hr-linr" />
+                  <a href="" class="comp-para">Ethnic Relations</a>
+                  <hr class="hr-linr" />
+                  <a href="" class="comp-para">Malaysian Studies 3 </a>
+                </div>
+              </div>
+            </div>
+            <div
+            class="swiper-slide swip-slid"
+            style="background: #05222f; height: 550px"
+          >
+            <div
+              class="card foundation-hero"
+              style="background: #05222f; height: 550px"
+            >
+              <div class="foundation-para">
+                <a style="color: #ecb365" class="smstr-header-odd">SEMESTER 7</a>
+                <hr class="hr-liner" />
+                <a href="" class="comp-para pt-3">
+                  Fundamental of Computer Systems</a
+                >
+                <hr class="hr-linr" />
+                <a href="" class="comp-para">
+                  Mathematics for Computing</a
+                >
+                <hr class="hr-linr" />
+                <a href="" class="comp-para"
+                  >Communication Theory & Study Skills</a
+                >
+                <hr class="hr-linr" />
+                <a href="  " class="comp-para">Multimedia Technology</a>
+                <hr class="hr-linr" />
+                <a href="" class="comp-para select-one">SELECT ONE</a>
+                <hr class="hr-linr" />
+                <a href="" class="comp-para">Ethnic Relations</a>
+                <hr class="hr-linr" />
+                <a href="" class="comp-para">Malaysian Studies 3 </a>
+              </div>
+            </div>
+          </div>
+              
+                </div>
+                <!-- Add Arrows -->
+                <!-- <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 5 slider-->
+    <section class="alumni-box-slider">
+      <div class="container-fluid p-3">
+        <div class="row">
+          <div class="col-12">
+            <div class="box">
+              <div class="row">
+                <div class="col-lg-6 col-md-12">
+                  <h1 class="text-left text-light entery-header-slider">
+                    Entry Requirements
+                  </h1>
+                </div>
+              </div>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper" style="gap:20px;" >
+                  <div class="swiper-slide swip-slid-second" style="background: #000">
+                    <div
+                      class="card foundation-hero found-card-heit"
+                      style="background: #05222f"
+                    >
+                      <div class="foundation-para">
+                        A pass in Matriculation or Foundation studies with
+                        minimum CGPA of 2.0 and a credit in Mathematics at
+                        SPM/O-Level or its equivalent
+                      </div>
+                      <span class="foundation-spen">OR</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swip-slid-second" style="background: #000">
+                    <div
+                      class="card foundation-hero found-card-heit"
+                      style="background: #05222f"
+                    >
+                      <div class="foundation-para">
+                        A pass in Matriculation or Foundation studies with
+                        minimum CGPA of 2.0 and a credit in Mathematics at
+                        SPM/O-Level or its equivalent
+                      </div>
+                      <span class="foundation-spen">OR</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swip-slid-second" style="background: #000">
+                    <div
+                      class="card foundation-hero found-card-heit"
+                      style="background: #05222f"
+                    >
+                      <div class="foundation-para">
+                        A pass in Matriculation or Foundation studies with
+                        minimum CGPA of 2.0 and a credit in Mathematics at
+                        SPM/O-Level or its equivalent
+                      </div>
+                      <span class="foundation-spen">OR</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swip-slid-second" style="background: #000">
+                    <div
+                      class="card foundation-hero found-card-heit"
+                      style="background: #05222f"
+                    >
+                      <div class="foundation-para">
+                        A pass in Matriculation or Foundation studies with
+                        minimum CGPA of 2.0 and a credit in Mathematics at
+                        SPM/O-Level or its equivalent
+                      </div>
+                      <span class="foundation-spen">OR</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swip-slid-second" style="background: #000">
+                    <div
+                      class="card foundation-hero found-card-heit"
+                      style="background: #05222f"
+                    >
+                      <div class="foundation-para">
+                        A pass in Matriculation or Foundation studies with
+                        minimum CGPA of 2.0 and a credit in Mathematics at
+                        SPM/O-Level or its equivalent
+                      </div>
+                      <span class="foundation-spen">OR</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swip-slid-second" style="background: #000">
+                    <div
+                      class="card foundation-hero found-card-heit"
+                      style="background: #05222f"
+                    >
+                      <div class="foundation-para">
+                        A pass in Matriculation or Foundation studies with
+                        minimum CGPA of 2.0 and a credit in Mathematics at
+                        SPM/O-Level or its equivalent
+                      </div>
+                      <span class="foundation-spen">OR</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swip-slid-second" style="background: #000">
+                    <div
+                      class="card foundation-hero found-card-heit"
+                      style="background: #05222f"
+                    >
+                      <p class="foundation-para">
+                        A pass in Matriculation or Foundation studies with
+                        minimum CGPA of 2.0 and a credit in Mathematics at
+                        SPM/O-Level or its equivalent
+                      </p>
+                      <span class="foundation-spen">OR</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swip-slid-second" style="background: #000">
+                    <div
+                      class="card foundation-hero found-card-heit"
+                      style="background: #05222f"
+                    >
+                      <p class="foundation-para">
+                        A pass in Matriculation or Foundation studies with
+                        minimum CGPA of 2.0 and a credit in Mathematics at
+                        SPM/O-Level or its equivalent
+                      </p>
+                      <span class="foundation-spen">OR</span>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swip-slid-second" style="background: #000">
+                    <div
+                      class="card foundation-hero found-card-heit"
+                      style="background: #05222f"
+                    >
+                      <p class="foundation-para">
+                        A pass in Matriculation or Foundation studies with
+                        minimum CGPA of 2.0 and a credit in Mathematics at
+                        SPM/O-Level or its equivalent
+                      </p>
+                      <span class="foundation-spen">OR</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add Arrows -->
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center d-flex justify-content-center">
+            <div class="citizens-para">
+              <p class="text-light">
+                For non-Malaysian citizens, please refer to the Malaysian
+                Qualification Agency’s (MQA)
+                <span style="color: #ecb365">
+                  List of Overseas Qualifications & its equivalency with
+                  Malaysian Education System</span
+                >
+                (PDF) to see if you meet the minimum entry requirements to
+                obtain a student visa into Malaysia to undertake this course.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- discover-6 -->
+    <section class="discover-3">
+      <div class="container-fluid">
+        <div class="row no-gutters">
+          <div class="col-lg-6 col-md-12">
+            <div class="box envisaged-box">
+              <h1 class="envisaged-header">
+                “The Web, as I envisaged it, we have not seen it yet. The future
+                is still so much bigger than the past.”
+              </h1>
+              <p class="pt-4 pb-4">
+                Sir Tim Berners-Lee, British Engineer, Inventor of World Wide
+                Web
+              </p>
+              <div class="d-lg-flex reg-yel-btn">
+                <a href="#!" class="yell mr-lg-1">Register now</a>
+                <a href="#!" class="yell mr-lg-1">FINANCIAL ASSISTANCE</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="img">
+              <img
+                src="./assets/images/latest-imgs/rect.png"
+                width="100%"
+                height="100%"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =======================footer============================== -->
+    <footer>
+      <div
+        class="container-fluid mt-5 pb-3 pl-xl-5 pl-lg-4 pl-3 pr-xl-5 pr-lg-4 pr-3"
+      >
+        <div class="row no-gutters">
+          <div class="col-xl-6 col-lg-3 col-md-12 pt-1">
+            <h4>You recently viewed</h4>
+          </div>
+          <div class="col-xl-6 col-lg-9 col-md-12">
+            <div class="row no-gutters">
+              <div class="col-xl-7 col-lg-6 col-md-12 pr-lg-2">
+                <form action="">
+                  <input type="text" placeholder="Your email address" />
+                  <button>SUBSCRIBE</button>
+                </form>
+              </div>
+              <div
+                class="col-xl-5 col-lg-6 col-md-12 text-lg-right text-center foot-btn mt-lg-0 mt-md-3"
+              >
+                <a href="#!" class="contact mr-1"> CONTACT US </a>
+                <a href="#!" class="enroll"> ENROLL NOW </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3"
+          >
+            <div class="box">
+              <img src="./assets/images/footer-box.svg" alt="" />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3"
+          >
+            <div class="box">
+              <img src="./assets/images/footer-box.svg" alt="" />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3"
+          >
+            <div class="box">
+              <img src="./assets/images/footer-box.svg" alt="" />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3"
+          >
+            <div class="box">
+              <img src="./assets/images/footer-box.svg" alt="" />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3"
+          >
+            <div class="box">
+              <img src="./assets/images/footer-box.svg" alt="" />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-3 pr-lg-3 pr-md-2 pr-sm-2"
+          >
+            <div class="box">
+              <img src="./assets/images/footer-box.svg" alt="" />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <ul class="cen-ul mt-5">
+              <li class="pr-4"><a class="active" href="#!">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+            </ul>
+          </div>
+          <div class="col-12 text-center mt-5">
+            <img src="./assets/images/logo.svg" alt="" />
+          </div>
+          <div class="col-lg-6 mt-lg-5 mt-5 text-lg-left text-center">
+            <h6>
+              © 2022 Limkokwing University of Creative Technology. All Rights
+              Reserved.
+            </h6>
+          </div>
+          <div class="col-lg-6 mt-lg-5 mt-2 text-lg-right text-center">
+            <ul class="last-ul">
+              <li>
+                <a href="#!">Terms of Use</a>
+              </li>
+              <li>
+                <a href="#!">Prvacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <!--  -->
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"
+  ></script>
+  <!--  -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".slide-next",
+        prevEl: ".slide-prev",
+      },
+      breakpoints: {
+        300: {
+          slidesPerView: 1.2,
+          spaceBetween: 20,
+        },
+        400: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        575: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        640: {
+          slidesPerView: 1.2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 1.3,
+          spaceBetween: 20,
+        },
+        800: {
+          slidesPerView: 1.2,
+          spaceBetween: 20,
+        },
+        900: {
+          slidesPerView: 1.5,
+          spaceBetween: 20,
+        },
+        1000: {
+          slidesPerView: 1.3,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 1.9,
+          spaceBetween: 20,
+        },
+      },
+    });
+    // On scroll
+    $(document).ready(function () {
+      $(window).on("scroll", function () {
+        var wn = $(window).scrollTop();
+        if (wn > 12) {
+          $(".scroll").css(
+            "background",
+            " linear-gradient(117deg, rgba(0, 0, 0, .9) 0%, rgba(40, 133, 158, .9) 400%)"
+          );
+        } else {
+          $(".scroll").css("background", "transparent");
+        }
+      });
+    });
+
+    //
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        600: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3.5,
+          spaceBetween: 30,
+        },
+      },
+    });
+  </script>
+</html>

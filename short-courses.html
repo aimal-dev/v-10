@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+    <!-- font awsm -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.css" integrity="sha512-5TGRCl3hPoqtruhO+mubTuySHOfcEBvyIfiWHoCK8wDLmf6C1U73OUoNCU6ZvyT/8vfCcha1INDIo8dabDmQjw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.min.js" integrity="sha512-naEQG74IcOLQ6K/B1PmhIcZ4i3YE2FXs2zm603E1Q3shbron+PmYLg44/q+xAymD/RvskZ2H8l1Qa7I5qELlrg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <title>Short Courses</title>
+</head>
+
+<body class="body-1">
+    <nav class="navbar nav-dd fixed-top navbar-expand-xl pl-xl-3 pl-lg-2 pr-xl-3
+      pr-lg-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Home.html">
+                <img src="assets/images/logo.svg" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-sliders-h"></i>
+        </button>
+
+            <div class="collapse navbar-collapse text-xl-block text-center" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <select id="inputState" class="form-control mr-3">
+              <option selected>CYBERJAYA</option>
+              <option>CYBERJAYA</option>
+            </select>
+                    <div class="search">
+                        <img src="assets/images/search.svg" alt="" />
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                    </div>
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2" href="updates.html" target="_blank">
+                UPDATES
+              </a>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                ABOUT
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>About</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="about-1.html">
+                      WHY LIMKOKWING
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="about-2.html">
+                      HERITAGE
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="about-3.html">
+                      ACCREDIATION & AWARDS
+                    </a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br /> 63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br /> Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                      Tel (+603) 8317 8888
+                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-md-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link active nav-link2" href="academic.html" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                ACADEMIA
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Academia</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="programe.html">
+                      PROGRAMMERS
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="short-courses.html">
+                      SHORTCOURSES
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="financial.html">
+                      FINANCIAL ASSISTANCE
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="international-ser.html">
+                      INTERNATIONAL SERVICES
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="admission.html">ADMISSION</a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br /> 63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br /> Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                      Tel (+603) 8317 8888
+                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                BUSINESS
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Business</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="business-1.html">
+                      INDUSTRY PARTNER
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="business-2-1.html">
+                      LIMKOKWING GLOBAL ALLIANCE
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="business-3-1.html">
+                      AGENT NETWORK
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="business-4.html">CAREERS</a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                EXPERIENCE
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Experience</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="experience-1.html">
+                      DISCOVER MALAYSIA
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="experience-2.html">
+                      SERVICES
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">COMMUNITY</a>
+                                    <h3 class="mt-5">Student portal</h3>
+                                    <form action="">
+                                        <input type="text" name="" id="" placeholder="Username" />
+                                        <input type="password" name="" id="" placeholder="Password" />
+                                        <a href="#!" class="sim d-inline-block text-center mt-4 mr-1">
+                        LOGIN
+                      </a>
+                                        <a href="#!" class="blue d-inline-block text-center mt-4">
+                        ENROLL FOR FEB INTAKE
+                      </a>
+                                    </form>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button" href="admission.html">ENROLL NOW</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar fixed-top navbar-expand-lg" id="main-bar">
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="programe.html">
+            Programmes
+            <span class="sr-only"></span>
+          </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="short-courses.html">Short Courses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="financial.html">Financial Assistance</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">International Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Admission</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- =======================Nav End============================== -->
+    <section class="course">
+        <div class="container-fluid">
+            <div class="box" style="background: url('./assets/images/gradient-bg.png');">
+                <div class="overlay" style="background: url('./assets/images/Union\ 3.png');"></div>
+                <div class="row no-gutters">
+                    <div class="col-xl-5">
+                        <div class="sub-box">
+                            <img src="./assets/images/Logo-black.png" alt="" width="170px" />
+                            <h1 class="pt-5">Results-driven Industry Courses To Drive Your Career
+                            </h1>
+                            <p class="pt-4">
+                                While providing hi-tech skills is a priority, LELC is addressing other areas of training. These include provision of soft skills as well as skills in niche areas according to industry demand.
+                            </p>
+                            <a class="red mr-1" href="admission.html">REGISTER NOW</a>
+                            <a class="white" href="#!">VIEW COURSES</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="sub-box-2">
+                            <h3>
+                                Latest Courses
+                            </h3>
+                            <div class="row no-gutters pt-4">
+                                <div class="col-lg-6 col-md-5 col-6 d-lg-block d-md-block
+                    d-none">
+                                    <div class="img-heght">
+                                        <img src="./assets/images/xd.png" alt="" width="100%" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-7 col-12 mt-lg-0">
+                                    <div class="box-3">
+                                        <h3>
+                                            UI/UX design with Adobe XD: Design & Prototype a Mobile App
+                                        </h3>
+                                        <div class="star d-flex">
+                                            <div class="star-rating pr-2">
+                                                <i class="fa fa-star active"></i>
+                                                <i class="fa fa-star active"></i>
+                                                <i class="fa fa-star "></i>
+                                                <i class="fa fa-star "></i>
+                                                <i class="fa fa-star "></i>
+                                            </div>
+                                            <span class="review">1,816 review</span>
+                                        </div>
+                                        <h5 class="pt-3">Benjamin Ramirez</h5>
+                                        <p>
+                                            Learn how to design a beautiful and engaging mobile app with Adobe Experience Design (XD). Learn-by-doing approach.
+                                        </p>
+                                        <div class="xd">
+                                            <a class="simple" href="#!">RM 150.00</a>
+                                            <a class="red" href="#!">BUY COURSE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row no-gutters m-auto">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-3 pr-2">
+                                    <div class="xd-card">
+                                        <img src="./assets/images/xd-card.png" alt="" width="100%" />
+                                        <div class="content">
+                                            <h6>
+                                                Bachelor of Science (Hons) in Construction Management
+                                            </h6>
+                                            <div class="star-rating pr-2">
+                                                <i class="fa fa-star active"></i>
+                                                <i class="fa fa-star active"></i>
+                                                <i class="fa fa-star "></i>
+                                                <i class="fa fa-star "></i>
+                                                <i class="fa fa-star "></i>
+                                            </div>
+                                            <h6 class="pt-2">Ronnie Hudson</h6>
+                                            <a class="large" href="#!">RM 150.00</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-3 pr-2">
+                                    <div class="xd-card">
+                                        <img src="./assets/images/xd-card.png" alt="" width="100%" />
+                                        <div class="content">
+                                            <h6>
+                                                Bachelor of Science (Hons) in Construction Management
+                                            </h6>
+                                            <div class="star-rating pr-2">
+                                                <i class="fa fa-star active"></i>
+                                                <i class="fa fa-star active"></i>
+                                                <i class="fa fa-star "></i>
+                                                <i class="fa fa-star "></i>
+                                                <i class="fa fa-star "></i>
+                                            </div>
+                                            <h6 class="pt-2">Ronnie Hudson</h6>
+                                            <a class="large" href="#!">RM 150.00</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-3 pr-2">
+                                    <div class="xd-card">
+                                        <img src="./assets/images/xd-card.png" alt="" width="100%" />
+                                        <div class="content">
+                                            <h6>
+                                                Bachelor of Science (Hons) in Construction Management
+                                            </h6>
+                                            <div class="star-rating pr-2">
+                                                <i class="fa fa-star active"></i>
+                                                <i class="fa fa-star active"></i>
+                                                <i class="fa fa-star "></i>
+                                                <i class="fa fa-star "></i>
+                                                <i class="fa fa-star "></i>
+                                            </div>
+                                            <h6 class="pt-2">Ronnie Hudson</h6>
+                                            <a class="large" href="#!">RM 150.00</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======================footer============================== -->
+    <footer>
+        <div class="container-fluid mt-5 pb-3 pl-xl-5 pl-lg-4 pl-3 pr-xl-5 pr-lg-4
+        pr-3">
+            <div class="row no-gutters">
+                <div class="col-xl-6 col-lg-3 col-md-12 pt-1">
+                    <h4>You recently viewed</h4>
+                </div>
+                <div class="col-xl-6 col-lg-9 col-md-12">
+                    <div class="row no-gutters">
+                        <div class="col-xl-7 col-lg-6 col-md-12 pr-lg-2">
+                            <form action="">
+                                <input type="text" placeholder="Your email address" />
+                                <button>SUBSCRIBE</button>
+                            </form>
+                        </div>
+                        <div class="col-xl-5 col-lg-6 col-md-12 text-lg-right text-center
+                foot-btn mt-lg-0 mt-md-3">
+                            <a href="#!" class="contact mr-1">
+                  CONTACT US
+                </a>
+                            <a href="#!" class="enroll">
+                  ENROLL NOW
+                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-3 pr-lg-3 pr-md-2
+            pr-sm-2">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <ul class="cen-ul mt-5">
+                        <li class="pr-4"><a class="active" href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center mt-5">
+                    <img src="./assets/images/logo.svg" alt="" />
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-5 text-lg-left text-center">
+                    <h6>
+                        © 2022 Limkokwing University of Creative Technology. All Rights Reserved.
+                    </h6>
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-2 text-lg-right text-center">
+                    <ul class="last-ul">
+                        <li>
+                            <a href="#!">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#!">Prvacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</html>

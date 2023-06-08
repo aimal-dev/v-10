@@ -1,0 +1,2215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      />
+    <!-- font awsm -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+      integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+      crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"></script>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <title>International Services</title>
+  </head>
+  <script>
+    $('.dropdown-menu li a').mouseover(function (e) {
+      e.stopPropagation()
+      $(this)
+        .parent()
+        .parent()
+        .find('li')
+        .each(function () {
+          $(this).removeClass('open')
+        })
+      $(this).parent().addClass('open')
+    })
+
+    $('.dropdown-toggle').click(function (e) {
+      $(this)
+        .parent()
+        .find('li')
+        .each(function () {
+          $S(this).removeClass('open')
+        })
+    })
+  </script>
+  <body>
+    <nav
+      class="navbar nav-dd fixed-top navbar-expand-xl pl-xl-3 pl-lg-2 pr-xl-3
+      pr-lg-2">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Home.html">
+          <img src="assets/images/logo.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fa fa-sliders-h"></i>
+        </button>
+
+        <div
+          class="collapse navbar-collapse text-xl-block text-center"
+          id="navbarSupportedContent">
+          <form class="form-inline my-2 my-lg-0">
+            <select id="inputState" class="form-control mr-3">
+              <option selected>CYBERJAYA</option>
+              <option>CYBERJAYA</option>
+            </select>
+            <div class="search">
+              <img src="assets/images/search.svg" alt="" />
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+                />
+            </div>
+          </form>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="updates.html" target="_blank">
+                UPDATES
+              </a>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false">
+                ABOUT
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>About</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3"
+                      href="about-1.html">
+                      WHY LIMKOKWING
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3"
+                      href="about-2.html">
+                      HERITAGE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="about-3.html">
+                      ACCREDIATION & AWARDS
+                    </a>
+                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                    <p class="pt-3">
+                      Inovasi 1-1, Jalan Teknokarat 1/1
+                      <br />
+                      63000 Cyberjaya, Selangor Darul Ehsan
+                      <br />
+                      Malaysia
+                    </p>
+                    <a
+                      class="dropdown-item pl-0 mt-3"
+                      href="tel:(+603) 8317 8888">
+                      Tel (+603) 8317 8888
+                    </a>
+                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-md-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png');"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link active nav-link2"
+                href="academic.html"
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false">
+                ACADEMIA
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Academia</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3"
+                      href="programe.html">
+                      PROGRAMMERS
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3"
+                      href="short-courses.html">
+                      SHORTCOURSES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom"
+                      href="financial.html">
+                      FINANCIAL ASSISTANCE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom"
+                      href="international-ser.html">
+                      INTERNATIONAL SERVICES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="admission.html">ADMISSION</a>
+                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                    <p class="pt-3">
+                      Inovasi 1-1, Jalan Teknokarat 1/1
+                      <br />
+                      63000 Cyberjaya, Selangor Darul Ehsan
+                      <br />
+                      Malaysia
+                    </p>
+                    <a
+                      class="dropdown-item pl-0 mt-3"
+                      href="tel:(+603) 8317 8888">
+                      Tel (+603) 8317 8888
+                    </a>
+                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png');"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false">
+                BUSINESS
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Business</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3"
+                      href="business-1.html">
+                      INDUSTRY PARTNER
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3"
+                      href="business-2-1.html">
+                      LIMKOKWING GLOBAL ALLIANCE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom"
+                      href="business-3-1.html">
+                      AGENT NETWORK
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="business-4.html">CAREERS</a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png');"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false">
+                EXPERIENCE
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Experience</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3"
+                      href="experience-1.html">
+                      DISCOVER MALAYSIA
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3"
+                      href="experience-2.html">
+                      SERVICES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">COMMUNITY</a>
+                    <h3 class="mt-5">Student portal</h3>
+                    <form action="">
+                      <input type="text" name="" id="" placeholder="Username" />
+                      <input
+                        type="password"
+                        name=""
+                        id=""
+                        placeholder="Password"
+                        />
+                      <a
+                        href="#!"
+                        class="sim d-inline-block text-center mt-4 mr-1">
+                        LOGIN
+                      </a>
+                      <a href="#!" class="blue d-inline-block text-center mt-4">
+                        ENROLL FOR FEB INTAKE
+                      </a>
+                    </form>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png');"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="button" href="admission.html">ENROLL NOW</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar fixed-top navbar-expand-lg pt-3" id="main-bar">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="programe.html">
+            Programmes
+            <span class="sr-only"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="short-courses.html">Short Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="financial.html">
+            Financial Assistance
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="international-ser.html">International
+            Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="admission.html">Admission</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- =======================Nav End============================== -->
+    <section
+      class="intern-ser"
+      style="background: url('./assets/images/BG.png');">
+      <div class="container-fluid p-3">
+        <div class="row no-gutters">
+          <div class="col-lg-3">
+            <div class="left-bar">
+              <!-- heading -->
+              <h2>International Services</h2>
+              <p class="pt-3">
+                Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+                nonumy eirmod tempor invidunt ut labore et dolore magna.
+              </p>
+              <form action="" class="mt-4">
+                <img src="./assets/images/search.svg" alt="" />
+                <input type="search" placeholder="Search by keyword..." />
+              </form>
+              <h4 class="pt-4">Immigration</h4>
+              <div
+                class="nav flex-column nav-pills mt-4"
+                id="v-pills-tab"
+                role="tablist"
+                aria-orientation="vertical">
+                <a
+                  class="nav-link active"
+                  id="v-pills-imig-tab"
+                  data-toggle="pill"
+                  href="#v-pills-imig"
+                  role="tab"
+                  aria-controls="v-pills-imig"
+                  aria-selected="true">
+                  Immigration Policies
+                </a>
+                <a
+                  class="nav-link"
+                  id="v-pills-variation-tab"
+                  data-toggle="pill"
+                  href="#v-pills-variation"
+                  role="tab"
+                  aria-controls="v-pills-variation"
+                  aria-selected="false">
+                  Variation & Progression
+                </a>
+                <a
+                  class="nav-link"
+                  id="v-pills-pass-tab"
+                  data-toggle="pill"
+                  href="#v-pills-pass"
+                  role="tab"
+                  aria-controls="v-pills-pass"
+                  aria-selected="false">
+                  Student Pass Renewal
+                </a>
+                <a
+                  class="nav-link"
+                  id="v-pills-cancel-tab"
+                  data-toggle="pill"
+                  href="#v-pills-cancel"
+                  role="tab"
+                  aria-controls="v-pills-cancel"
+                  aria-selected="false">
+                  Cancellation of Student Pass
+                </a>
+                <a
+                  class="nav-link"
+                  id="v-pills-sp-tab"
+                  data-toggle="pill"
+                  href="#v-pills-sp"
+                  role="tab"
+                  aria-controls="v-pills-sp"
+                  aria-selected="false">
+                  Special Pass (SP) & Transfer Endorsement
+                </a>
+                <a
+                  class="nav-link"
+                  id="v-pills-com-tab"
+                  data-toggle="pill"
+                  href="#v-pills-com"
+                  role="tab"
+                  aria-controls="v-pills-com"
+                  aria-selected="false">
+                  Check Out Memo (C.O.M)
+                </a>
+                <a
+                  class="nav-link"
+                  id="v-pills-over-tab"
+                  data-toggle="pill"
+                  href="#v-pills-over"
+                  role="tab"
+                  aria-controls="v-pills-over"
+                  aria-selected="false">
+                  Overstay
+                </a>
+                <div class="pt-5 pb-1">
+                  <h4>Other Services</h4>
+                </div>
+                <a
+                  class="nav-link"
+                  id="v-pills-air-tab"
+                  data-toggle="pill"
+                  href="#v-pills-air"
+                  role="tab"
+                  aria-controls="v-pills-air"
+                  aria-selected="false">
+                  Airport Pickup
+                </a>
+                <a
+                  class="nav-link"
+                  id="v-pills-medical-tab"
+                  data-toggle="pill"
+                  href="#v-pills-medical"
+                  role="tab"
+                  aria-controls="v-pills-medical"
+                  aria-selected="false">
+                  Medical Insurance
+                </a>
+                <a
+                  class="nav-link"
+                  id="v-pills-desk-tab"
+                  data-toggle="pill"
+                  href="#v-pills-desk"
+                  role="tab"
+                  aria-controls="v-pills-desk"
+                  aria-selected="false">
+                  Travel Desk
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="right-bar">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="v-pills-imig"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-imig-tab">
+                  <!-- Imig -->
+                  <div
+                    class="cover-pic"
+                    style="background: url('./assets/images/inter-ser.png');">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8">
+                        <h1>Immigration Policies</h1>
+                        <p>
+                          Please read through all the information carefully to
+                          minimize delay and other problems that may arise
+                          regarding your student pass. Alternatively, you may
+                          consult our marketing counsellors or email
+                          visa@limkokwing.edu.my for assistance.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-1">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <h4>Requirements for New International Students :</h4>
+                        <p class="pt-2">
+                          You must have a minimum validity of 18 months (1 ½
+                          year) in your passport in order to enter the country.
+                        </p>
+                        <div class="divider mt-4"></div>
+                        <h4 class="mt-5">
+                          Procedure for New International Students :
+                        </h4>
+                        <ul>
+                          <li>
+                            To apply for your student pass, please coordinate
+                            and send all the necessary documents to the
+                            University’s marketing counsellors. They will submit
+                            this to the Immigration Department of Malaysia for
+                            processing.Pleasenote that the Visa Approval Letter
+                            (VAL) processing will take 6 to 8 weeks after you
+                            submit your complete set of documents.
+                          </li>
+                          <li>
+                            Once approved by Immigration, you may download your
+                            eVAL in
+                            <span class="blue-text">EMGS website</span>
+                          </li>
+                          <li>
+                            All new students
+                            <strong>MUST</strong>
+                            go to the nearest Malaysian Embassy in origin
+                            country to obtain a Single Entry Visa (SEV) before
+                            entering to Malaysia. Please refer to this link to
+                            check either your country requires the SEV.
+                          </li>
+                          <li>
+                            To apply for your student pass, please coordinate
+                            and send all the necessary documents to the
+                            University’s marketing counsellors. They will submit
+                            this to the Immigration Department of Malaysia for
+                            processing.Pleasenote that the Visa Approval Letter
+                            (VAL) processing will take 6 to 8 weeks after you
+                            submit your complete set of documents.
+                          </li>
+                          <li>
+                            Once approved by Immigration, you may download your
+                            eVAL in
+                            <span class="blue-text">EMGS website</span>
+                          </li>
+                          <li>
+                            All new students
+                            <strong>MUST</strong>
+                            go to the nearest Malaysian Embassy in origin
+                            country to obtain a Single Entry Visa (SEV) before
+                            entering to Malaysia. Please refer to this link to
+                            check either your country requires the SEV.
+                          </li>
+                          <li>
+                            To apply for your student pass, please coordinate
+                            and send all the necessary documents to the
+                            University’s marketing counsellors. They will submit
+                            this to the Immigration Department of Malaysia for
+                            processing.Pleasenote that the Visa Approval Letter
+                            (VAL) processing will take 6 to 8 weeks after you
+                            submit your complete set of documents.
+                          </li>
+                          <li>
+                            Once approved by Immigration, you may download your
+                            eVAL in
+                            <span class="blue-text">EMGS website</span>
+                          </li>
+                          <li>
+                            All new students
+                            <strong>MUST</strong>
+                            go to the nearest Malaysian Embassy in origin
+                            country to obtain a Single Entry Visa (SEV) before
+                            entering to Malaysia. Please refer to this link to
+                            check either your country requires the SEV.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="img-height">
+                          <img
+                            src="./assets/images/passport.png"
+                            width="100%"
+                            height="100%"
+                            alt=""
+                            />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-lg-6">
+                        <div class="img-height">
+                          <img
+                            src="./assets/images/doctor.png"
+                            width="100%"
+                            height="100%"
+                            alt=""
+                            />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <ul class="pl-0">
+                          <div class="bg-dark">
+                            <li>
+                              To apply for your student pass, please coordinate
+                              and send all the necessary documents to the
+                              University’s marketing counsellors. They will
+                              submit this to the Immigration Department of
+                              Malaysia for processing.Pleasenote that the Visa
+                              Approval Letter (VAL) processing will take 6 to 8
+                              weeks after you submit your complete set of
+                              documents.
+                            </li>
+                            <li>
+                              Once approved by Immigration, you may download
+                              your eVAL in
+                              <span class="blue-text">EMGS website</span>
+                            </li>
+                            <li>
+                              All new students
+                              <strong>MUST</strong>
+                              go to the nearest Malaysian Embassy in origin
+                              country to obtain a Single Entry Visa (SEV) before
+                              entering to Malaysia. Please refer to this link to
+                              check either your country requires the SEV.
+                            </li>
+                            <li>
+                              To apply for your student pass, please coordinate
+                              and send all the necessary documents to the
+                              University’s marketing counsellors. They will
+                              submit this to the Immigration Department of
+                              Malaysia for processing.Pleasenote that the Visa
+                              Approval Letter (VAL) processing will take 6 to 8
+                              weeks after you submit your complete set of
+                              documents.
+                            </li>
+                            <li>
+                              Once approved by Immigration, you may download
+                              your eVAL in
+                              <span class="blue-text">EMGS website</span>
+                            </li>
+                          </div>
+                          <li class="ml-3">
+                            Once approved by Immigration, you may download your
+                            eVAL in
+                            <span class="blue-text">EMGS website</span>
+                          </li>
+                          <li class="ml-3">
+                            Once approved by Immigration, you may download your
+                            eVAL in
+                            <span class="blue-text">EMGS website</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-lg-6">
+                        <h4>You must abide by Malaysian law at all times</h4>
+                        <ul class="pl-0">
+                          <li class="ml-3">
+                            Once approved by Immigration, you may download your
+                            eVAL in
+                            <span class="blue-text">EMGS website</span>
+                          </li>
+                          <div class="bg-dark mt-2">
+                            <li>
+                              You are found guilty of criminal charges by court.
+                            </li>
+                            <li>
+                              You are involved in any jobs, trades or the like,
+                              on part-time basis, which are deemed illegal in
+                              the Immigration Ordinance 1959 and the Immigration
+                              Rules and Regulations 1963 or other laws or that
+                              which could affect his studies.
+                            </li>
+                          </div>
+                          <li class="ml-3">
+                            Once approved by Immigration, you may download your
+                            eVAL in
+                            <span class="blue-text">EMGS website</span>
+                          </li>
+                          <div class="bg-dark mt-2">
+                            <li>
+                              is found to be in possession of any kind of drugs
+                              and poisons. The term ‘drug’ is as defined in the
+                              Dangerous Drug Act 1952.
+                            </li>
+                            <li>
+                              is found to be in possession of any kind of drugs
+                              and poisons. The term ‘drug’ is as defined in the
+                              Dangerous Drug Act 1952.
+                            </li>
+                            <li>
+                              is found to be in possession of any kind of drugs
+                              and poisons. The term ‘drug’ is as defined in the
+                              Dangerous Drug Act 1952.
+                            </li>
+                            <li>
+                              is found to be in possession of any kind of drugs
+                              and poisons. The term ‘drug’ is as defined in the
+                              Dangerous Drug Act 1952.
+                            </li>
+                          </div>
+                          <li class="ml-3">
+                            You are to abide by all the rules and regulations
+                            that are enforced by the institution.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="img-height">
+                          <img
+                            src="./assets/images/intern-3.png"
+                            width="100%"
+                            height="100%"
+                            alt=""
+                            />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="black-box">
+                          <h4>Important Updates</h4>
+                          <p class="pt-3">
+                            The government has decided that effective 1st
+                            January 2014, all foreign students who have their
+                            student pass approved MUST obtain a visa to enter
+                            the country for the purpose of studying. This
+                            decision involves international students from all
+                            countries whether or not requiring a visa to enter
+                            Malaysia.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-variation"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-variation-tab">
+                  <div
+                    class="cover-pic pt-5"
+                    style="background: url('./assets/images/inter-ser.png');">
+                    <div class="row pt-3">
+                      <div class="col-lg-6 col-md-8">
+                        <h1>Variation & Progression</h1>
+                        <p>
+                          Please take note that the approval for changing of
+                          programme is upon discretion from the Malaysia
+                          Immigration Department (MID). Normally the MID will
+                          request additional documents such as current
+                          examination result, record of attendance and other
+                          required documents.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-1">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <h4>Variation & Progression Overview :</h4>
+                        <p class="pt-2">
+                          The MID have the right to
+                          <strong>NOT APPROVE</strong>
+                          the new Visa and Pass (for change of programme) if
+                          they find that the current result is not satisfactory
+                          or any other reason that does not comply with the
+                          Immigration’s regulation.
+                        </p>
+                        <p class="pt-2">
+                          To avoid any difficulty to the students, Ministry of
+                          Higher Education (MOHE) has recommended that the
+                          application for a change of programme (variation or
+                          progression) for international students must get an
+                          approval VAL from EMGS /Malaysia Immigration
+                          Department before permission to register under the new
+                          programme is allowed by Limkokwing University.
+                        </p>
+                        <p class="pt-2">
+                          <strong>
+                            Students must cancel their current pass to apply for
+                            a variation or progression in order to apply for a
+                            new programme.
+                          </strong>
+                        </p>
+                        <p class="pt-2">
+                          There is a possibility that the Immigration Department
+                          will request the student to exit Malaysia while
+                          waiting for the new VAL to be approved.
+                        </p>
+                        <ul>
+                          <li>
+                            <strong>Variation</strong>
+                            – Change course or Institution at same level of
+                            study (i.e Programme A to programme B at same level
+                            of study)
+                          </li>
+                          <li>
+                            <strong>Progression</strong>
+                            – Change course or Institution at same level of
+                            study (i.e Programme A to programme B at same level
+                            of study)
+                          </li>
+                        </ul>
+                        <p class="pt-2">
+                          If your application for variation is rejected by EMGS/
+                          Immigration Department of Malaysia, you are required
+                          to defer your studies and return to your home country.
+                          You will be required to apply for a new student pass
+                          and only allowed to come to Malaysia once the Visa
+                          Approval Letter (VAL) has been approved by EMGS/
+                          Immigration.
+                        </p>
+                        <p class="pt-2">
+                          You cannot register with the new programme until you
+                          get your VAL approval from Immigration. You may be
+                          advised to return to home country and defer your study
+                          if the visa approval from Immigration is delayed.
+                        </p>
+                        <p class="pt-2">
+                          The requirement to exit Malaysia depends on the type
+                          of the pass you are holding at the time of application
+                          and expiry date on your current pass, as well as the
+                          University you are transferring to or from. To avoid
+                          overstay, we advise students to apply new VAL from
+                          home country.
+                        </p>
+                        <div class="divider"></div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="img-height">
+                          <img
+                            src="./assets/images/music-2.png"
+                            width="100%"
+                            height="100%"
+                            alt=""
+                            />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-lg-6">
+                        <h4>
+                          Guidelines for Transfer Students from Other Colleges :
+                        </h4>
+                        <ul class="pl-0">
+                          <li>
+                            If you are a student who wishes to transfer to our
+                            University after receiving your student visa for
+                            another college, you will need to get the
+                            Immigration’s approval to cancel that visa. Students
+                            holding a valid pass under one college are not
+                            allowed to study in another.
+                          </li>
+                          <li>
+                            Students who have less than three (3) days visa
+                            validity (shortened/special pass) need to leave the
+                            country upon submitting all relevant documents to
+                            our visa department. You must be outside Malaysia
+                            while waiting for your VAL to be approved.
+                          </li>
+                          <li>
+                            Once approved by the Immigration, the University
+                            will send your VAL. You are required to go to the
+                            nearest Malaysian Embassy (preferably in your home
+                            country) to obtain a Single Entry Visa.
+                          </li>
+                          <li>
+                            Except for Malaysia My Second Home (MM2H) students
+                            below 18 years old, students are not allowed to
+                            study under any kind of visa except student visa.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="img-height">
+                          <img
+                            src="./assets/images/music-3.png"
+                            width="100%"
+                            height="100%"
+                            alt=""
+                            />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-pass"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-pass-tab">
+                  <div
+                    class="cover-pic"
+                    style="background: url('./assets/images/inter-ser.png');">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8">
+                        <h1>Student Pass Renewal</h1>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-1">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="img-height">
+                          <img
+                            src="./assets/images/writing.png"
+                            width="100%"
+                            height="100%"
+                            alt=""
+                            />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <h4>Guidelines for Current International Students :</h4>
+                        <p class="pt-2">
+                          To renew your student pass, please bring your passport
+                          to the International Student Services Department
+                          (ISSD) at least 90 days before the expiry date of your
+                          visa. An administrative cost will be charged for
+                          students who do not renew within the allowed period.
+                          You will be issued with a student pass for a maximum
+                          duration of 12 months.
+                        </p>
+                        <p class="pt-2">
+                          To avoid overstaying your student pass, the University
+                          recommends that the Student Pass Renewal application
+                          be submitted (together with all required documents)
+                          <strong>
+                            3 months before the student pass expiry date as
+                            required by Malaysia Immigration Department.
+                          </strong>
+                        </p>
+                        <p class="pt-2">
+                          You are responsible to monitor the expiry date of your
+                          pass (i.e. Student pass expiry on 15 February 2020,
+                          you can submit renewal by 15 November 2019 or Pass
+                          expiry on 20 September 2020, you can submit renewal by
+                          20 June 2020)
+                        </p>
+                        <p class="pt-2">
+                          Additional requirement by Education Malaysia Global
+                          Services (EMGS):
+                        </p>
+                        <ul>
+                          <li>
+                            Must submitted overall attendance report (above 80%)
+                          </li>
+                          <li>CGPA must above 2.00</li>
+                        </ul>
+                        <p class="pt-2">
+                          The renewal of a student pass will cost you between
+                          RM409-RM709 (as below) including health insurance,
+                          EMGS fee, Multiple Entry Visa fee (Immigration fee),
+                          i-card and Limkokwing University admin fee.
+                        </p>
+                        <div class="table">
+                          <table class="text-center">
+                            <thead>
+                              <tr>
+                                <th colspan="2">
+                                  Renewal Fees (By Malaysian Ringgit)
+                                </th>
+                              </tr>
+                              <tr class="ro-2">
+                                <th>Fees</th>
+                                <th>Duration of Passport Validity</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td class="r-b">3 Months - RM 409</td>
+                                <td>Applying for 3 Months - 6 Months</td>
+                              </tr>
+                              <tr>
+                                <td class="r-b">3 Months - RM 409</td>
+                                <td>Applying for 3 Months - 6 Months</td>
+                              </tr>
+                              <tr>
+                                <td class="r-b">3 Months - RM 409</td>
+                                <td>Applying for 3 Months - 6 Months</td>
+                              </tr>
+                              <tr>
+                                <td class="r-b">3 Months - RM 409</td>
+                                <td>Applying for 3 Months - 6 Months</td>
+                              </tr>
+                              <tr>
+                                <td class="r-b">3 Months - RM 409</td>
+                                <td>Applying for 3 Months - 6 Months</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-lg-6">
+                        <p class="pt-2">
+                          Limkokwing Univeristy will impose a fine for late
+                          submission of renewal of student pass.
+                          <strong>
+                            Student must submit application 3 months before visa
+                            expiry date – failure to do so will result in
+                            penalty of RM 1,700.
+                          </strong>
+                        </p>
+                        <p class="pt-2">
+                          It should take around 5-7 weeks upon receipt of a
+                          complete document and payment. You have to submit the
+                          document at Visa Department counter. The application
+                          for renewal must be send through EMGS by the
+                          University to obtain the Supporting Letter prior to
+                          submission for sticker endorsement at Immigration
+                          Department.
+                        </p>
+                        <p class="pt-2">
+                          If your application for renewal of student pass is
+                          rejected by EMGS/ Immigration Department of Malaysia,
+                          you are required to defer your studies and return to
+                          your home country. You will be required to apply for a
+                          new student pass and are only allowed to come to
+                          Malaysia once the Visa Approval Letter (VAL) has been
+                          approved by EMGS/ Immigration.
+                        </p>
+                        <p class="pt-2">
+                          You are not allowed to purchase any flight ticket
+                          before obtaining your student pass/passport from the
+                          University to avoid any problem from arising
+                          afterwards. Please note that it will take 4-6 weeks
+                          for the renewal process. Limkokwing University will
+                          not be liable for any late approval by Immigration.
+                        </p>
+                        <ul class="">
+                          <li>One (1) passport-sized photograph</li>
+                          <li>
+                            One (1) Clear copy of Every Single Page of passport
+                            INCLUDING Empty Pages
+                          </li>
+                          <li>
+                            One (1) Set Copy of Front Page, Visa Page and Latest
+                            Entry Stamp in color
+                          </li>
+                          <li>
+                            Original Bursary Statement from Bursary Department
+                          </li>
+                          <div class="bg-dark mt-3">
+                            <li>
+                              Student Deferred Semester or Subject / Failed any
+                              subject / GNS/ DNC/ Academic progress report
+                            </li>
+                            <li>
+                              Expected graduation date for Post Graduate Student
+                            </li>
+                            <li>
+                              One (1) Set Copy of Front Page, Visa Page and
+                              Latest Entry Stamp in color
+                            </li>
+                            <li>
+                              Visa extension (studies more than course of
+                              duration)
+                            </li>
+                          </div>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="img-height">
+                          <img
+                            src="./assets/images/debit.png"
+                            width="100%"
+                            height="100%"
+                            alt=""
+                            />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-lg-6">
+                        <div
+                          class="img-height"
+                          style="
+                          background: url('./assets/images/passport-2.png');
+                          "></div>
+                      </div>
+                      <div class="col-lg-6">
+                        <ul class="pl-0">
+                          <li>
+                            To apply for your student pass, please coordinate
+                            and send all the necessary documents to the
+                            University’s marketing counsellors. They will submit
+                            this to the Immigration Department of Malaysia for
+                            processing.Pleasenote that the Visa Approval Letter
+                            (VAL) processing will take 6 to 8 weeks after you
+                            submit your complete set of documents.
+                          </li>
+                          <li>
+                            Once approved by Immigration, you may download your
+                            eVAL in
+                            <span class="blue-text">EMGS website</span>
+                          </li>
+                          <p class="text-white pt-2">
+                            Note: It takes around two months to process a
+                            student pass renewal, according to Education
+                            Malaysia Global Services (EMGS).
+                          </p>
+                          <li>
+                            All new students
+                            <strong>MUST</strong>
+                            go to the nearest Malaysian Embassy in origin
+                            country to obtain a Single Entry Visa (SEV) before
+                            entering to Malaysia. Please refer to this link to
+                            check either your country requires the SEV.
+                          </li>
+                          <li>
+                            To apply for your student pass, please coordinate
+                            and send all the necessary documents to the
+                            University’s marketing counsellors. They will submit
+                            this to the Immigration Department of Malaysia for
+                            processing.Pleasenote that the Visa Approval Letter
+                            (VAL) processing will take 6 to 8 weeks after you
+                            submit your complete set of documents.
+                          </li>
+                          <li>
+                            Once approved by Immigration, you may download your
+                            eVAL in
+                            <span class="blue-text">EMGS website</span>
+                          </li>
+                        </ul>
+                        <h4>Not Allowed to Work with a Student Pass</h4>
+                        <p>
+                          International students are NOT ALLOWED to work in
+                          Malaysia. You are also NOT ALLOWED to engage in any
+                          business activities, directly or indirectly. You can
+                          be deported immediately for doing this.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-lg-6">
+                        <h4>Return Home/Holiday</h4>
+                        <p class="pt-2">
+                          If you wish to return home or go on holiday, you must
+                          submit your passport to ISSD three (3) months before
+                          the expiry date of your student pass. You will also
+                          need to show ISSD a copy of your ticket two (2) weeks
+                          before departure.
+                        </p>
+                        <div class="divider mt-4 mb-3"></div>
+                        <h4>Submit Your Passport to Visa Department</h4>
+                        <p class="pt-2">
+                          If you wish to return home or go on holiday, you must
+                          submit your passport to ISSD three (3) months before
+                          the expiry date of your student pass. You will also
+                          need to show ISSD a copy of your ticket two (2) weeks
+                          before departure.
+                        </p>
+                        <p class="text-white pt-2">
+                          Note: If the EMGS supporting letter expires, payment
+                          of RM 120 will be applied for EMGS supporting letter
+                          renewal (WITHIN 3 MONTHS AFTER EXPIRY). Should the
+                          expiry period of your visa sticker reach 3 months, you
+                          must re-apply for your approval letter.
+                        </p>
+                        <div class="divider mt-4 mb-3"></div>
+                        <h4>To Follow-Up on Your Application</h4>
+                        <p class="pt-2">
+                          If you wish to return home or go on holiday, you must
+                          submit your passport to ISSD three (3) months before
+                          the expiry date of your student pass. You will also
+                          need to show ISSD a copy of your ticket two (2) weeks
+                          before departure.
+                        </p>
+                      </div>
+                      <div class="col-lg-6">
+                        <div
+                          class="img-height"
+                          style="
+                          background: url('./assets/images/airport.png');
+                          "></div>
+                      </div>
+                      <div class="col-12 mt-4">
+                        <div class="table">
+                          <table class="table-responsive-sm text-center">
+                            <thead>
+                              <tr class="ro-2">
+                                <th style="width: auto;">Type of Process</th>
+                                <th style="width: auto;">Person In-Charge</th>
+                                <th style="width: auto;">Email Address</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td class="r-b">LUCT Reapply Applications</td>
+                                <td class="r-b">Ms. Fatini Umairah</td>
+                                <td>nur.fatini@limkokwing.edu.my</td>
+                              </tr>
+                              <tr>
+                                <td class="r-b">LUCT Reapply Applications</td>
+                                <td class="r-b">Ms. Fatini Umairah</td>
+                                <td>nur.fatini@limkokwing.edu.my</td>
+                              </tr>
+                              <tr>
+                                <td class="r-b">LUCT Reapply Applications</td>
+                                <td class="r-b">Ms. Fatini Umairah</td>
+                                <td>nur.fatini@limkokwing.edu.my</td>
+                              </tr>
+                              <tr>
+                                <td class="r-b">LUCT Reapply Applications</td>
+                                <td class="r-b">Ms. Fatini Umairah</td>
+                                <td>nur.fatini@limkokwing.edu.my</td>
+                              </tr>
+                              <tr>
+                                <td class="r-b">LUCT Reapply Applications</td>
+                                <td class="r-b">Ms. Fatini Umairah</td>
+                                <td>nur.fatini@limkokwing.edu.my</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <p class="text-white pt-3">
+                          Important Note: It takes 6-8 weeks to obtain
+                          Supporting Letter (SLC). Do note that you are NOT
+                          ALLOWED to leave Malaysia during your application
+                          period. Please refer to Visa Department for
+                          assistance/ clarification.
+                          <br />
+                          <br />
+                          INCOMPLETE DOCUMENTS WILL BE REJECTED
+                          <br />
+                          <br />
+                          To find out more about overstay regulations, please
+                          refer to Overstay tab. To find out more about the
+                          <span class="blue-text">
+                            special pass, please refer to Special Pass (SP) &
+                            Transfer Endorsement tab.
+                          </span>
+                        </p>
+                        <p class="pt-3">
+                          Please click
+                          <span class="blue-text">here</span>
+                          to download the visa renewal form
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-cancel"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-cancel-tab">
+                  <div
+                    class="cover-pic"
+                    style="background: url('./assets/images/inter-ser.png');">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8">
+                        <h1>Cancellation of Student Pass</h1>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-1">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <h4>
+                          Graduate/ Completion of Studies from LIMKOKWING
+                          UNIVERSITY
+                        </h4>
+                        <p class="pt-2">
+                          Students who have completed their studies must cancel
+                          their student pass.
+                        </p>
+                        <div class="divider mt-4 mb-3"></div>
+                        <h4>Deferment of Studies</h4>
+                        <p class="pt-2">
+                          A student who defers from studies must get approval
+                          from University and must cancel a student pass.
+                          Student who have defer from study cannot apply for
+                          renewal and must return to your home country.
+                        </p>
+                        <p class="pt-2">
+                          You will be required to apply for a new student pass
+                          and only allowed to come to Malaysia once the Visa
+                          Approval Letter (VAL) has been approved by EMGS/
+                          Immigration.
+                        </p>
+                        <div class="divider mt-4 mb-3"></div>
+                        <h4>
+                          Graduate/ Completion of Studies from LIMKOKWING
+                          UNIVERSITY
+                        </h4>
+                        <p class="pt-2">
+                          Students who have completed their studies must cancel
+                          their student pass.
+                        </p>
+                        <div class="divider mt-4 mb-3"></div>
+                        <h4>Withdrawal or Termination from studies</h4>
+                        <p class="pt-2">
+                          A student who withdraws from his/her study must inform
+                          Limkokwing University before leaving Malaysia. The
+                          student pass will be cancelled, upon submission of
+                          passport, withdrawal letter from faculty, and
+                          confirmed flight ticket.
+                        </p>
+                        <div class="divider mt-4 mb-3"></div>
+                        <h4>Change Programme or Change University</h4>
+                        <ul>
+                          <li>
+                            A Student who have accepted admission offer letter
+                            from other institution must cancel Limkokwing
+                            University’s student pass.
+                          </li>
+                          <li>
+                            A student who had change a programme within
+                            Limkokwing University also required to cancel
+                            current student pass and apply variation/progression
+                            to the new programme.
+                          </li>
+                        </ul>
+                        <div class="divider mt-4 mb-3"></div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="img-height">
+                          <img
+                            src="./assets/images/degree.png"
+                            width="100%"
+                            height="100%"
+                            alt=""
+                            />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="black-box">
+                          <h4>Important Updates</h4>
+                          <ul>
+                            <li>
+                              Applicant who wants to change the pass from
+                              dependent / employment pass to student pass
+                              required to apply for cancellation of the current
+                              pass.
+                            </li>
+                            <li>
+                              Leaving Malaysia without cancelling your student
+                              pass can cause consequences if student decides to
+                              apply to another University within Malaysia/ to
+                              apply another visa in Malaysia.
+                            </li>
+                            <li>
+                              It is requirement by Ministry of Higher Education
+                              (MOHE) for the University to report to the MOHE,
+                              Royal Police Malaysia and Malaysia Immigration
+                              Department if a student did not return / not
+                              registered / missing in action without valid
+                              reason or prior permission from the University.
+                              The student will be blacklisted to enter Malaysia
+                              by Malaysia Immigration Department.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-sp"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-sp-tab">
+                  <div
+                    class="cover-pic"
+                    style="background: url('./assets/images/inter-ser.png');">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8">
+                        <h1>Special Pass (SP) & Transfer Endorsement</h1>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-1">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <p class="">
+                          A special pass is a temporary pass issued by the
+                          Malaysia Immigration Department. The application for a
+                          special pass is subject to approval by the Malaysia
+                          Immigration Department. It is valid for
+                          <strong>
+                            30 days (1st Special Pass) & 14 days (2nd Special
+                            Pass) under the following conditions :
+                          </strong>
+                        </p>
+                        <ul>
+                          <li>
+                            Current student pass had expired
+                            <strong>WITHIN 7 days.</strong>
+                          </li>
+                          <li>
+                            Late submission for renewal/ new student pass is
+                            less than 6 weeks before expiry.
+                          </li>
+                          <li>
+                            When converting from current pass to other of passes
+                            with insufficient time less on current pass.
+                          </li>
+                          <li>
+                            Applying variation or progression while waiting for
+                            VAL to be approved in country (refer to Visa
+                            Department)
+                          </li>
+                        </ul>
+                        <p class="pt-2">
+                          Immigration will charge RM100 for each Special pass
+                          issued.
+                        </p>
+                        <h4 class="mt-3">
+                          Special Pass Issue Upon Discretion of Immigration
+                          Department
+                        </h4>
+                        <p class="pt-2">
+                          Malaysia Immigration Department has tightened the
+                          implementation of issuance the Special Pass. A student
+                          can only apply for special pass twice.
+                        </p>
+                        <p class="pt-2">
+                          For the first Special Pass, Immigration Department
+                          will mark “Pending Decision for Student Pass”
+                          (duration is 30 days). The second Special Pass will be
+                          marked “Making Arrangement to Leave the Country”
+                          (duration is 14 days)
+                        </p>
+                        <p class="text-white pt-2">
+                          All applicants who were given the Special Pass
+                          labelled “Making Arrangement to Leave the Country” can
+                          no longer apply for another special pass. Students
+                          must leave Malaysia before expiry date once they have
+                          received this Special Pass.
+                        </p>
+                      </div>
+                      <div class="col-lg-6">
+                        <div
+                          class="img-height"
+                          style="
+                          background: url('./assets/images/building.png');
+                          "></div>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-lg-6">
+                        <div
+                          class="img-height"
+                          style="background:
+                          url('./assets/images/mask-2.png');"></div>
+                      </div>
+                      <div class="col-lg-6">
+                        <h4>When You Have a New Passport</h4>
+                        <p class="pt-2">
+                          If you renew or change your passport, you will need to
+                          transfer your student pass to the new passport. Your
+                          student pass is not valid in old/cancelled passports.
+                          Please consult with ISSD immediately.
+                        </p>
+                        <div class="divider mt-4 mb-2"></div>
+                        <h4>Special Pass Duration</h4>
+                        <p class="pt-2">
+                          Please note that student may obtain FINAL Special Pass
+                          (The Immigration Department has notified that no
+                          further extension is allowed)
+                        </p>
+                        <div class="divider mt-4 mb-2"></div>
+                        <h4>When You Have a New Passport</h4>
+                        <p class="pt-2">
+                          If you renew or change your passport, you will need to
+                          transfer your student pass to the new passport. Your
+                          student pass is not valid in old/cancelled passports.
+                          Please consult with ISSD immediately.
+                        </p>
+                        <strong>Special Pass 1 – 27 days > 30 days</strong>
+                        <p class="pt-2">
+                          Student
+                          <strong>MUST</strong>
+                          provide flight ticket in accordance to the application
+                          of Special Pass should the need arise
+                        </p>
+                        <strong>
+                          Important: Payment for Special Pass remains at RM 100
+                          each regardless of the duration
+                        </strong>
+                        <div class="divider mt-4 mb-4"></div>
+                        <h4>RM 100 Special Pass Payment (When Applicable)</h4>
+                        <p class="pt-2">
+                          If student has to leave Malaysia and re-enter with
+                          social stamp once supporting letter is approved,
+                          payment of RM 600 is applicable to issue visa sticker.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-com"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-com-tab">
+                  <div
+                    class="cover-pic"
+                    style="background: url('./assets/images/inter-ser.png');">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8">
+                        <h1>Check Out Memo</h1>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-1">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <p class="">
+                          Check-out memo is issued by Malaysia Immigration
+                          Department for students who entered Malaysia using
+                          VAL, however, did not proceed with registration /
+                          failed medical check-up / personal reasons /
+                          cancellation of student pass.
+                        </p>
+                        <p class="pt-2">
+                          Please proceed to Visa Department for check-out memo
+                          application. It will take 14 working days to complete.
+                        </p>
+                        <strong>
+                          Note: Immigration may deny students to exit Malaysia
+                          if they entered the country using VAL and will not
+                          complete student pass endorsement.
+                        </strong>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="img-height">
+                          <img
+                            src="./assets/images/ch.png"
+                            width="100%"
+                            height="100%"
+                            alt=""
+                            />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-over"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-over-tab">
+                  <div
+                    class="cover-pic"
+                    style="background: url('./assets/images/inter-ser.png');">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8">
+                        <h1>Overstay</h1>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-1">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <p class="">
+                          Overstaying is an offence in Malaysian Law. Malaysia
+                          Immigration Department (MID) will impose a penalty
+                          ranging from RM1,000 – RM10,000 depending on the
+                          duration of your overstay and/or a jail term up to 5
+                          years. You may be blacklisted and deported back to
+                          your home country. You can be prohibited to enter
+                          Malaysia for a period of time. The process of
+                          overstayed clearance will take minimum 3 months
+                          following on MID standard of procedure.
+                        </p>
+                        <div class="divider mt-5 mb-4"></div>
+                        <h4>Overstaying for less than seven (7) days</h4>
+                        <ul>
+                          <li>
+                            If you overstay for less than seven (7) days, you
+                            must write a letter to the Immigration Department of
+                            Malaysia explaining why you did not renew your
+                            student pass.
+                          </li>
+                          <li>
+                            You must be present at the Immigration with an ISSD
+                            representative to submit the application form.
+                          </li>
+                          <li>
+                            You will receive a warning letter from the
+                            Immigration and will be required to pay a penalty of
+                            RM 1,700.
+                          </li>
+                        </ul>
+                        <div class="divider mt-5 mb-4"></div>
+                        <h4>Overstaying for less than seven (7) days</h4>
+                        <ul>
+                          <li>
+                            If you overstay for less than seven (7) days, you
+                            must write a letter to the Immigration Department of
+                            Malaysia explaining why you did not renew your
+                            student pass.
+                          </li>
+                          <li>
+                            You must be present at the Immigration with an ISSD
+                            representative to submit the application form.
+                          </li>
+                          <li>
+                            You will receive a warning letter from the
+                            Immigration and will be required to pay a penalty of
+                            RM 1,700.
+                          </li>
+                          <div class="bg-dark mt-3">
+                            <li>
+                              1st Overstay - RM 1,200 (New/Transfer), RM 1,700
+                              (Current Student)
+                            </li>
+                            <li>
+                              Overstay period reaches 6 Months or more – RM
+                              2,700
+                            </li>
+                            <li>
+                              Overstay 1 year and above – RM 3,700
+                            </li>
+                            <li>
+                              2nd Overstay and MORE -RM 3,700
+                            </li>
+                          </div>
+                          <li>
+                            You must be present at the Immigration with an ISSD
+                            representative to submit the application form.
+                          </li>
+                          <li>
+                            You will receive a warning letter from the
+                            Immigration and will be required to pay a penalty of
+                            RM 1,700.
+                          </li>
+                        </ul>
+                        <strong>
+                          Note: You will also need to wait for new VAL.
+                        </strong>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="img-height">
+                          <img
+                            src="./assets/images/hand-cuff.png"
+                            width="100%"
+                            height="100%"
+                            alt=""
+                            />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-air"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-air-tab">
+                  <div
+                    class="cover-pic"
+                    style="background:
+                    url('./assets/images/airport-pick.png');">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8">
+                        <h1 style="color: #000; padding-top: 50px;">
+                          Airport Pickup
+                        </h1>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-1">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <p class="">
+                          New students who have immigration approval to study in
+                          Malaysia can pre-arrange for our airport pick-up
+                          service by filling up the Airport Arrival Form (PDF)
+                          with seven (7) days notice prior to flying to
+                          Malaysia. Required details are the flight number, date
+                          and expected time of arrival. You will then be
+                          transported to the university-managed accommodation.
+                        </p>
+
+                        <ul>
+                          <li>
+                            If you overstay for less than seven (7) days, you
+                            must write a letter to the Immigration Department of
+                            Malaysia explaining why you did not renew your
+                            student pass.
+                          </li>
+                          <li>
+                            You must be present at the Immigration with an ISSD
+                            representative to submit the application form.
+                          </li>
+                          <li>
+                            You will receive a warning letter from the
+                            Immigration and will be required to pay a penalty of
+                            RM 1,700.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="img-height">
+                          <img
+                            src="./assets/images/airport-4.png"
+                            width="100%"
+                            height="100%"
+                            alt=""
+                            />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-12">
+                        <div class="black-box">
+                          <h4>Note</h4>
+                          <p class="pt-3">
+                            The government has decided that effective 1st
+                            January 2014, all foreign students who have their
+                            student pass approved MUST obtain a visa to enter
+                            the country for the purpose of studying. This
+                            decision involves international students from all
+                            countries whether or not requiring a visa to enter
+                            Malaysia.
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="col-12 mt-3 text-lg-right text-md-right
+                        text-center">
+                        <a href="#!" class="blue">CONTACT US</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-medical"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-medical-tab">
+                  <div
+                    class="cover-pic pt-xl-5"
+                    style="background: url('./assets/images/dr-2.png');">
+                    <div class="row pt-xl-4">
+                      <div class="col-lg-6 col-md-8">
+                        <h1 style="color: #0e0e0e;">Medical Insurance</h1>
+                        <p class="text-black" style="color: #0e0e0e;">
+                          It is compulsory for all international students to
+                          purchase a medical insurance, to be renewed yearly
+                          during their stay at Limkokwing. Student visas will
+                          not be extended unless medical insurance are purchased
+                          and tuition fees are paid.
+                        </p>
+                        <strong style="color: #0e0e0e;">
+                          All international students must undergo a medical
+                          examination in their respective countries before
+                          leaving for Malaysia.
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-1">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <h4>Student healthcare programme</h4>
+                        <p class="pt-2">
+                          New students who have immigration approval to study in
+                          Malaysia can pre-arrange for our airport pick-up
+                          service by filling up the Airport Arrival Form (PDF)
+                          with seven (7) days notice prior to flying to
+                          Malaysia. Required details are the flight number, date
+                          and expected time of arrival. You will then be
+                          transported to the university-managed accommodation.
+                        </p>
+                        <ul>
+                          <li>
+                            If you overstay for less than seven (7) days, you
+                            must write a letter to the Immigration Department of
+                            Malaysia explaining why you did not renew your
+                            student pass.
+                          </li>
+                          <li>
+                            You must be present at the Immigration with an ISSD
+                            representative to submit the application form.
+                          </li>
+                          <li>
+                            You will receive a warning letter from the
+                            Immigration and will be required to pay a penalty of
+                            RM 1,700.
+                          </li>
+                        </ul>
+                        <h3 class="text-white mt-3">
+                          International Medicare Group (IMG) student insurance
+                          scheme
+                        </h3>
+                        <h5 class="text-white">Hospitalization procedure</h5>
+                        <ul>
+                          <li>
+                            If you overstay for less than seven (7) days, you
+                            must write a letter to the Immigration Department of
+                            Malaysia explaining why you did not renew your
+                            student pass.
+                          </li>
+                          <li>
+                            You must be present at the Immigration with an ISSD
+                            representative to submit the application form.
+                          </li>
+                          <li>
+                            You will receive a warning letter from the
+                            Immigration and will be required to pay a penalty of
+                            RM 1,700.
+                          </li>
+                        </ul>
+                        <h5 class="text-white">
+                          Outpatient GP visit procedure
+                        </h5>
+                        <ul>
+                          <li>
+                            If you overstay for less than seven (7) days, you
+                            must write a letter to the Immigration Department of
+                            Malaysia explaining why you did not renew your
+                            student pass.
+                          </li>
+                          <li>
+                            You must be present at the Immigration with an ISSD
+                            representative to submit the application form.
+                          </li>
+                          <li>
+                            You will receive a warning letter from the
+                            Immigration and will be required to pay a penalty of
+                            RM 1,700.
+                          </li>
+                        </ul>
+                        <h5 class="text-white">Outpatient clinic visit</h5>
+                        <ul>
+                          <li>
+                            If you overstay for less than seven (7) days, you
+                            must write a letter to the Immigration Department of
+                            Malaysia explaining why you did not renew your
+                            student pass.
+                          </li>
+                          <li>
+                            You must be present at the Immigration with an ISSD
+                            representative to submit the application form.
+                          </li>
+                          <li>
+                            You will receive a warning letter from the
+                            Immigration and will be required to pay a penalty of
+                            RM 1,700.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="img-height" style="height: auto;">
+                          <img
+                            src="./assets/images/dr-3.png"
+                            alt=""
+                            width="100%"
+                            height="100%"
+                            />
+                        </div>
+                        <div class="bg-dark mt-3">
+                          <h4>Important Note</h4>
+                          <ul>
+                            <li>
+                              Lost card will be replaced for a processing fee of
+                              RM10.00.
+                            </li>
+                            <li>
+                              Please telephone IMG at 03-42706188 or fax
+                              03-42701055 immediately for replacement.
+                            </li>
+                            <li>
+                              AXA student insurance is for Botswana student.
+                              Detailed information is available at International
+                              Service Office.
+                            </li>
+                            <li>
+                              The membership card is not transferable.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-desk"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-desk-tab">
+                  <div
+                    class="cover-pic"
+                    style="background: url('./assets/images/travel.png');">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8">
+                        <h1 style="color: #0e0e0e;">
+                          Travel
+                          <br />
+                          Desk
+                        </h1>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-1">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <p>
+                          Whether you are planning for a holiday or a trip back
+                          home, you can seek assistance and advice on traveling
+                          arrangements at International Services Office. We have
+                          contacts of tour agencies, transporters and hoteliers
+                          who may be able to accommodate your budget and
+                          traveling preferences.
+                        </p>
+                        <div class="divider mt-5 mb-4"></div>
+
+                        <h4 class="mt-3">Booking procedures</h4>
+                        <p class="pt-3">
+                          Bookings of transportation (air, land or sea) and
+                          hotels via International Services Office must be made
+                          as follows:
+                        </p>
+                        <ul>
+                          <li>
+                            Local Trip – 1 week in advance
+                          </li>
+                          <li>
+                            Overseas Trip 1 month in advance
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="img-height" style="height: auto;">
+                          <img
+                            src="./assets/images/sea.png"
+                            alt=""
+                            width="100%"
+                            height="100%"
+                            />
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="img-height" style="height: auto;">
+                          <img
+                            src="./assets/images/green.png"
+                            alt=""
+                            width="100%"
+                            height="100%"
+                            />
+                        </div>
+                      </div>
+                      <div class="col-lg-6 pt-3">
+                        <div class="img-height" style="height: 100%;">
+                          <img
+                            src="./assets/images/mountain.png"
+                            alt=""
+                            width="100%"
+                            height="100%"
+                            />
+                        </div>
+                      </div>
+                      <div class="col-lg-6 pt-3">
+                        <p>
+                          Lorem ipsum dolor sit amet, consetetur sadipscing
+                          elitr, sed diam nonumy eirmod tempor invidunt ut
+                          labore et dolore magna aliquyam erat, sed diam
+                          voluptua. At vero eos et accusam et justo duo dolores
+                          et ea rebum. Stet clita kasd gubergren, no sea
+                          takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                          ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                          diam nonumy eirmod tempor invidunt ut labore et dolore
+                          magna aliquyam erat, sed diam voluptua. At vero eos et
+                          accusam et justo duo dolores et ea rebum. Stet clita
+                          kasd gubergren, no sea takimata sanctus est Lorem
+                          ipsum dolor sit.
+                        </p>
+                        <p>
+                          Lorem ipsum dolor sit amet, consetetur sadipscing
+                          elitr, sed diam nonumy eirmod tempor invidunt ut
+                          labore et dolore magna aliquyam erat, sed diam
+                          voluptua. At vero eos et accusam et justo duo dolores
+                          et ea rebum. Stet clita kasd gubergren, no sea
+                          takimata
+                        </p>
+                        <div class="img-height" style="height: auto;">
+                          <img
+                            src="./assets/images/bird.png"
+                            alt=""
+                            width="100%"
+                            height="100%"
+                            />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section DEpartment -->
+    <section class="department">
+      <div class="container-fluid p-3">
+        <div class="row no-gutters">
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="box">
+              <h1>International Student Service Department</h1>
+              <p class="pt-3">
+                Inovasi 1-1, Jalan Teknokrat 1/1
+                <br />
+                63000 Cyberjaya
+                <br />
+                Selangor Darul Ehsan, Malaysia.
+              </p>
+              <ul class="pt-2">
+                <li>
+                  <a href="tel:(+603) 8317 8888 ">
+                    <i class="fas fa-phone"></i>
+                    (+603) 8317 8888
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:visa@limkokwing.edu.my ">
+                    <i class="fas fa-envelope"></i>
+                    visa@limkokwing.edu.my
+                  </a>
+                </li>
+              </ul>
+              <p class="pt-3">
+                Business Hours :
+              </p>
+              <h5>Monday to Friday : 8.30am to 5.00pm</h5>
+              <h5>Saturday : 8.30am to 12.00pm</h5>
+              <a href="#! " class="blue mr-2">Chat with us</a>
+              <a href="#! " class="dark">frequently asked questions</a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="img-height">
+              <img
+                src="./assets/images/intern-4.png"
+                width="100%"
+                height="100%"
+                alt=""
+                />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================footer============================== -->
+    <footer class="mt-5">
+      <div
+        class="container-fluid mt-5 pb-3 pl-xl-5 pl-lg-4 pl-3 pr-xl-5 pr-lg-4
+        pr-3">
+        <div class="row no-gutters">
+          <div class="col-xl-6 col-lg-3 col-md-12 pt-1">
+            <h4>You recently viewed</h4>
+          </div>
+          <div class="col-xl-6 col-lg-9 col-md-12">
+            <div class="row no-gutters">
+              <div class="col-xl-7 col-lg-6 col-md-12 pr-lg-2">
+                <form action=" ">
+                  <input type="text " placeholder="Your email address " />
+                  <button>SUBSCRIBE</button>
+                </form>
+              </div>
+              <div
+                class="col-xl-5 col-lg-6 col-md-12 text-lg-right text-center
+                foot-btn mt-lg-0 mt-md-3">
+                <a href="#! " class="contact mr-1">
+                  CONTACT US
+                </a>
+                <a href="#! " class="enroll">
+                  ENROLL NOW
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-3 pr-lg-3 pr-md-2
+            pr-sm-2">
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <ul class="cen-ul mt-5">
+              <li class="pr-4"><a class="active" href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+            </ul>
+          </div>
+          <div class="col-12 text-center mt-5">
+            <img src="./assets/images/logo.svg " alt=" " />
+          </div>
+          <div class="col-lg-6 mt-lg-5 mt-5 text-lg-left text-center">
+            <h6>
+              © 2022 Limkokwing University of Creative Technology. All Rights
+              Reserved.
+            </h6>
+          </div>
+          <div class="col-lg-6 mt-lg-5 mt-2 text-lg-right text-center">
+            <ul class="last-ul">
+              <li>
+                <a href="#! ">Terms of Use</a>
+              </li>
+              <li>
+                <a href="#! ">Prvacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js
+    "></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js "
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN
+    "
+    crossorigin="anonymous "></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js "
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2
+    "
+    crossorigin="anonymous "></script>
+  <script>
+    $(document).ready(function () {
+      $('#toggle ').click(function () {
+        var elem = $('#toggle ').text()
+        if (elem == 'View More ') {
+          //Stuff to do when btn is in the read more state
+          $('#toggle ').text('View Less ')
+          $('#text ').slideDown()
+        } else {
+          //Stuff to do when btn is in the read less state
+          $('#toggle ').text('View More ')
+          $('#text ').slideUp()
+        }
+      })
+    })
+  </script>
+</html>

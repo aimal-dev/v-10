@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+    <!-- font awsm -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.css"
+        integrity="sha512-5TGRCl3hPoqtruhO+mubTuySHOfcEBvyIfiWHoCK8wDLmf6C1U73OUoNCU6ZvyT/8vfCcha1INDIo8dabDmQjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.min.js"
+        integrity="sha512-naEQG74IcOLQ6K/B1PmhIcZ4i3YE2FXs2zm603E1Q3shbron+PmYLg44/q+xAymD/RvskZ2H8l1Qa7I5qELlrg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" href="./styleV10.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <nav class="navbar  nav-dd fixed-top navbar-expand-xl pl-xl-3 pl-lg-2 pr-xl-3 pr-lg-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Home.html">
+                <img src="assets/images/logo.svg" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-sliders-h"></i>
+            </button>
+
+            <div class="collapse navbar-collapse text-xl-block text-center" id="navbarSupportedContent">
+                <form class="form-inline    my-2 my-lg-0">
+                    <img class="logo-img" src="./images/logo.png" />
+                    <select id="inputState" class="form-control mr-3">
+                        <option selected>CYBERJAYA</option>
+                        <option>CYBERJAYA</option>
+                    </select>
+                    <div class="search">
+                        <img src="assets/images/search.svg" alt="" />
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                    </div>
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2" href="home.html" target="_blank">
+                            UPDATES
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true"
+                            aria-expanded="false">
+                            ABOUT
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>About</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        WHY LIMKOKWING
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        HERITAGE
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">
+                                        ACCREDIATION & AWARDS
+                                    </a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br />
+                                        63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br />
+                                        Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                                        Tel (+603) 8317 8888
+                                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                                        Fax(+603) 8317 8888
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-md-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link active nav-link2" href="academic.html" id="dropdown01" data-toggle=""
+                            aria-haspopup="true" aria-expanded="false">
+                            ACADEMIA
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Academia</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        PROGRAMMERS
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        SHORTCOURSES
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                                        FINANCIAL ASSISTANCE
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                                        INTERNATIONAL SERVICES
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">ADMISSION</a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br />
+                                        63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br />
+                                        Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                                        Tel (+603) 8317 8888
+                                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                                        Fax(+603) 8317 8888
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true"
+                            aria-expanded="false">
+                            BUSINESS
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Business</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        Discover Malaysia
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        Services
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                                        Community
+                                    </a>
+
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            EXPERIENCE
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Experience</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        DISCOVER MALAYSIA
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        SERVICES
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">COMMUNITY</a>
+                                    <h3 class="mt-5">Student portal</h3>
+                                    <form action="">
+                                        <input type="text" name="" id="" placeholder="Username" />
+                                        <input type="password" name="" id="" placeholder="Password" />
+                                        <a href="#!" class="sim d-inline-block text-center mt-4 mr-1">
+                                            LOGIN
+                                        </a>
+                                        <a href="#!" class="blue d-inline-block text-center mt-4">
+                                            ENROLL FOR FEB INTAKE
+                                        </a>
+                                    </form>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button" href="#!">ENROLL NOW</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- second -->
+    <!-- <nav class="navbar fixed-top navbar-expand-lg" id="main-bar">
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="business-1.html">
+                    Discover Malaysia
+                    <span class="sr-only"></span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#!">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#!">Community</a>
+            </li>
+
+        </ul>
+    </nav> -->
+    <!-- =======================HEADER End============================== -->
+    <!-- Header Presentation -->
+    <div class="header-presentation">
+        <div style="background-image: url('./images/bg.png'); background-repeat: no-repeat;background-position: center; "
+            class=" parent-hreo">
+            <section class="main ">
+                <div class="container-fluid">
+                    <div class="row no-gutters">
+
+                        <div class="col-lg-12 col-sm-12">
+                            <div class="position-relative player" style="height: 100%;">
+
+                                <div class="hero-discover"
+                                    style="background-image: url('./images/rec.png');background-repeat: no-repeat;">
+                                    <div class="parent-discover">
+                                        <h1 class="discover-head">Discover Malaysia</h1>
+                                        <p class="para-discover">Malaysia is known throughout the world for its
+                                            intoxicating
+                                            mix of cultures which
+                                            has proven to be irresistible draw for people from all around the world.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="box2 mt-2 mb-2" style="background: url('./assets/images/Mask\ Group\ 17.png');"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Header Presentation Finished-->
+    <!-- Cards -->
+    <div class="parent-cards" style="paddding: 0px 50px;">
+        <h1 class="cover-head">Cover every possible interest in Malaysia</h1>
+        <section>
+            <div class="container-fluid">
+                <div class="row culture-informe">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 card-hero">
+                        <img class="cover-icon" src="./images/1.png" alt="">
+                        <h5 class="vacation">Vacation</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 card-hero">
+                        <img class="cover-icon" src="./images/2.png" alt="">
+                        <h5 class="vacation">Culture</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 card-hero">
+                        <img class="cover-icon" src="./images/3.png" alt="">
+                        <h5 class="vacation">Foods</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 card-hero">
+                        <img class="cover-icon" src="./images/4.png" alt="">
+                        <h5 class="vacation">Shopping</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Cards Finished-->
+    <!-- Relax and Thoughts Component -->
+    <section class="mt-2" style="background-color: #202020;padding-bottom: 30px; padding:10px 20px 40px 20px;">
+        <div class="container-fluid  py-3 ">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 col-xs-12 relax-hero">
+                    <h2 class="relax-head">Relax your mind & thought. Have fun in our gem places</h2>
+                    <p class="suscipit-para">Quisque suscipit ipsum est, eu venenatis leo ornare eget. Ut porta
+                        facilisis elementum. Sed
+                        condimentum sed massa quis ullamcorper. Donec at scelerisque neque.</p>
+                </div>
+
+            </div>
+            <!-- /// -->
+            <div class="row dates-hero text-center d-flex flex-wrap">
+                <div class=" col-lg-6 col-sm-6 col-xs-12 seo-port text-center">
+                    <img src="./images/sea.png" class="seo-img" alt="">
+                    <img src="./images/map.png" class="seo-map-img" alt="">
+
+                </div>
+                <div class="col-lg-6 col-sm-6 col-xs-12 dates-port text-center">
+                    <h2 class="relax-head">Pulau Redang, Terengganu</h2>
+                    <p class="suscipit-para">Quisque suscipit ipsum est, eu venenatis leo ornare eget. Ut porta
+                        facilisis elementum. Sed condimentum sed massa quis ullamcorper. Donec at scelerisque neque.
+                        Pellentesque sagittis, massa sodales sodales finibus, felis ligula tempus lorem, eu porttitor ex
+                        lacus vel felis. Vivamus egestas scelerisque consectetur. Vestibulum faucibus enim urna,
+                        fermentum aliquet quam euismod non. Proin cursus, libero quis semper elementum, diam metus
+                        eleifend magna, in placerat sem velit vitae lacus. Vivamus tempor fringilla nisl, id condimentum
+                        felis dignissim.</p>
+                    <h3 class="activity-heading">Activities</h3>
+                    <img class="activity-img" src="./images/activity.png" alt="">
+                    <img class="dates-img " src=" ./images/dates.png" alt="">
+                </div>
+            </div>
+            <!-- // -->
+            <div class="row py-3">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 parent-mount">
+                    <h3 class="mount-head">
+                        Mount Kinabalu, Sabah
+                    </h3>
+                    <p class="mount-para" style="color:'#bebebe'">Quisque suscipit ipsum est, eu venenatis leo ornare
+                        eget. Ut
+                        porta
+                        facilisis elementum. Sed
+                        condimentum sed massa quis ullamcorper. Donec at scelerisque neque. Pellentesque sagittis, massa
+                        sodales sodales finibus, felis ligula tempus lorem, eu porttitor ex lacus vel felis. Vivamus
+                        egestas scelerisque consectetur. Vestibulum faucibus enim urna, fermentum aliquet quam euismod
+                        non. Proin cursus, libero quis semper elementum, diam metus eleifend magna, in placerat sem
+                        velit vitae lacus. Vivamus tempor fringilla nisl, id condimentum felis dignissim</p>
+
+                    <h4 class="acticity-heading">Activities</h4>
+                    <div class="row night-hero">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center night-par">
+                            <img class="view-source-img" src="./images/men.png" alt="">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center night-par">
+                            <img class="view-source-img" src="./images/night.png" alt="">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center night-par">
+                            <img class="view-source-img" src="./images/thre.png" alt="">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center night-par">
+                            <img class="view-source-img" src="./images/view.png" alt="">
+                        </div>
+                    </div>
+                    <img class="river-img" src="./images/river.png" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 parent-mount">
+                    <img class="mount-img" src="./images/mount.png" alt="">
+                    <img class="map-img" src="./images/mountmap.png" alt="">
+                </div>
+            </div>
+            <!-- // -->
+
+
+        </div>
+    </section>
+    <!-- Relax and Thoughts Component Fninshed-->
+    <!-- Culture -->
+    <section style="background-color: #202020;margin-top: 10px;  padding:50px 50px">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 culture-hero">
+                    <h1 class="culture-header">Culture</h1>
+                    <p class="culture-para">Malaysia is home to many ethnic groups, each co-existing in
+                        harmony and
+                        helping to enrich the
+                        country’s cultural lifestyle. Its collective blend of food, traditions, clothing and
+                        customs
+                        ensure there is much for the visitor
+                        to experience here.</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 culture-hero">
+                            <img class="crowd-img" src="./images/one.png" alt="">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 culture-hero">
+                            <h1 class="culture-header">Hari Raya / Eid Celebration</h1>
+                            <p class="culture-para">Hari Raya is one of the most prominent festivals celebrated in
+                                Malaysia, as the majority of the population residing in Malaysia follows Islam. Hari
+                                Raya is celebrated during the 9th month of the lunar calendar for a period of one month.
+                                Muslims observe daily fasts from dawn to dusk.</p>
+                            <img class="crowd-img" src="./images/two.png" alt="">
+
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 culture-hero">
+                            <h1 class="culture-header">Deepavali Celebration</h1>
+                            <p class="culture-para">Deepavali is a festival celebrated by Indians living in Malaysia.
+                                This is the festival of lights, it signifies the victory of light and hope over
+                                darkness. Houses and streets of Malaysia are adorned with colourful lights and oil
+                                lamps. The day starts off by taking a bath with oil and praying..</p>
+                            <img class="crowd-img" src="./images/three.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 culture-herro">
+                            <h1 class="culture-header">Multicultural in Malaysia</h1>
+                            <p class="culture-para">The multiculturalism has not only made a gastronomical paradise, it
+                                is also made Malaysia home to hundreds of colourful festivities. Malaysians love
+                                celebrating, and socializing too in fact, where their laid back, warm and friendly
+                                mannerisms make them as approachable as you can imagine.</p>
+                            <img class="crowd-img" src="./images/four.png" alt="">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 culture-herro">
+                            <h1 class="culture-header">Chinese New Year Celebration</h1>
+                            <p class="culture-para">This is the time when Malaysia turns red. All the Chinese living in
+                                Malaysia decorate their houses and streets with traditional red decorations, they do so
+                                in order to ward off evil spirits. As a part of the 15 day long celebration lion and
+                                dragon dances accompanied by fireworks are performed across Malaysia. </p>
+                            <img class="crowd-img" src="./images/five.png" alt="">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 culture-herro">
+
+                            <img class="crowd-img " src="./images/six.png" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Culture Finish-->
+    <!-- Food -->
+    <section style="background-color: #202020;  margin-top: 10px; padding: 50px 20px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 culture-hero">
+                    <h1 class="culture-header">Discover our variety food in Malaysia</h1>
+                    <p class="culture-para">Quisque suscipit ipsum est, eu venenatis leo ornare eget. Ut porta facilisis
+                        elementum. Sed condimentum sed massa quis ullamcorper. Donec at scelerisque neque.</p>
+                </div>
+                <!-- <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 "></div> -->
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 culture-hero">
+                            <img class="crowd-img" src="./images/fd1.png" alt="">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 culture-hero">
+                            <h1 class="culture-header">Hainanese Chicken Rice</h1>
+                            <p class="culture-para">.A culinary staple in Malaysia and Singapore, this dish was
+                                reinvented by Chinese immigrants from the island province of Hainan.<br /> They adapted
+                                their
+                                recipe for Wenchang chicken according to the availability of local ingredients—creating
+                                a beloved icon in the process.
+
+                                As its name suggests, Hainanese chicken rice pairs poached chicken with seasoned rice.
+                                It is usually served with chili sauce and slices of cucumber.</p>
+                            <img class="crowd-img-one" src="./images/fd2.png" alt="">
+                            <div class="row py-3 ">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 burger-pare">
+                                    <img class="burger-img px-2 py-2" src="./images/burg1.png" alt="">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 burger-pare">
+                                    <img class="burger-img px-2 py-2" src="./images/burg1.png" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 culture-hero">
+                            <img class="crowd-img-five" src="./images/fd3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-md-6 col-sm-12s col-xs-12">
+                    <div class="row culture-hero">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h1 class="culture-header">Nasi Lemak (Coconut milk rice)</h1>
+                            <p class="culture-para">This Malay dish is considered to be the national dish (nasi is the
+                                Malay
+                                word for rice). It looks simple, but each component requires a significant amount of
+                                preparation.
+                                <br />
+                                <br />The rice has to be cooked carefully with coconut cream (santan) and pandan leaves.
+                                It is traditionally served with fried anchovies (ikan bilis), boiled egg, cucumber
+                                slices and sambal (a spicy chili-based paste).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-lg-4 col-md-4 col-sm-4 culture-parented">
+                            <img class="burger-img" src="./images/sl1.png" alt="">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 culture-parented">
+                            <img class="burger-img" src="./images/sl2.png" alt="">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 culture-parented">
+                            <img class="burger-img" src="./images/sl3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 culture-hero">
+                            <img class="burger-img px-2 py-2" src="./images/burg1.png" alt="">
+                        </div>
+                        <div class="col-lg-6 culture-hero">
+                            <img class="burger-img px-2 py-2" src="./images/burg1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center d-flex">
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  culture-herro">
+                            <h1 class="culture-header">Multicultural in Malaysia</h1>
+                            <p class="culture-para">The multiculturalism has not only made a gastronomical paradise, it
+                                is also made Malaysia home to hundreds of colourful festivities. Malaysians love
+                                celebrating, and socializing too in fact, where their laid back, warm and friendly
+                                mannerisms make them as approachable as you can imagine.</p>
+                            <img class="crowd-img" src="./images/fd4.png" alt="">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 culture-herro">
+                            <h1 class="culture-header">Roti Canai</h1>
+                            <p class="culture-para">This popular flatbread dish originates from southern India. Made
+                                with ghee and flour, the best roti canai is crispy and flaky on the outside and buttery
+                                smooth on the inside.
+
+                                It is usually served with dhal or curry (and sometimes with sugar). Roti canai can be
+                                modified in a variety of ways. <br />You can have it plain (roti kosong), or with a wide
+                                variety of fillings: egg, onions, mushroom, cheese, and even banana slices. </p>
+                            <img class="crowd-img" src="./images/fd5.png" alt="">
+                        </div>
+                        <div class="row ">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  cultured-hero">
+                                <img class="burger-img" src="./images/tea.png" alt="">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 cultured-hero">
+                                <img class="burger-img" src="./images/pratha.png" alt="">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 cultured-hero">
+                                <img class="burger-img" src="./images/egg.png" alt="">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center  cultured-hero">
+                                <img class="burger-img" src="./images/burg1.png" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center cultured-hero">
+                                <img class="burger-img" src="./images/burg2.png" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- slides -->
+            <div>
+                <h3 class="text-left" style="color: #fff;">These also are favourite food by Malaysian</h3>
+            </div>
+            <div class=" row text-center d-flex justify-center">
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4  cultured-hero">
+                    <img class="burger-img" src="./images/a.png" alt="">
+                    <h3 class="text-left py-2 cendol-head" style="color: #fff;">Cendol</h3>
+                    <p class="text-left " style="color: #fff;font-size: 16px;">Quisque suscipit ipsum est, eu
+                        venenatis
+                        leo ornare
+                        eget.</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 cultured-hero">
+                    <img class="burger-img" src="./images/b.png" alt="">
+                    <h3 class="text-left py-2 cendol-head" style="color: #fff;">Nasi kandar</h3>
+                    <p class="text-left " style="color: #fff;font-size: 16px;">Quisque suscipit ipsum est, eu
+                        venenatis
+                        leo ornare
+                        eget.</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 cultured-hero">
+                    <img class="burger-img" src="./images/c.png" alt="">
+                    <h3 class="text-left py-2 cendol-head" style="color: #fff;">Roti jala</h3>
+                    <p class="text-left " style="color: #fff;font-size: 16px;">Quisque suscipit ipsum est, eu
+                        venenatis
+                        leo ornare
+                        eget.</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 cultured-hero">
+                    <img class="burger-img" src="./images/d.png" alt="">
+                    <h3 class="text-left py-2 cendol-head" style=" color: #fff;">Char kuey teow</h3>
+                    <p class="text-left " style="color: #fff;font-size: 16px;">Quisque suscipit ipsum est, eu
+                        venenatis
+                        leo ornare
+                        eget..</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 cultured-hero">
+                    <img class="burger-img" src="./images/e.png" alt="">
+                    <h3 class="text-left py-2 cendol-head" style="color: #fff;">Murtabak</h3>
+                    <p style="color: #fff;font-size: 16px; " class="text-left">Quisque suscipit ipsum est, eu
+                        venenatis
+                        leo ornare eget.
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 cultured-hero">
+                    <img class="burger-img" src="./images/e.png" alt="">
+                    <h3 class="text-left py-2 cendol-head" style="color: #fff;">Char kuey teow</h3>
+                    <p class="text-left " style="color: #fff; font-size: 16px;">Quisque suscipit ipsum est, eu
+                        venenatis leo ornare
+                        eget..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Food Finish -->
+    <!-- Street Shopping -->
+    <section style="background-color: #202020;margin-top: 10px; padding: 50px 50px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 luxury-hero">
+                    <h1 class="luxury-hero-header">From street shopping to a luxurious mall</h1>
+                    <p class="luxury-hero-para">Quisque suscipit ipsum est, eu venenatis leo ornare eget. Ut porta
+                        facilisis elementum. Sed
+                        condimentum sed massa quis ullamcorper.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 py-3 food-street-hero">
+                    <img class="food-street-img" src="./images/strt.png" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 street-content">
+                    <h1 class="street-content-header">Pavilion KL, Kuala Lumpur</h1>
+                    <p class="street-content-para">Quisque suscipit ipsum est, eu venenatis leo ornare eget. Ut porta
+                        facilisis elementum. Sed
+                        condimentum sed massa quis ullamcorper. Donec at scelerisque neque. Pellentesque sagittis, massa
+                        sodales sodales finibus, felis ligula tempus lorem, eu porttitor ex lacus vel felis. Vivamus
+                        egestas scelerisque consectetur. Vestibulum faucibus:</p>
+                    <div class="street-data mb-4">
+                        <h3 class="street-content-location">Location:</h3>
+                        <p class="street-content-address">168, Bukit Bintang Street, Kuala Lumpur</p>
+                        <p class="street-content-address">Open 10:00 AM - 10:00 PM</p>
+                        <p class="street-content-address">Waze: Pavilion KL</p>
+                    </div>
+                    <img class="street-content-home-img pyfa-stack-2x" src="./images/home.png" alt="">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12  col-xs-12 vally-hero">
+                    <h1 class="vally-header py-2">Explore shopping places in Klang Valley</h1>
+                    <p class="vally-para py-2">Quisque suscipit ipsum est, eu venenatis leo ornare eget. Ut porta
+                        facilisis elementum. Sed
+                        condimentum sed massa quis ullamcorper. Vivamus egestas scelerisque consectetur. Vestibulum
+                        faucibus:</p>
+                    <ul>
+                        <li class="vally-para">D’Pulze Shopping Centre</li>
+                        <li class="vally-para">GM Klang Wholesale City</li>
+                        <li class="vally-para">Paradigm Mall Petaling Jaya</li>
+                        <li class="vally-para">Mitsui Outlet Park KLIA Sepang</li>
+                        <li class="vally-para">IOI City Mall</li>
+                        <li class="vally-para">Sunway Pyramid</li>
+                        <li class="vally-para">Pavilion Kuala Lumpur</li>
+                        <li class="vally-para">Sungei Wang Plaza</li>
+                        <li class="vally-para">NU Sentral</li>
+                        <li class="vally-para">SOGO Kuala Lumpur</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6  col-xs-12 py-2 vally-hero">
+                    <img class="vally-img" src="./images/fem.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Street Shopping Finished -->
+    <!-- living standard -->
+    <section style="background-color: #202020;margin-top: 10px; padding: 50px 50px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 live-hero">
+                    <h1 class="live-header">Low cost of living and high quality of life in Malaysia</h1>
+                </div>
+
+            </div>
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <img style="width: 100%;object-fit:contain" src="./images/live.png" alt="" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 build-hero">
+                    <p class="build-para py-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                        sit amet.
+                        <br />
+                        <br />
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                        sit amet.
+                        <br /><br />
+
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et. Lorem ipsum dolor
+                        sit amet, consetetur sadipscing elitr,.
+                    </p>
+                    <img style="width: 100%;object-fit:contain" src="./images/build.png" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4 build-hero">
+                    <div>
+
+                        <form class="py-3 px-4 rounded" style="background-color: #151414;">
+                            <h6 class="text-white doler-head mt-2">Check out how much USD is valued as MYR today</h6>
+                            <p class=" text-white dolor-para mt-2">Lorem ipsum dolor sit amet, consetetur
+                                sadipscing elitr, sed diam
+                                nonumy eirmod.</p>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput" class="text-light "
+                                    style="color: #4b4949; font-size: 18px;">Amount you send in USD</label>
+                                <input type="text" class="form-control bg-dark" id="formGroupExampleInput"
+                                    placeholder="Enter amount">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput2" class="text-light "
+                                    style="color: #4b4949; font-size: 18px;"> Amount
+                                    you get in myr</label>
+                                <input type="text" class="form-control bg-dark" id="formGroupExampleInput2"
+                                    placeholder="1 USD = 4.39 MYR">
+                            </div>
+                            <div class="col-lg-12 btn-primary rounded mt-2">
+                                <button class="btn convert-btn  col-lg-12 text-white " type="submit">Convert</button>
+                            </div>
+                            <div class="col-lg-12 btn-primary rounded mt-3 mb-2" style="background-color: #0E0E0E">
+                                <button class="btn convert-btn  col-lg-12 text-white" type="submit">Reset</button>
+                            </div>
+                        </form>
+                        <div class="hero-note py-3 px-3 mt-3 rounded mb-2">
+                            <h5 class="note-header">Importent Note</h5>
+                            <ul>
+                                <li class="note-para">
+                                    Limkokwing do not guarantee the accuracy of the exchange rates used above. You
+                                    should
+                                    confirm current rates before making any transactions that could be affected by
+                                    changes in
+                                    the exchange rates.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="average-header mt-3">Average cost of living in Malaysia per month</h1>
+                        <p class=" average-para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy
+                            eirmod tempor invidunt
+                            ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+
+                    </div>
+                    <table class="table table-dark mb-5 cost-hero" style="border-radius: 15px;">
+                        <!-- <thead>
+                            <th class="cost-line">
+                                Comparing cost of living    
+
+                            </th>
+                        </thead> -->
+
+                        <thead style=" border-radius: 15px;">
+                            <tr class="text-center table-bordered country-cost">
+                                <th scope="col">Basic cost<br />
+                                    of living</th>
+                                <th scope="col">Kuala Lumpur,<br />
+                                    Malaysia</th>
+                                <th scope="col">Cost of living —
+                                    <br />
+                                    Family of 4/month
+                                </th>
+                                <th scope="col">Cost of living —<br />
+                                    Family of 4/month</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="text-center table-bordered cost-para">
+
+                                <td class="text-center">Kuala Lumpur </td>
+                                <td>461.08 USD</td>
+                                <td>3,279.87 USD</td>
+                                <td>2,443.10 USD</td>
+
+                            </tr>
+                            <tr class="text-center table-bordered cost-para">
+
+                                <td>Penang </td>
+                                <td>461.08 USD</td>
+                                <td>3,279.87 USD</td>
+                                <td>2,443.10 USD</td>
+
+                            </tr>
+                            <tr class="text-center table-bordered cost-para">
+
+                                <td>Johor Bahru</td>
+                                <td>461.08 USD</td>
+                                <td>3,279.87 USD</td>
+                                <td>2,443.10 USD</td>
+
+                            </tr>
+                            <tr class="text-center table-bordered cost-para">
+
+                                <td>Malaysia — Average </td>
+                                <td>461.08 USD</td>
+                                <td>3,279.87 USD</td>
+                                <td>2,443.10 USD</td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- living standard finish-->
+    <!-- summary -->
+    <section style="background-color: #202020;margin-top: 10px; padding: 50px 50px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                    <h1 class="compared mb-2"> Malaysia cost of living compared to the Country A,
+                        Country B & Country C.</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div>
+
+                        <div class="cost-line">
+                            <h3 class="text-center text-white bg-dark py-3 rounded mb-0 compare-head"> Comparing cost of
+                                living</h3>
+
+                        </div>
+
+                        <table class="table table-bordered rounded table-dark mb-5 cost-hero"
+                            style="border-radius: 18px;">
+
+                            <thead>
+                                <tr class="text-center discription-cost">
+                                    <th scope="col">Basic cost<br />
+                                        of living</th>
+                                    <th scope="col">Kuala Lumpur,<br />
+                                        Malaysia</th>
+                                    <th scope="col">State,<br />
+                                        Country A
+                                    </th>
+                                    <th scope="col">State,<br />
+                                        Country B</th>
+                                    <th scope="col">
+                                        State,<br />
+                                        Country C</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="text-center cost-para">
+
+                                    <td class="text-center">1 bedroom flat in city center
+                                        (monthly rent) </td>
+                                    <td>461.08 USD</td>
+                                    <td>3,279.87 USD</td>
+                                    <td>2,443.10 USD</td>
+                                    <td>1,308.82 USD</td>
+                                </tr>
+                                <tr class="text-center cost-para">
+
+                                    <td>1 bedroom flat in city center
+                                        (monthly rent) </td>
+                                    <td>461.08 USD</td>
+                                    <td>3,279.87 USD</td>
+                                    <td>2,443.10 USD</td>
+                                    <td>1,308.82 USD</td>
+                                </tr>
+                                <tr class="text-center cost-para">
+
+                                    <td>1 bedroom flat in city center
+                                        (monthly rent) </td>
+                                    <td>461.08 USD</td>
+                                    <td>3,279.87 USD</td>
+                                    <td>2,443.10 USD</td>
+                                    <td>1,308.82 USD</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-hero">
+                    <h1 class="summary-header">Summary lorem ipsum dolor sit amet</h1>
+                    <p class="summary-para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                        sit amet.
+                        <br />
+                        <br />
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                        sit amet.
+                        <br /><br />
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et. Lorem ipsum dolor
+                        sit amet, consetetur sadipscing elitr,.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 summary-hero">
+                    <img style="width: 100%;object-fit:contain" src="./images/bold.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================footer============================== -->
+    <footer class="mt-5 ">
+        <div class="container-fluid mt-5 pb-3 pl-xl-5 pl-lg-4 pl-3 pr-xl-5 pr-lg-4 pr-3 ">
+            <div class="row no-gutters ">
+                <div class="col-xl-6 col-lg-3 col-md-12 pt-1 ">
+                    <h4>You recently viewed</h4>
+                </div>
+                <div class="col-xl-6 col-lg-9 col-md-12 ">
+                    <div class="row no-gutters ">
+                        <div class="col-xl-7 col-lg-6 col-md-12 pr-lg-2 ">
+                            <form action=" ">
+                                <input type="text " placeholder="Your email address ">
+                                <button>SUBSCRIBE</button>
+                            </form>
+                        </div>
+                        <div class="col-xl-5 col-lg-6 col-md-12 text-lg-right text-center foot-btn mt-lg-0 mt-md-3 ">
+                            <a href="#! " class="contact mr-1 ">
+                                CONTACT US
+                            </a>
+                            <a href="#! " class="enroll ">
+                                ENROLL NOW
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3 ">
+                    <div class="box ">
+                        <img src="./images/b1.png" alt=" ">
+                        <div class="box-hero ">
+                            <h6 class="pt-1 ">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 ">Bachelor of Arts (Hons) in Tourism Management</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3 ">
+                    <div class="box ">
+                        <img src="./images/b2.png" alt=" ">
+                        <div class="box-hero ">
+                            <h6 class="pt-1 ">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 ">Bachelor of Business (Hons) in Accounting</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3 ">
+                    <div class="box ">
+                        <img src="./images/b3.png" alt=" ">
+                        <div class="box-hero">
+                            <h6 class="pt-1 ">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1  ">Bachelor of Business (Hons) in International Business</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3 ">
+                    <div class="box ">
+                        <img src="./images/b4.png" alt=" ">
+                        <div class="box-hero ">
+                            <h6 class="pt-1 ">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1  ">Bachelor of Business (Hons) in Marketing</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3 ">
+                    <div class="box ">
+                        <img src="./images/b5.png" alt=" ">
+                        <div class="box-hero ">
+                            <h6 class="pt-1 ">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1  ">Diploma in Business Management</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-3 pr-lg-3 pr-md-2 pr-sm-2 ">
+                    <div class="box ">
+                        <img src="./images/b6.png" alt=" ">
+                        <div class="box-hero  ">
+                            <h6 class="pt-1 ">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1   ">Bachelor of Business (Hons) in Accounting</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 ">
+                    <ul class="cen-ul mt-5 ">
+                        <li class="pr-4 "><a class="active " href="#! ">CYBERJAYA</a></li>
+                        <li class="pr-4 "><a href="#! ">CYBERJAYA</a></li>
+                        <li class="pr-4 "><a href="#! ">KUCHING</a></li>
+                        <li class="pr-4 "><a href="#! ">UGANDA</a></li>
+                        <li class="pr-4 "><a href="#! ">NAMIBIA</a></li>
+                        <li class="pr-4 "><a href="#! ">GABORONE</a></li>
+                        <li class="pr-4 "><a href="#! ">MASERU</a></li>
+                        <li class="pr-4 "><a href="#! ">MBABANE</a></li>
+                        <li class="pr-4 "><a href="#! ">PHNOM PENH</a></li>
+                        <li class="pr-4 "><a href="#! ">FREETOWN</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-12 text-center mt-5 ">
+                    <img src="./images/logo.png" alt=" ">
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-5 text-lg-left text-center ">
+                    <h6>© 2022 Limkokwing University of Creative Technology. All Rights Reserved.</h6>
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-2 text-lg-right text-center ">
+                    <ul class="last-ul ">
+                        <li>
+                            <a href="#! ">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#! ">Prvacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Finish-->
+</body>
+
+</html>

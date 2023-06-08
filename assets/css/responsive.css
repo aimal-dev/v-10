@@ -1,0 +1,3711 @@
+     /*1700 */
+     
+     @media only screen and (min-width: 2000px) {
+         .main .box {
+             height: 98.7% !important;
+         }
+         footer form button {
+             width: 200px;
+         }
+         .flip-card {
+             padding: 0 0 180px;
+         }
+         .fit .explore-f .box-2 .img-height:hover {
+             width: 110%;
+         }
+         .fit .explore-f .box-4 .img-height:hover {
+             width: 110%;
+         }
+         .fit .str-5 .img-height {
+             margin-top: 100px;
+         }
+         .phd .entry-p .box-3 .d-5:hover {
+             width: 62%;
+         }
+         .phd .entry-p .box-3 .d-4 {
+             width: 55%;
+         }
+         .phd .entry-p .box-3 .d-3 {
+             width: 62%;
+         }
+         .phd .entry-p .box-3 .d-3:hover {
+             width: 82%;
+         }
+         .phd .entry-p .box-3 .d-2 {
+             width: 68%;
+         }
+         .phd .entry-p .box-3 .d-2 p {
+             width: 23%;
+         }
+         .phd .entry-p .box-3 .d-2:hover {
+             width: 78%;
+         }
+         .phd .entry-p .box-3 .d-1 {
+             width: 74%;
+         }
+         .phd .entry-p .box-3 .d-1:hover {
+             width: 81%;
+         }
+         .phd .entry-p .box-3 .d-1 p {
+             width: 18%;
+         }
+     }
+     
+     @media only screen and (min-width: 1880px) {
+         .main .box {
+             height: 98.5%;
+         }
+         .phd .entry-p .box-2 .img-height img {
+             object-position: 0%;
+         }
+         .phd .entry-p .box-2 .last-height:hover {
+             height: 900px;
+         }
+     }
+     
+     @media only screen and (min-width: 1700px) {
+         .heritage .box-1 .img {
+             height: 65%;
+         }
+         footer .box {
+             height: 290px;
+         }
+         footer .box .img-height {
+             height: 170px;
+         }
+     }
+     /* 1620 */
+     
+     @media screen and (max-width:1620px) {
+         .first-part .box-2 .card .content-card .small-p {
+             line-height: 15px;
+         }
+     }
+     /* 1500 */
+     
+     @media only screen and (max-width: 1500px) {
+         .alliance .box {
+             padding: 100px 90px 200px;
+         }
+         .partner .box {
+             padding: 75px;
+         }
+         .first-part .box-2 .c-h .img-card {
+             height: 180px;
+             overflow: hidden;
+         }
+         .adm .box {
+             padding: 60px;
+         }
+         .dark .tech .box {
+             padding: 90px;
+         }
+     }
+     /* 1480 */
+     
+     @media only screen and (max-width: 1480px) {
+         footer .cen-ul {
+             flex-direction: column;
+         }
+         .slider-2 .content-box {
+             padding: 60px;
+         }
+         .slider-3 .content-box {
+             padding: 60px;
+         }
+         .alumni .box .card .img-card {
+             height: 190px;
+             overflow: hidden;
+         }
+         .dark .tech .box {
+             padding: 55px;
+         }
+         .dark .tech-4 .box {
+             padding: 80px;
+             padding-top: 190px;
+         }
+         .dark .creative-2 .box-2 .sub-box .blue {
+             width: 70%;
+         }
+         .dark .creative-3 .box-2 {
+             padding: 40px;
+             padding-top: 0;
+         }
+         .transparent-2 .com .box .dark {
+             width: 200px;
+         }
+         .transparent-2 .com .box .blue {
+             width: 200px;
+         }
+     }
+     
+     @media only screen and (max-width: 1455px) {
+         footer .cen-ul {
+             padding-left: 0;
+             display: block;
+         }
+         footer .cen-ul li {
+             display: inline-block;
+         }
+     }
+     
+     @media only screen and (max-width: 1450.5px) {
+         .transparent-2 .com-4 .box {
+             padding: 0 50px;
+         }
+         .alliance .box {
+             padding: 100px 60px 200px;
+         }
+         .partner .box {
+             padding: 50px;
+         }
+         .transparent .discover-6 .cards .img {
+             height: 180px;
+             overflow: hidden;
+         }
+         .global .box {
+             padding: 50px;
+             padding-top: 100px;
+         }
+         .exp-1 .box .box-2 {
+             padding: 80px 0px 0 80px;
+         }
+         .mal .main-box {
+             padding: 60px;
+         }
+     }
+     
+     @media only screen and (max-width: 1441.5px) {
+         .navbar select {
+             width: 210px !important;
+         }
+     }
+     
+     @media only screen and (max-width: 1399.5px) {
+         .phd .entry-p .box-3 .d-1:hover {
+             width: 67%;
+         }
+         .phd .limkok .box-1 {
+             padding: 0 50px;
+         }
+         .phd .limkok .img-height {
+             padding: 0 50px 0 0;
+         }
+     }
+     
+     @media only screen and (max-width: 1373.5px) {
+         .navbar select {
+             width: 150px !important;
+         }
+     }
+     /* 1300 */
+     
+     @media only screen and (max-width: 1328px) {
+         .transparent-2 .d-com7 .main-box .box {
+             height: 100%;
+             padding: 20px 50px;
+         }
+         .navbar select {
+             width: 130px !important;
+         }
+         .alliance-2 .box-2 {
+             padding: 35px 60px;
+         }
+         .career .box {
+             padding: 50px 30px;
+         }
+         .career .box-2 {
+             height: 350px;
+         }
+         .career .box-2 .sub-box-1 {
+             padding: 40px;
+         }
+         .career .box-3 {
+             padding: 35px;
+         }
+     }
+     
+     @media only screen and (max-width: 1300.5px) {
+         .phd .doctor .box {
+             padding: 0;
+         }
+         .dark .creative-3 .box-3 .black {
+             width: 75%;
+         }
+         .transparent-2 .d-com2 a {
+             width: 28%;
+         }
+         .partner .box-2 {
+             padding: 30px;
+         }
+         .partner .box {
+             padding: 40px;
+         }
+         .search input {
+             width: 140px !important
+         }
+         .main .box {
+             padding: 0 80px;
+         }
+         .slider-3 .content-box .black {
+             width: 50%;
+         }
+         .alumni .box .card .img-card {
+             height: 180px;
+             overflow: hidden;
+         }
+         .first-part .box-2 .c-h .img-card {
+             height: 180px;
+             overflow: hidden;
+         }
+         .dark .tech .box {
+             padding: 50px;
+         }
+         .dark .tech .box h1 {
+             font-size: 56px;
+         }
+         .dark .creative-4 .box {
+             padding: 70px;
+         }
+         .transparent .discover-3 .box {
+             padding: 55px;
+         }
+         .transparent .discover-6 .cards .img {
+             height: 160px;
+             overflow: hidden;
+         }
+         .heritage .swiper-slide {
+             height: auto !important;
+         }
+     }
+     
+     @media only screen and (max-width: 1284px) {
+         .fon-programe .getting .img-height {
+             padding: 100px 100px 50px;
+         }
+         .exp-com .box-2 .sub-box:hover .content-box {
+             margin-top: -130px;
+         }
+         .transparent-2 .d-com4 .owl-stage .owl-item.active {
+             width: 1000% !important;
+         }
+         .white-page .faculty .box-4 {
+             height: 200px;
+         }
+         .alliance .box {
+             padding: 100px 30px 200px;
+         }
+         .dark .tech .box {
+             padding: 40px;
+         }
+         .transparent .discover .box {
+             padding: 50px;
+         }
+         .transparent .discover .box h1 {
+             font-size: 2.7rem;
+         }
+         .transparent .discover-2 .cards .img {
+             height: 160px;
+         }
+         .exp-1 .box .box-2 {
+             padding: 80px 0px 0 60px;
+         }
+         .awards .box-3 .box-1:hover .content {
+             margin-top: -225px;
+         }
+         .alliance-4 .main-box {
+             padding: 40px;
+         }
+         .alliance-4 .main-box .box {
+             padding: 80px;
+         }
+         .fit .f-i .box h1 {
+             font-size: 2.3rem;
+         }
+     }
+     /* 1250 */
+     
+     @media only screen and (max-width: 1250px) {
+         .fit .entry-req .box .last-p {
+             padding: 15px 100px;
+         }
+         .fon-programe .in-order .box-5 {
+             padding: 50px 20px 20px;
+         }
+         .fon-programe .in-order .box {
+             padding: 100px 10px;
+         }
+         .phd .entry-p {
+             padding: 50px 35px 30px 50px;
+         }
+         .updates-1 .box {
+             padding: 0 40px;
+         }
+         .transparent-2 .d-com4 .owl-stage .owl-item.active {
+             width: 150% !important;
+         }
+         .transparent-2 .d-com3 .respon-div .div-last {
+             padding: 50px 15px;
+             margin-right: 20px;
+         }
+         .alliance-3 .main-box {
+             padding: 50px;
+         }
+         .search input {
+             width: 129px !important
+         }
+         .course .box .sub-box-2 .xd-card .content {
+             height: 190px;
+         }
+         .dark .tech .box {
+             padding: 30px;
+         }
+         .career .box {
+             padding: 50px 20px;
+         }
+         .slider-2 .content-box {
+             padding: 40px;
+         }
+         .slider-3 .content-box {
+             padding: 40px;
+         }
+         .course .box .sub-box {
+             padding: 35px;
+         }
+     }
+     
+     @media only screen and (max-width: 1211.5px) {
+         .navbar select {
+             width: 110px !important;
+         }
+         footer .box h5 {
+             color: #bebebe;
+             font-size: 0.86rem;
+         }
+     }
+     /* 1200 */
+     
+     @media only screen and (max-width: 1200.5px) {
+         .fit .explore-f .box-1 {
+             height: 250px;
+         }
+         .fit .entry-req {
+             padding: 100px 30px 80px;
+         }
+         .fon-programe nav .navbar-brand {
+             margin-left: -1rem;
+         }
+         .phd .doctor {
+             padding: 50px 30px;
+         }
+         .phd .doctor .box {
+             padding: 0;
+         }
+         .phd .limkok .box-1 {
+             padding: 0 30px;
+         }
+         .phd .limkok .img-height {
+             padding: 0 30px 0 0;
+         }
+         .transparent .discover-7 .box-2 .sub-box-2 .yellow {
+             width: 100%;
+         }
+         .transparent .discover-7 .box-2 .sub-box-2 .white {
+             width: 100%;
+             margin-top: 10px;
+         }
+         .transparent .discover .box-3 {
+             margin: 0 25px;
+         }
+         .transparent-2 .d-com7 .main-box .box {
+             padding: 35px;
+         }
+         .transparent-2 .com-slider-1 .box .sub-box {
+             padding: 0 25px;
+         }
+         .mal-sec-1 .box-2 {
+             padding: 30px 5px 40px 10px
+         }
+         .mal-sec-1 .head-box {
+             padding: 20px 20px 0;
+         }
+         .mal-sec-1 .box-1 {
+             padding: 20px;
+         }
+         .mal .main-box {
+             padding: 40px;
+         }
+         .exp-1 .box .box-2 {
+             padding: 60px 0px 0 50px;
+         }
+         .exp-2 .main-box .content-box {
+             padding: 30px;
+         }
+         .exp-2 .main-box .bg-box {
+             height: 350px;
+             padding: 0 30px;
+         }
+         .exp-2 .box {
+             padding: 50px 20px;
+         }
+         .career .box-2 .sub-box-1 {
+             padding: 30px;
+         }
+         .career .box-3 {
+             padding: 7px 20px 20px;
+         }
+         .alliance-2 .box-4 .img {
+             height: auto;
+         }
+         .alliance-2 .box-4 {
+             height: 400px;
+         }
+         .alliance-2 .box-2 {
+             padding: 20px 35px;
+         }
+         .white-page .faculty .box .sub-box {
+             padding: 100px;
+             padding-bottom: 60px;
+         }
+         .white-page .faculty .box h1 {
+             font-size: 40px;
+         }
+         .white-page .faculty .box-2 h2 {
+             margin-top: -30px
+         }
+         .white-page .faculty-2 .box .sub-2 {
+             padding-top: 75px;
+         }
+         .white-page .faculty-2 .box .sub-1 {
+             padding-top: 90px;
+         }
+         .dark .tech-2 {
+             padding-top: 40px;
+             height: 737px;
+         }
+         .dark .tech-2 .box {
+             padding: 150px 100px 100px 100px;
+         }
+         .dark .tech-4 .box {
+             padding: 80px;
+             padding-top: 136px;
+         }
+         .dark .tech-5 .slider .cards .content {
+             padding: 20px;
+         }
+         .dark .tech-5 .box {
+             padding: 90px;
+         }
+         .dark .creative .box {
+             padding: 30px;
+         }
+         .dark .creative .box-2 {
+             padding: 35px;
+         }
+         .dark .creative .box h1 {
+             font-size: 42px;
+         }
+         .dark .creative-2 .box {
+             padding: 50px;
+         }
+         .dark .creative-2 .box-2 {
+             padding: 25px;
+         }
+         .dark .creative-3 .box {
+             padding: 40px;
+         }
+         .transparent .discover .img-w {
+             padding: 40px;
+             padding-top: 0;
+         }
+         .transparent .discover .sub-box {
+             padding: 40px;
+             padding-top: 20;
+         }
+         .transparent .discover-2 .cards .img {
+             height: 140px;
+         }
+         .transparent .discover-3 {
+             padding: 10px 50px;
+         }
+         .transparent .discover-4 {
+             padding: 50px;
+         }
+         .transparent .discover-5 {
+             padding: 50px;
+         }
+         .transparent-2 .com .box {
+             padding: 25px;
+             padding-top: 50px;
+         }
+         .transparent-2 .com-2 .box-2 {
+             height: 100%;
+             padding: 90px 10px;
+             padding-bottom: 0;
+         }
+         .transparent-2 .com-3 .box {
+             padding: 70px;
+         }
+         .transparent-2 .com-5 .box {
+             padding: 60px 50px 0 50px;
+         }
+         .global-2 .box-4 .swiper-slide .sub-box {
+             padding: 20px;
+             width: 70%;
+         }
+         .heritage .box-1 .sub-box {
+             padding: 40px;
+         }
+         .heritage .box-2 {
+             padding: 0 40px;
+         }
+         .awards .box-2 .sub-box {
+             padding: 15px 15px;
+         }
+         .awards .box {
+             padding: 30px;
+         }
+         .awards .box-3 {
+             padding: 45px;
+         }
+         .slider-2 .box-4 .swiper-slide .sub-box {
+             padding: 20px;
+             width: 70%;
+         }
+         .slider-3 .box-4 .swiper-slide .sub-box {
+             padding: 20px;
+             width: 70%;
+         }
+     }
+     
+     @media only screen and (max-width: 1200px) {
+         footer .box {
+             height: auto;
+         }
+         .first-part .box {
+             padding: 50px;
+         }
+         .first-part .box-2 {
+             padding: 30px;
+         }
+         .first-part .box-2 .card .content-card {
+             height: 100px;
+         }
+         .first-part .box-2 .card .card-height {
+             height: 315px !important;
+         }
+         .department .box {
+             padding: 50px;
+         }
+         .intern-ser .right-bar .cover-pic {
+             padding-top: 70px;
+         }
+         .first-part .box-2 .card {
+             height: 430px;
+         }
+         /* .first-part .box-2 .card .content-card .small-p {
+             line-height: 15px;
+         } */
+         .adm .box-2 h5 {
+             font-size: 19.5px;
+         }
+         .adm2 .box {
+             padding: 70px;
+         }
+         .adm-form .box {
+             padding: 70px;
+         }
+         .transparent .discover-2 {
+             padding: 50px 100px;
+         }
+     }
+     /* 1199 */
+     
+     @media only screen and (max-width: 1199.5px) {
+         .updates-1 {
+             margin-top: 80px;
+         }
+         .fon-programe .mob-mode li a:hover {
+             color: black !important;
+         }
+         .fit .mob-mode li a:hover {
+             color: black !important;
+         }
+         .fit .f-i {
+             margin-top: 105px;
+         }
+         .fon-programe .bri-industry {
+             margin-top: 80px;
+         }
+         .white-page .faculty {
+             margin-top: 30px;
+         }
+         .phd .limkok {
+             margin-top: 95px;
+         }
+         .transparent .discover {
+             margin-top: 80px;
+         }
+         .dark .creative {
+             margin-top: 100px;
+         }
+         .transparent-2 .com {
+             padding: 0px 10px;
+         }
+         .exp-com {
+             margin-top: 80px;
+         }
+         .exp-2 {
+             margin-top: 80px;
+         }
+         .exp-1 {
+             margin-top: 85px;
+         }
+         .career {
+             margin-top: 85px;
+         }
+         .alliance-3 {
+             margin-top: 80px;
+         }
+         .alliance-4 {
+             margin-top: 80px;
+         }
+         .partner {
+             margin-top: 80px;
+         }
+         .adm {
+             margin-top: 80px;
+         }
+         .intern-ser {
+             margin-top: 90px;
+         }
+         .financial {
+             margin-top: 90px;
+         }
+         .first-part {
+             margin-top: 85px;
+         }
+         .awards {
+             margin-top: 85px;
+         }
+         .heritage {
+             margin-top: 80px;
+         }
+         .global {
+             margin-top: 80px;
+         }
+         .course {
+             margin-top: 105px;
+         }
+         .adm2 {
+             margin-top: 90px;
+         }
+         .fon-programe #inputCampus {
+             background: transparent !important;
+             color: #7c7c7c !important;
+         }
+         .fon-programe #inputState {
+             background: transparent !important;
+             color: #7c7c7c !important;
+         }
+         .fit #inputState {
+             background: transparent !important;
+             color: #7c7c7c !important;
+         }
+         .form-inline {
+             margin-left: 0;
+             text-align: left;
+             width: auto;
+             position: absolute;
+             left: 205px;
+             top: 20px;
+         }
+         .fit nav .navbar-brand {
+             margin-left: -1rem;
+         }
+         .navbar-collapse {
+             padding: 5px;
+         }
+         .fon-programe nav #inputState {
+             margin: 0 !important;
+             width: auto !important;
+             background-color: transparent !important;
+             color: #7c7c7c !important
+         }
+         .phd nav .navbar-brand {
+             margin-left: -1rem;
+         }
+         .alumni .box {
+             padding: 40px;
+         }
+         .updates-1 .box {
+             padding: 0 25px;
+         }
+         .navbar select {
+             width: 100% !important;
+             margin: 0 !important;
+         }
+         nav .search {
+             width: 100%;
+             margin-top: 10px;
+         }
+         .search input {
+             width: 100% !important;
+         }
+         .white-page .program .box {
+             padding: 50px;
+         }
+         .nav-dd ul li .nav-link2 {
+             padding-top: 10px !important;
+             padding-bottom: 10px !important;
+         }
+         .honor .box {
+             padding: 60px;
+         }
+         .honor-2 .box {
+             padding: 60px;
+         }
+         .awards .box-3 .box-1:hover .content {
+             margin-top: -158px;
+         }
+     }
+     
+     @media only screen and (max-width: 1199px) {
+         .exp-com .box-2 .sub-box:hover .content-box {
+             margin-top: -160px;
+         }
+         .dark .creative-7 .black {
+             width: 35%;
+         }
+         .dark .creative-7 .blue {
+             width: 35%;
+         }
+         .transparent-2 .d-com7 .swiper-slide {
+             height: 510px;
+         }
+         .white-page .faculty .box-4 {
+             height: 150px;
+         }
+         .alliance-3 .main-box .box {
+             padding: 0 60px;
+         }
+         .mal .main-box .box .img {
+             height: 250px;
+         }
+         .main .box .intake {
+             width: 55%;
+         }
+         .slider-3 .content-box .blue {
+             width: 45%;
+         }
+         .slider-2 .carousel-item {
+             background-position: right;
+         }
+         nav ul li button {
+             width: 23% !important;
+         }
+         nav .search {
+             margin: auto;
+             width: 95%;
+             margin-top: 20px;
+         }
+         nav .form-inline select {
+             width: 100% !important;
+             margin: auto;
+             margin-top: 20px;
+         }
+         .course .box .sub-box-2 {
+             padding: 100px;
+             padding-top: 30px;
+         }
+         .intern-ser .left-bar {
+             padding: 30px;
+             padding-top: 50px;
+         }
+         .intern-ser .right-bar .content-1 {
+             padding: 40px;
+             padding-top: 90px;
+         }
+         .alumni .box .card .img-card {
+             height: 160px;
+             overflow: hidden;
+         }
+         .first-part .box-2 .c-h:hover .content-card {
+             margin-top: -30px;
+             height: 166px;
+         }
+         .first-part .box-2 .c-h .content-card a {
+             padding-top: 100px;
+         }
+         .dark .creative-4 .box {
+             padding: 40px;
+         }
+         .dark .creative-3 .box-3 {
+             padding: 40px;
+         }
+         .transparent .discover-6 .cards .content {
+             padding: 10px;
+             text-align: center;
+         }
+         .transparent .discover-6 .cards .img {
+             height: 140px;
+             overflow: hidden;
+         }
+     }
+     
+     @media only screen and (max-width: 1177px) {
+         .fit .entry-req .box .sub-box {
+             padding: 20px 15px;
+         }
+         .phd .entry-p .box-3 .d-1:hover {
+             width: 65%;
+         }
+         .phd .entry-p .box-3 .d-2:hover {
+             width: 67%;
+         }
+         .phd .entry-p .box-3 .d-3:hover {
+             width: 75%;
+         }
+         .transparent .discover-7 .img-w {
+             padding: 20px 30px 0;
+         }
+         .transparent .discover-7 .box-2 {
+             margin: 0 25px;
+             color: #fff;
+         }
+         .exp-com .box {
+             padding: 50px 30px;
+         }
+         .dark .creative-3 .box-3 .blue {
+             margin-right: 0;
+             width: 100%;
+             display: block;
+         }
+         .dark .creative-3 .box-3 .sub-box-2 {
+             padding: 40px;
+         }
+         .dark .creative-3 .box-3 .black {
+             width: 100%;
+             display: block;
+         }
+         .transparent-2 .d-com3 .respon-div {
+             height: 80vh;
+         }
+         .transparent-2 .com-4 .box .black {
+             width: 60%;
+         }
+         .transparent-2 .com-4 .box h1 {
+             font-size: 2.2rem;
+         }
+         .alliance .box {
+             padding: 60px 30px 120px;
+         }
+         .alliance .box h1 {
+             font-size: 2.7rem;
+         }
+         .global .box {
+             padding: 25px;
+             padding-top: 100px;
+         }
+         .global .box-2 .sub-box {
+             padding: 100px 20px 50px 20px;
+         }
+         .alliance-4 .main-box .box {
+             padding: 0 50px;
+         }
+         footer .box .img-height {
+             height: 200px;
+         }
+         .phd .entry-p {
+             padding: 31px 10px 30px 20px;
+         }
+     }
+     
+     @media only screen and (max-width: 1099.5px) {
+         .fit .str .img-height {
+             padding: 0 10px;
+         }
+         .flexible .box-2 .sub-box-1 {
+             padding: 50px;
+             color: #000;
+         }
+         .cover .cover-box-black {
+             padding: 62px;
+         }
+         .dark .creative-3 .box-3 {
+             padding: 20px;
+         }
+         .alliance .box {
+             padding: 60px 20px 100px;
+         }
+         .partner .box {
+             padding: 50px 20px;
+         }
+         .intern-ser .left-bar {
+             padding: 25px;
+         }
+         .intern-ser .right-bar .content-1 {
+             padding: 30px;
+             padding-top: 60px;
+         }
+         .adm2 .box {
+             padding: 50px;
+         }
+         .adm-form .box {
+             padding: 50px;
+         }
+         .white-page .faculty-2 .box .sub-1 {
+             padding: 20px;
+             padding-top: 120px;
+         }
+         .white-page .faculty-2 .box .sub-2 {
+             padding: 20px;
+             padding-top: 90px;
+         }
+         .transparent .discover-2 .cards .content {
+             padding: 20px;
+         }
+         .transparent .discover-4 .box {
+             padding: 10px 30px 10px 30px;
+         }
+         .transparent-2 .com-2 {
+             padding: 0 30px;
+             margin-top: -1px;
+         }
+         .com-4 .box h1 {
+             font-size: 2rem;
+         }
+         .transparent-2 .com-4 .slider .swiper-slide .box-2 .sub-box {
+             top: 265px;
+         }
+         .transparent-2 .com-5 .box {
+             padding: 30px 20px 0 20px;
+         }
+     }
+     /* 1099 */
+     
+     @media only screen and (max-width: 1099px) {
+         .fit .f-i .img-height .img-absolute {
+             width: 80%;
+         }
+         .fit .f-i .img-height {
+             padding: 0 10px;
+         }
+         .fit .f-i .box {
+             padding: 0 10px;
+         }
+         .transparent .discover-7 .box {
+             padding: 50px;
+         }
+         .exp-com .box-2 {
+             padding: 0 30px 30px;
+         }
+         .exp-com .box-2 .sub-box .content-box {
+             padding: 20px 10px;
+         }
+         .career .box h2 {
+             font-size: 1.6rem;
+         }
+         .career .box-2 .sub-box-1 h1 {
+             font-size: 2.5rem;
+         }
+         .career .box-2 .sub-box-1 {
+             padding: 50px 30px 30px;
+         }
+         .main .box .intake {
+             width: 100%;
+         }
+         .main .box .login {
+             width: 100%;
+         }
+         .slider-3 .content-box .blue {
+             width: 100%;
+         }
+         .slider-3 .content-box .black {
+             width: 100%;
+         }
+         .slider-3 .content-box input {
+             width: 90%;
+         }
+         .dark .tech .box h1 {
+             font-size: 46px;
+         }
+         .dark .tech-4 .box {
+             padding: 60px;
+             padding-top: 120px;
+         }
+         .dark .creative-2 .box-2 {
+             padding: 20px;
+             margin: 25px;
+         }
+         .dark .creative-3 .box-2 {
+             padding: 20px;
+         }
+         .transparent .discover-3 .box {
+             padding: 40px;
+         }
+         .transparent-2 .com .box {
+             padding: 20px;
+             padding-top: 50px;
+         }
+         .global .box {
+             padding: 15px;
+             padding-top: 100px;
+         }
+         .global .box-2 .sub-box {
+             padding: 100px 15px 15px 15px;
+         }
+         .global-2 .box-2 {
+             padding: 40px;
+         }
+         .global-2 .box-2 h1 {
+             font-size: 2rem;
+         }
+         .transparent .discover-7 .img-w {
+             padding: 20px 25px 0;
+         }
+         .transparent .discover-7 .box-2 {
+             margin: 0 23px;
+             color: #fff;
+         }
+         .transparent .discover-7 .box-2 .yellow {
+             width: 100%;
+         }
+         .transparent .discover-7 .box-2 .white {
+             width: 100%;
+         }
+         .transparent .discover-video {
+             margin: 50px 28px;
+             font-family: "Rubik" !important;
+         }
+         .transparent .discover-3 {
+             padding: 10px 25px;
+         }
+         .transparent .discover-8 {
+             margin: 50px 35px;
+         }
+         .transparent .discover-5 {
+             padding: 25px;
+         }
+         .transparent .discover-6 {
+             padding: 50px 20px;
+         }
+         .transparent .discover-6 .cards .img {
+             height: 200px;
+             overflow: hidden;
+         }
+         .fon-programe .getting .img-height {
+             padding: 100px 40px 50px 50px;
+         }
+         .fon-programe .getting .img-height .img-absolute {
+             width: 80%;
+             height: 77%;
+             left: 5px;
+         }
+         .fon-programe .in-order .mcqs {
+             padding: 0px 10px;
+         }
+     }
+     /* 1024 */
+     
+     @media only screen and (max-width: 1024px) {
+         .transparent .discover-3 {
+             padding: 10px 35px;
+         }
+         .transparent-2 .d-com5 .box {
+             padding: 60px 40px;
+         }
+         .transparent-2 .d-com4 .box {
+             padding: 0 35px;
+         }
+         .white-page .faculty .box-4 {
+             padding: 50px 30px 0;
+             height: auto;
+         }
+         .white-page .faculty .box-3 {
+             padding: 30px;
+         }
+         .alliance-4 .main-box {
+             padding: 20px;
+         }
+         .main .box {
+             padding: 30px 50px 0;
+         }
+         .cover .cover-box-black {
+             padding: 50px;
+         }
+         .cover .cover-box-white {
+             padding: 50px;
+         }
+         .honor .box {
+             padding: 40px;
+         }
+         .honor-2 .box {
+             padding: 40px;
+         }
+         .track .box .sub-box {
+             padding: 50px;
+         }
+         .first-part .box {
+             padding: 30px;
+             padding-top: 50px;
+         }
+         .first-part .box-2 {
+             padding: 30px;
+         }
+         .first-part .box-2 .card .content-card {
+             padding: 10px;
+             padding-top: 20px;
+         }
+         .first-part .box-2 .card .card-height {
+             height: 300px !important;
+         }
+         .intern-ser .right-bar .cover-pic {
+             padding: 30px;
+             padding-top: 60px;
+         }
+         .department .box {
+             padding: 30px;
+             padding-top: 50px;
+         }
+         .department .blue {
+             width: 100%;
+         }
+         .department .dark {
+             width: 100%;
+             margin-top: 20px;
+         }
+         .adm .box {
+             padding: 44px;
+         }
+         .updates .card-1 .card-img {
+             height: auto;
+         }
+         .updates .card-1 {
+             height: 290px;
+         }
+         .dark .creative-4 .box {
+             padding: 20px;
+         }
+         .transparent .discover-2 {
+             padding: 50px 40px;
+         }
+         .transparent .discover-3 {
+             padding: 10px 20px;
+         }
+         .transparent .discover-4 {
+             padding: 22px;
+         }
+         .transparent-2 .com-2 .box-2 {
+             padding: 100px 10px;
+             padding-bottom: 0;
+         }
+         .transparent-2 .com-2 .box-2 h1 {
+             font-size: 2.3rem;
+         }
+         .heritage .box-2 {
+             padding: 60px 30px;
+         }
+         .awards .box-2 {
+             padding: 10px;
+         }
+         .awards .box {
+             padding: 35px 20px;
+         }
+         .awards .box-3 {
+             padding: 35px;
+         }
+     }
+     /* 991.5 */
+     
+     @media only screen and (max-width: 991.5px) {
+         .carousel-2 .nav-pills {
+             flex-wrap: nowrap;
+             overflow-x: scroll;
+         }
+         .transparent-2 .d-com4 .nav-pills .nav-link {
+             width: 115%;
+         }
+         .form-inline {
+             margin-left: 0;
+             text-align: left;
+             width: auto;
+             position: absolute;
+             left: 205px;
+             top: 20px;
+         }
+         .fon-programe #inputCampus {
+             background: transparent !important;
+             color: #7c7c7c !important;
+         }
+         .fon-programe #inputState {
+             background: transparent !important;
+             color: #7c7c7c !important;
+         }
+         .fit #inputState {
+             background: transparent !important;
+             color: #7c7c7c !important;
+         }
+         .dropdown-item:focus,
+         .dropdown-item:hover {
+             text-decoration: none;
+             background-color: transparent !important;
+         }
+         .mob-mode {
+             height: 50vh;
+             position: relative;
+             overflow: scroll;
+         }
+         .phd .entry-p .box-2 .post-rel-1 .img-height-1 {
+             pointer-events: none;
+         }
+         .phd .entry-p .box-2 .post-rel-2 .img-height-2 {
+             pointer-events: none;
+         }
+         .phd .entry-p .box-2 .post-rel-3 .img-height-3 {
+             pointer-events: none;
+         }
+         .fit .str {
+             padding: 50px 10px;
+         }
+         .fit .f-i .img-height img:hover {
+             transform: scale(1, 1);
+             -webkit-transform: scale(1, 1);
+             -moz-transform: scale(1, 1);
+             -ms-transform: scale(1, 1);
+             -o-transform: scale(1, 1);
+         }
+         .fit .f-i .box h1 {
+             color: white;
+         }
+         .fit .f-i .img-height .img-absolute {
+             background-color: #2C2C2C;
+         }
+         .fit .f-i {
+             padding: 50px 0;
+         }
+         .fit .f-i .box {
+             margin-top: 100px;
+         }
+         .fon-programe .in-order .box-3 {
+             margin: 100px 0 50px;
+         }
+         .fon-programe .in-order .box-3 .content-box {
+             width: 600px;
+         }
+         .fon-programe .in-order .box-2 .tag {
+             width: 50%;
+         }
+         .fon-programe .in-order .box {
+             padding: 50px 5px 0px;
+         }
+         .fon-programe .explore .box {
+             padding: 50px 0;
+         }
+         .fon-programe .getting .img-height .img-absolute {
+             width: 80%;
+             height: 87%;
+             left: 0;
+             top: 0;
+             transform: translate(30px, 135px);
+         }
+         .fon-programe .getting .img-height {
+             padding: 50px 100px;
+         }
+         .fon-programe .hi .box .dark {
+             width: 20%;
+         }
+         .fon-programe .hi .box {
+             padding: 100px 0;
+         }
+         .fon-programe nav #inputState {
+             margin: 0 !important;
+             width: auto !important;
+         }
+         .fon-programe nav .navbar-brand {
+             margin: 0rem;
+         }
+         .phd .entry-p .box-2 .img-height {
+             margin-top: 50px;
+         }
+         .phd .entry-p .box-2 .img-height .img-absolute {
+             top: -7px;
+             right: -12px;
+             height: 88%;
+             width: 85%;
+         }
+         .phd .entry-p .box-2 .img-height img {
+             transform: scale(1);
+             -webkit-transform: scale(1);
+             -moz-transform: scale(1);
+             -ms-transform: scale(1);
+             -o-transform: scale(1);
+         }
+         .phd .entry-p .box-2-1 {
+             justify-content: center;
+         }
+         .phd .entry-p {
+             padding: 30px 30px 10px;
+         }
+         .phd .limkok .box-1 h1 {
+             font-size: 2.9rem;
+         }
+         .phd .doctor {
+             padding: 30px 10px;
+             margin-top: 20px;
+         }
+         .phd .doctor .box .dark {
+             width: 100%;
+         }
+         .phd .doctor .box .blue {
+             width: 100%;
+         }
+         .phd .limkok .box-1 .blue {
+             width: 100%;
+         }
+         .phd .limkok .box-1 .dark {
+             width: 100%;
+             margin-top: 10px;
+         }
+         .phd .limkok .box-1 {
+             padding: 0 15px 30px;
+         }
+         .phd .limkok .img-height {
+             padding: 0;
+         }
+         .phd nav .navbar-brand {
+             margin-left: 0;
+         }
+         #main-bar {
+             height: auto;
+         }
+         #main-bar .navbar-nav {
+             flex-direction: row !important;
+             overflow-x: scroll;
+         }
+         #main-bar .navbar-nav li {
+             margin-right: 25px;
+             margin-left: 10px;
+         }
+         #main-bar .navbar-nav li a {
+             white-space: nowrap;
+         }
+         #main-bar ul li .active {
+             padding: 5px 10px;
+         }
+         .awards .box-3 {
+             margin-top: 10px;
+             border-radius: 10px;
+             -webkit-border-radius: 10px;
+             -moz-border-radius: 10px;
+             -ms-border-radius: 10px;
+             -o-border-radius: 10px;
+         }
+         .honor .box a {
+             margin-left: 0 !important;
+         }
+         .mySwiper2 .swiper-slide {
+             height: 100% !important;
+         }
+         .white-page .faculty .mySwiper2 .swiper-slide {
+             height: 100%;
+         }
+         .search-page .box .sub-search-bar input {
+             width: 50%;
+         }
+         .search-page .box {
+             padding: 20px;
+         }
+         .flexible .box-3 {
+             padding: 10px 25px;
+         }
+         .flexible .box-2 .sub-box-1 {
+             padding: 30px;
+             color: #000;
+         }
+         .updates-1 .img-height img {
+             border-radius: 10px;
+         }
+         .update-2 {
+             padding: 50px 30px;
+         }
+         .updates-1 .box {
+             border-radius: 10px;
+             margin-top: 15px;
+             padding: 30px;
+         }
+         .transparent .discover-8 .yellow {
+             width: 100%;
+         }
+         .transparent .discover-8 .white {
+             width: 100%;
+         }
+         .transparent .discover-3 .box .yellow {
+             width: 100%;
+         }
+         .transparent .discover-3 .box .white {
+             width: 100%;
+             margin-top: 10px;
+         }
+         .exp-com .box-2 .sub-box:hover .content-box {
+             margin-top: -100px;
+         }
+         .transparent-2 .d-com6 .box .black {
+             width: 40%;
+         }
+         .transparent-2 .d-com6 .box .blue {
+             width: 40%;
+         }
+         .career .box {
+             border-radius: 10px;
+         }
+         .career .box-2 {
+             border-top-left-radius: 10px;
+             border-top-right-radius: 10px;
+         }
+         .career .box-3 {
+             border-bottom-left-radius: 10px;
+             border-bottom-right-radius: 10px;
+         }
+         .alliance-4 .main-box .box .lit-blue {
+             margin: 0 auto;
+         }
+         .adm .box {
+             border-radius: 10px;
+         }
+         .adm2 .box {
+             border-radius: 10px;
+         }
+         .adm-form .box {
+             border-radius: 10px;
+             margin-top: 20px;
+         }
+         .adm .img-height {
+             border-radius: 10px;
+             margin-top: 20px;
+         }
+         .transparent-2 .d-com3 .respon-div {
+             height: 70vh;
+         }
+         .transparent-2 .d-com3 .box {
+             padding: 50px 30px;
+         }
+         .transparent-2 .d-com .d-box {
+             margin-top: 100px;
+             padding-top: 0;
+         }
+         .white-page .program .box {
+             padding: 50px 25px;
+         }
+         .alliance-4 .main-box .box {
+             padding: 50px;
+         }
+         .alliance-3 .main-box .box {
+             padding: 50px;
+         }
+         .mal-sec-1 .box-2 {
+             padding: 20px;
+         }
+         .exp-1 .box {
+             height: 50vh;
+             border-radius: 10px;
+             margin-bottom: 15px;
+         }
+         .exp-1 .box .box-2 {
+             padding: 40px;
+         }
+         .exp-2 .main-box .table-Nav .nav-link {
+             width: 100%;
+         }
+         .cover .img-box {
+             height: auto;
+         }
+         .cover .img-box-2 {
+             height: auto;
+         }
+         .career .box h2 {
+             font-size: 2.6rem;
+         }
+         .alliance-2 .box-4 {
+             height: 450px;
+         }
+         .alliance-2 {
+             background: #000;
+             padding: 40px 30px;
+         }
+         .alliance-2 .box-2 {
+             padding: 40px 5px;
+         }
+         .alliance .box {
+             padding: 100px 20px 100px;
+         }
+         .awards .box-3 .box-1 .img {
+             height: auto;
+         }
+         nav ul li {
+             margin-right: 0px;
+         }
+         .foundation .box {
+             padding: 40px;
+         }
+         .intern-ser .right-bar {
+             border-radius: 10px;
+         }
+         .intern-ser .right-bar .cover-pic {
+             padding-top: 122px;
+             margin-top: 20px;
+             border-top-left-radius: 10px;
+             border-top-right-radius: 10px;
+         }
+         .first-part .box-2 .card .img-card {
+             height: 180px;
+         }
+         .first-part .box-2 .c-h {
+             height: auto !important;
+         }
+         .first-part .box-2 .c-h:hover .content-card {
+             margin-top: -30px;
+             height: 150px;
+         }
+         .first-part .box-2 .c-h .content-card a {
+             padding-top: 100px;
+         }
+         .adm .box .box-2 a {
+             padding-top: 25px;
+         }
+         .adm .box .box-2:hover {
+             height: 220px;
+             margin-bottom: 20px;
+             transition: all 0.4s ease-in-out;
+         }
+         nav ul li .button {
+             width: 100% !important;
+             margin: auto;
+         }
+         nav .form-inline select {
+             margin-right: 0 !important;
+         }
+         nav .search {
+             width: 100%;
+         }
+         nav .search input {
+             width: 100% !important;
+         }
+         .white-page #main-bar {
+             height: auto !important;
+             padding-top: 10px !important;
+         }
+         .white-page .faculty .box {
+             border-right: 0px;
+         }
+         .white-page .faculty .box-2 h2 {
+             font-size: 3rem;
+         }
+         .white-page .faculty-2 .box .sub-1 {
+             padding-top: 30px;
+         }
+         .white-page .faculty-2 .box .sub-2 {
+             padding-top: 0px;
+         }
+         .white-page .navbar-brand {
+             background: rgb(0, 0, 0);
+             display: inline-block;
+             padding: 1rem 1rem 0.5rem;
+             font-size: 1.25rem;
+             line-height: inherit;
+             white-space: nowrap;
+             margin-left: 0rem;
+         }
+         .dark .tech-2 {
+             height: 580px;
+         }
+         .dark .tech-2 .box {
+             padding: 100px 70px 70px 70px;
+         }
+         .dark .tech-2 img {
+             padding-top: 62px;
+         }
+         .dark .tech-4 .box {
+             padding: 60px;
+         }
+         .dark .creative .box {
+             padding: 80px;
+             border-radius: 10px;
+             -webkit-border-radius: 10px;
+             -moz-border-radius: 10px;
+             -ms-border-radius: 10px;
+             -o-border-radius: 10px;
+         }
+         .dark .creative .box-2 {
+             padding: 80px;
+             border-radius: 10px;
+             -webkit-border-radius: 10px;
+             -moz-border-radius: 10px;
+             -ms-border-radius: 10px;
+             -o-border-radius: 10px;
+             margin-top: 10px;
+         }
+         .transparent .discover .box h1 {
+             font-size: 2.2rem;
+         }
+         .transparent .discover .sub-box {
+             padding: 100px;
+             padding-top: 20px;
+         }
+         .transparent .discover-2 .cards .img {
+             height: 190px;
+         }
+         .transparent .discover-3 .box {
+             padding: 30px;
+         }
+         .transparent .discover-4 .box {
+             padding: 10px 0px 10px 20px;
+         }
+         .transparent .discover-6 .cards .img {
+             height: 240px;
+             overflow: hidden;
+         }
+         .transparent-2 nav,
+         #main-bar {
+             background: rgba(0, 0, 0, 0.9) !important;
+         }
+         .transparent-2 .com {
+             margin-top: 0px;
+         }
+         .transparent-2 .navbar-brand {
+             background: rgb(0, 0, 0);
+             display: inline-block;
+             padding: 1rem 1rem 0.5rem;
+             font-size: 1.25rem;
+             line-height: inherit;
+             white-space: nowrap;
+             margin-left: 0rem;
+         }
+         .transparent-2 #main-bar {
+             top: 74px !important;
+         }
+         .transparent-2 .com-3 .box {
+             height: auto;
+         }
+         .transparent-2 .com-3 {
+             height: 40vh;
+         }
+         .transparent-2 .com-4 .box {
+             padding: 70px 40px;
+         }
+         .transparent-2 .com-5 .box h2 {
+             font-size: 1.5rem;
+         }
+         .global .box {
+             padding: 50px;
+         }
+         .global .box-2 .sub-box {
+             padding: 100px 50px 30px 50px;
+         }
+         .global-2 .box-4 .swiper-slide .sub-box {
+             padding: 15px;
+             width: 80%;
+         }
+         .slider-2 .box-4 .swiper-slide .sub-box {
+             padding: 15px;
+             width: 80%;
+         }
+         .slider-3 .box-4 .swiper-slide .sub-box {
+             padding: 15px;
+             width: 80%;
+         }
+         .awards .box-3 .box-1 {
+             border-radius: 10px;
+             height: auto;
+         }
+         .awards .box {
+             border-radius: 10px;
+         }
+         .awards .box-2 {
+             border-radius: 10px;
+         }
+         .intern-ser .left-bar {
+             border-radius: 10px;
+         }
+         .mal .main-box {
+             border-radius: 10px;
+             margin-top: 20px;
+         }
+         .exp-2 .box {
+             border-radius: 10px;
+         }
+         .exp-2 .main-box {
+             border-radius: 10px;
+         }
+         .exp-2 .main-box .bg-box {
+             border-top-left-radius: 10px;
+             border-top-right-radius: 10px;
+         }
+     }
+     /* 991 */
+     
+     @media only screen and (max-width: 991px) {
+         .sect-five .row {
+             padding: 50px 0 !important;
+         }
+         .faculty-hero .box-3 {
+             padding: 50px 10px !important;
+         }
+         .faculty-slider .expanded-main .box-hero {
+             padding: 0 10px !important;
+         }
+         .financial .box {
+             border-radius: 10px;
+         }
+         .main .box {
+             padding: 60px 50px;
+             border-radius: 10px;
+         }
+         .player video {
+             border-radius: 15px;
+         }
+         .main .box .login {
+             width: 100%;
+         }
+         .main .box .intake {
+             width: 100%;
+             margin-top: 15px;
+         }
+         .slider-2 .box-4 .swiper-slide {
+             height: 600px !important;
+             border-radius: 10px;
+         }
+         .slider-3 .box-4 .swiper-slide {
+             height: 600px !important;
+             border-radius: 10px;
+         }
+         .slider-2 .content-box {
+             height: auto;
+             border-radius: 10px;
+         }
+         .slider-3 .content-box {
+             height: auto;
+             border-radius: 10px;
+         }
+         .slider-3 .box-4 {
+             margin-top: 20px;
+         }
+         .full {
+             height: auto;
+         }
+         .track .box .img-box {
+             height: auto;
+         }
+         .track .box .img-box-2 {
+             height: auto;
+         }
+         .honor .box {
+             border-radius: 10px;
+         }
+         .honor-2 .box {
+             border-radius: 10px;
+         }
+         .honor .box img {
+             width: 70%;
+         }
+         footer {
+             margin-top: 50px;
+         }
+         footer .cen-ul {
+             display: block;
+         }
+         footer .cen-ul li {
+             padding-top: 5px;
+             list-style: none;
+         }
+         .slider-3 .content-box .blue {
+             width: 45%;
+         }
+         .slider-3 .content-box .black {
+             width: 48%;
+         }
+         .first-part .box-2 .card .card-height {
+             height: 400px !important;
+         }
+         /* .first-part .box-2 .card .content-card .small-p {
+             line-height: 15px !important;
+         } */
+         .first-part .box-2 .swiper-2 {
+             height: 1000px;
+         }
+         .global-2 .box-2 {
+             padding: 30px;
+         }
+     }
+     /* 900 */
+     
+     @media only screen and (max-width: 900px) {
+         .fon-programe .bri-industry .sub-box .content {
+             padding: 30px 10px;
+         }
+         .phd .doctor .box h1 {
+             font-size: 2rem;
+             color: #fff;
+         }
+         .transparent .discover .box {
+             padding: 25px;
+         }
+         .transparent .discover .box-3 {
+             margin: 0;
+         }
+         .transparent .discover .img-w {
+             padding: 10px;
+             padding-top: 0;
+         }
+         .transparent .discover-7 .box {
+             padding: 15px;
+         }
+         .transparent .discover-7 .img-w {
+             padding: 20px 10px 0;
+         }
+         .dark .creative-7 .blue {
+             width: 50%;
+         }
+         .dark .creative-7 .black {
+             width: 50%;
+         }
+         .dark .creative-4 {
+             background-color: #0e0e0e;
+             padding: 40px 25px;
+         }
+         .transparent-2 .d-com4 .tab-content {
+             height: 280px;
+             padding: 0 50px;
+         }
+         .transparent-2 .com-4 .box .black {
+             width: 60%;
+         }
+         .first-part .box-2 .card .card-height {
+             height: auto !important;
+         }
+         .first-part .box-2 .swiper-2 {
+             height: 1000px;
+         }
+         .course .box .sub-box-2 {
+             padding: 70px;
+             padding-top: 30px;
+         }
+         .course .box .sub-box {
+             padding: 70px;
+         }
+         .alumni .box .card .img-card {
+             height: 160px;
+             overflow: hidden;
+         }
+         .updates .card-1 {
+             height: 260px;
+         }
+         .updates .card-1 .card-content {
+             padding: 10px;
+         }
+         .dark .tech-2 .box {
+             padding: 80px 20px 20px 20px;
+         }
+         .dark .tech-2 {
+             height: 535px;
+         }
+         .dark .tech-5 .box {
+             padding: 40px;
+         }
+         .dark .creative-2 .box {
+             padding: 60px 50px 50px;
+         }
+         .dark .creative-2 .box-2 {
+             padding: 10px;
+             margin: 10px;
+         }
+         .dark .creative-3 .box-3 .sub-box-2 {
+             padding: 30px;
+         }
+         .transparent .discover .box h1 {
+             font-size: 2rem;
+         }
+         .transparent .discover .box-2 {
+             padding: 20px 0;
+         }
+         .transparent .discover-3 {
+             padding: 10px 0px;
+         }
+         .transparent .discover-3 .box .yellow {
+             width: 100%;
+         }
+         .transparent .discover-3 .box .white {
+             width: 100%;
+             margin-top: 15px;
+         }
+         .transparent-2 .com .box .blue {
+             width: 100%;
+         }
+         .transparent-2 .com .box .dark {
+             width: 100%;
+             margin-top: 10px;
+         }
+         .transparent-2 .com .box h1 {
+             font-size: 48px;
+         }
+         .transparent-2 .com-4 .slider .swiper-slide .box-2 .sub-box {
+             top: 231px;
+         }
+         .global-2 .box-2 {
+             padding: 20px;
+         }
+         .global-2 .box-3 {
+             padding: 40px;
+         }
+         .global-2 .box-3 img {
+             border-radius: 10px;
+             -webkit-border-radius: 10px;
+             -moz-border-radius: 10px;
+             -ms-border-radius: 10px;
+             -o-border-radius: 10px;
+         }
+         .full .box {
+             padding: 10px;
+         }
+     }
+     /* 800 */
+     
+     @media only screen and (max-width: 800px) {
+         .white-page .faculty {
+             margin-top: 50px;
+         }
+         .transparent-2 .com-4 .box {
+             padding: 30px 20px;
+         }
+         .mal .main-box .box .img {
+             height: 300px;
+         }
+         .alliance-2 .box-4 {
+             height: 415px;
+         }
+         .dark .tech-2 .box h2 {
+             color: #fff;
+             font-size: 27px;
+         }
+         .dark .tech-2 {
+             height: 490px;
+         }
+         .dark .tech-4 .box {
+             padding: 35px;
+         }
+         .dark .creative-3 .box {
+             padding: 20px;
+         }
+         .transparent .discover .box {
+             padding: 40px;
+         }
+         .transparent .discover .sub-box {
+             padding: 60px;
+             padding-top: 20px;
+         }
+         .transparent .discover-6 {
+             padding: 50px;
+         }
+         .transparent .discover-6 .cards .img {
+             height: 200px;
+             overflow: hidden;
+         }
+         .full .box {
+             padding: 20px;
+         }
+     }
+     /* 768 */
+     
+     @media only screen and (max-width: 768px) {
+         footer {
+             padding: 0.5rem 5px;
+         }
+         .fon-programe .ready-start {
+             padding: 30px 20px;
+         }
+         .adm-3 .box .nav-link {
+             width: 93%;
+         }
+         .adm-3 .box {
+             padding: 50px 0px 0px;
+         }
+         .adm-3 .box .nav-pills {
+             flex-direction: column !important;
+         }
+         .adm-3 .tab-content {
+             padding: 0 20px 50px;
+         }
+         footer .foot-btn .contact {
+             width: 47%;
+             margin-top: 20px;
+         }
+         footer .foot-btn .enroll {
+             width: 47%;
+             margin-top: 20px;
+         }
+         nav ul li button {
+             width: 50% !important;
+         }
+         .alumni .box {
+             padding: 30px;
+         }
+         .first-part .box-2 .card .img-card {
+             height: 240px;
+         }
+         .alumni .box .card .img-card {
+             height: 180px;
+             overflow: hidden;
+         }
+         .updates .box {
+             padding: 20px;
+             padding-top: 50px;
+         }
+         .white-page .faculty .box .sub-box {
+             padding: 30px;
+             padding-bottom: 50px;
+         }
+         .white-page .faculty-2 .box .sub-2 {
+             padding: 20px;
+         }
+         .white-page .faculty-2 .box .sub-1 {
+             padding: 20px;
+             padding-top: 50px;
+         }
+         .white-page .faculty .box-2 h2 {
+             font-size: 2rem;
+         }
+         .white-page .faculty-2 {
+             height: 60vh;
+         }
+         .white-page .program .box {
+             padding: 40px;
+         }
+         .dark .tech-2 .box {
+             padding-top: 49px;
+         }
+         .transparent .discover .box h1 {
+             font-size: 3rem;
+         }
+         .transparent .discover .box-2 {
+             padding: 0px 40px 0 40px;
+         }
+         .transparent .discover-2 .cards .img {
+             height: 200px;
+         }
+         .transparent .discover-3 {
+             padding: 0px 15px;
+         }
+         .transparent .discover-4 .box {
+             padding: 10px;
+             padding-top: 30px;
+         }
+         .transparent .discover-4 {
+             padding: 13px;
+         }
+         .global .box {
+             padding: 40px;
+         }
+     }
+     
+     @media only screen and (max-width: 767.5px) {
+         .honor .box img {
+             width: 100%;
+         }
+         .slider .swiper-slide img {
+             display: block;
+             width: 100%;
+             padding: 0 10px;
+             border-radius: 20px;
+         }
+         .dark .creative-7 .black {
+             width: 100%;
+         }
+         .dark .creative-7 .blue {
+             width: 100%;
+         }
+         .dark .creative-7 .player-1 {
+             height: 600px;
+             background: black;
+         }
+         .transparent .discover-video .yellow {
+             width: 100%;
+         }
+         .transparent .discover-video .white {
+             width: 100%;
+         }
+         .transparent .discover-8 {
+             margin: 50px 25px;
+         }
+         .transparent .discover-7 .box-2 .white {
+             margin-top: 20px;
+         }
+         .sect-four-alumni table {
+             width: 100% !important;
+         }
+         .dark .creative-4 .prev-btn {
+             left: 15px;
+             right: auto !important;
+         }
+         .dark .creative-4 .next-btn {
+             top: 0;
+         }
+         .transparent-2 .d-com3 .respon-div .div-3 {
+             width: 100%;
+             pointer-events: none;
+         }
+         .transparent-2 .d-com3 .box {
+             padding: 50px 0px;
+         }
+         .transparent-2 .com .box {
+             height: auto;
+         }
+         .transparent-2 .d-com .d-box {
+             margin-top: 0px;
+             padding-top: 0;
+             height: auto;
+             padding: 50px 30px;
+         }
+         .transparent-2 .com-4 .style-box {
+             margin-top: 20px;
+         }
+         .mal .main-box .box .content {
+             height: auto;
+             margin-top: 0;
+             background: #fff;
+             color: #000;
+             transition: all 0.8s ease-in-out;
+             z-index: 2;
+             padding-bottom: 0;
+             border-bottom-left-radius: 10px;
+             border-bottom-right-radius: 10px;
+             opacity: 0.9;
+             position: absolute;
+             bottom: 0;
+         }
+         .exp-2 .main-box .bg-box {
+             padding: 30px;
+             height: auto;
+         }
+         .exp-2 .main-box .content-box .dark-box {
+             margin: 20px 0;
+         }
+         .mal-sec-1 .box-1 .sub-box {
+             height: auto;
+         }
+         .career .tab-content {
+             border-radius: 10px;
+             -webkit-border-radius: 10px;
+             -moz-border-radius: 10px;
+             -ms-border-radius: 10px;
+             -o-border-radius: 10px;
+         }
+         .partner .slide-box a {
+             color: white;
+         }
+         .intern-ser .right-bar .content-1 h4 {
+             margin-top: 20px;
+         }
+         .intern-ser img {
+             height: auto;
+         }
+         .intern-ser .right-bar .content-1 .img-height img {
+             margin-top: 20px;
+         }
+         .department .img-height img {
+             border-radius: 10px;
+             -webkit-border-radius: 10px;
+             -moz-border-radius: 10px;
+             -ms-border-radius: 10px;
+             -o-border-radius: 10px;
+         }
+         .right-bar .content-1 .block-list_ {
+             padding-top: 20px;
+         }
+         .intern-ser .right-bar .content-1 .bg-dark {
+             margin-top: 20px;
+         }
+         .more .box .blue {
+             width: 100%;
+         }
+         .heritage .swiper {
+             border-radius: 10px;
+             -webkit-border-radius: 10px;
+             -moz-border-radius: 10px;
+             -ms-border-radius: 10px;
+             -o-border-radius: 10px;
+         }
+         .heritage .box-1 {
+             border-radius: 10px !important;
+             -webkit-border-radius: 10px !important;
+             -moz-border-radius: 10px !important;
+             -ms-border-radius: 10px !important;
+             -o-border-radius: 10px !important;
+         }
+         .heritage .box-1 .img {
+             border-top-right-radius: 10px;
+             border-top-left-radius: 10px;
+         }
+         .heritage .box-1 .img img {
+             border-top-right-radius: 10px;
+             border-top-left-radius: 10px;
+         }
+         .mob-mode {
+             height: 80vh;
+             position: relative;
+             overflow: scroll;
+         }
+         .navbar-nav .dropdown-menu {
+             padding-left: 20px !important;
+         }
+         .transparent .discover-6 .cards {
+             height: 750px;
+         }
+         .brands .slider {
+             background-color: transparent;
+         }
+         .dark #main-bar {
+             z-index: 999999999999999999999;
+         }
+         .first-part .box-2 .card {
+             height: auto;
+         }
+         .alliance-3 .main-box .box .lit-blue {
+             width: 100%;
+         }
+         .alliance-3 .main-box .box .white {
+             width: 100%;
+         }
+         .cover-box-white {
+             margin-top: 20px;
+         }
+         .fit .str-5 .img-height .bg-img {
+             height: 300px !important;
+             pointer-events: none;
+             right: -8px;
+             width: 100%;
+         }
+         .fit .str-5 .img-height .img-absolute {
+             bottom: 0 !important;
+         }
+         .fit .str .img-height {
+             height: 300px;
+             pointer-events: none;
+         }
+         .fit .str .img-height .bg-img {
+             height: 300px;
+             pointer-events: none;
+             right: -8px;
+             width: 100%;
+         }
+         .fit .str .img-height .img-absolute {
+             left: -5px;
+         }
+         footer .last-ul {
+             justify-content: center;
+             flex-wrap: wrap;
+             padding-left: 0;
+         }
+         footer .last-ul li {
+             padding-top: 3px;
+         }
+         .phd .entry-p .box-2 .post-rel-3 .img-height-3 {
+             pointer-events: none;
+         }
+         .phd .entry-p .box-2 .post-rel-3 .img-height-4 {
+             pointer-events: none;
+         }
+         .phd .entry-p .box-2 .post-rel-3 .img-height-5 {
+             pointer-events: none;
+         }
+         .phd .entry-p .box-2 .post-rel-2 .img-height-2 {
+             pointer-events: none;
+         }
+         .phd .entry-p .box-2 .post-rel-1 .img-height-1 {
+             pointer-events: none;
+         }
+         .fit .str-2 .bg-img {
+             pointer-events: none;
+         }
+         .fit .f-i .img-height {
+             pointer-events: none;
+         }
+         .fit .str-2 .img-absolute {
+             left: -10px;
+         }
+         .fit .str-2 .bg-img {
+             height: 300px;
+             width: 100%;
+             right: -8px;
+         }
+         .fit .str-2 .img-height {
+             height: 300px
+         }
+         .first-part .box-2 .c-h:hover .content-card {
+             margin-top: 0;
+             height: auto;
+         } 
+         .first-part .box-2 .c-h .content-card {
+             margin-top: 0;
+             background: #fff;
+             color: #0d0c0c;
+         }
+         .first-part .box-2 .c-h a h6 {
+             color: black;
+         }
+         .first-part .box-2 .c-h .content-card span {
+             padding-top: 0;
+             color: black;
+         }
+         .first-part .box-2 .c-h {
+             height: auto !important;
+             /* pointer-events: none; */
+         }
+         .cover .cover-box-white {
+             height: auto;
+         }
+         .cover .cover-box-black {
+             height: auto;
+         }
+         .track .box {
+             height: auto;
+         }
+         .phd .entry-p .box .sub-box ul {
+             padding-left: 0px;
+         }
+         .phd .entry-p .box .sub-box ul li {
+             list-style: none;
+         }
+         .phd .entry-p .box-2 {
+             padding: 0;
+         }
+         .phd .limkok .bg-img .box-1 {
+             padding: 200px 30px 50px;
+         }
+         .phd .entry-p {
+             padding: 100px 20px;
+         }
+         .phd .entry-p .box ul li::marker {
+             color: white;
+             font-size: 1.5rem;
+         }
+         .phd .entry-p .box .sub-box h5 {
+             color: #000;
+             font-weight: 700;
+         }
+         .phd .entry-p ul {
+             padding-left: 20px;
+         }
+         .phd-2 .entry-p .box-2 .last-height:hover {
+             pointer-events: none;
+             height: auto !important;
+         }
+         .phd .fa-angle-right {
+             color: white;
+         }
+         .transparent .mob-mode {
+             background-color: #000;
+         }
+         .transparent-2 .mob-mode {
+             background-color: #000;
+         }
+         .fit nav .form-inline select {
+             background-color: transparent !important;
+             color: #7c7c7c !important;
+         }
+         .fit .fa-sliders-h {
+             color: #000;
+         }
+         .navbar-brand {
+             margin: 0;
+         }
+         nav .form-inline select {
+             width: auto !important;
+         }
+         .fit .ready-start .box .dark {
+             width: 70%;
+         }
+         .fit .ready-start {
+             padding: 30px;
+         }
+         .fit .str .img-height img:hover {
+             transform: scale(1, 1);
+             -webkit-transform: scale(1, 1);
+             -moz-transform: scale(1, 1);
+             -ms-transform: scale(1, 1);
+             -o-transform: scale(1, 1);
+         }
+         .fit nav .navbar-brand {
+             margin-left: 0rem;
+         }
+         .fit .explore-f {
+             padding: 30px 10px;
+         }
+         .fit .explore-f .head {
+             line-height: 0;
+         }
+         .fit .our-al {
+             padding: 50px 0;
+         }
+         .fit .entry-req {
+             padding: 50px 15px;
+         }
+         .fit .entry-req .box .last-p {
+             padding: 15px 0px;
+         }
+         .fit .f-i .box .dark {
+             width: 100%;
+             height: 65px;
+             padding-top: 17px;
+         }
+         .fit .f-i {
+             padding: 50px 10px;
+         }
+         .fit .f-i .img-height .img-absolute {
+             transform: translate(1%, 11%);
+             -webkit-transform: translate(1%, 11%);
+             -moz-transform: translate(1%, 11%);
+             -ms-transform: translate(1%, 11%);
+             -o-transform: translate(1%, 11%);
+         }
+         .fon-programe .in-order .box-4 {
+             padding: 30px 0;
+         }
+         .fon-programe .in-order .box-4 .swiper {
+             padding-top: 0;
+         }
+         .fon-programe .in-order .box-4 h3 {
+             padding: 10px;
+         }
+         .fon-programe .in-order .box-4 {
+             margin: 0;
+         }
+         .in-order .box-4 .slider .swiper-slide {
+             height: auto;
+         }
+         .fon-programe .in-order .box-3 {
+             background: transparent !important;
+         }
+         .entry-p .box .sub-box ul {
+             padding-left: 0;
+         }
+         .fon-programe .in-order .draft {
+             width: 100%;
+         }
+         .fon-programe .in-order .black1 {
+             width: 100%;
+         }
+         .fon-programe .in-order .mcqs {
+             padding: 0;
+         }
+         .fon-programe .in-order .box h1 {
+             font-size: 2rem;
+         }
+         .fon-programe .getting .box .sub-box .content a {
+             display: block;
+             width: 100%;
+         }
+         .fon-programe .ready-start .box .dark {
+             width: 40%;
+         }
+         .fon-programe .brands .box h1 {
+             font-size: 2rem;
+         }
+         .fon-programe .explore .box {
+             background-size: cover;
+         }
+         .fon-programe .getting .box h2 {
+             font-size: 2rem;
+         }
+         .fon-programe .getting .box {
+             padding: 50px 0;
+         }
+         .fon-programe .getting .img-height .img-absolute {
+             transform: translate(30px, 100px);
+         }
+         .fon-programe .getting .img-height {
+             padding: 50px 70px;
+         }
+         .fon-programe .hi .box .dark {
+             width: 70%;
+         }
+         .fon-programe .hi {
+             background-size: contain;
+         }
+         .phd .ready-start {
+             padding: 0;
+         }
+         .phd .entry-p .box-2 .img-height .last-img {
+             height: auto;
+         }
+         .phd .entry-p .box .sub-box {
+             background-color: white;
+             color: #000;
+         }
+         .phd .entry-p .box-2 h2 {
+             font-size: 1.9rem;
+         }
+         .phd .entry-p .box h2 {
+             font-size: 1.9rem;
+         }
+         .phd .doctor {
+             padding: 50px 20px;
+         }
+         .phd .doctor .box h1 {
+             font-size: 1.5rem;
+             color: #fff;
+         }
+         .updates-1 .swiper-slide {
+             height: 100%;
+         }
+         footer .box .img-height {
+             height: 160px;
+         }
+         .career .box-3 .dark {
+             width: 100%;
+         }
+         .career .box-3 .blue {
+             width: 100%;
+             margin: 10px 0;
+         }
+         .transparent .discover-7 .box-2 .sub-box-2 .yellow {
+             width: 100%;
+         }
+         .transparent .discover-7 .box-2 .sub-box-2 .white {
+             width: 100%;
+             margin-top: 10px;
+         }
+         .transparent .discover-7 .box-2 {
+             margin: 0 5px
+         }
+         .transparent .discover-video .box {
+             position: relative;
+             bottom: 0;
+         }
+         .dark .creative-7 {
+             margin: 0 20px;
+         }
+         .dark .creative-7 .con-text {
+             padding: 0 20px;
+         }
+         .dark .creative-4 {
+             background-color: #0e0e0e;
+             margin: 0 35px;
+             padding: 50px 5px
+         }
+         .dark .creative-4 .swiper {
+             height: 100%;
+         }
+         .dark .creative-4 .swiper-slide {
+             height: auto !important;
+         }
+         .transparent-2 .d-com4 .tab-content {
+             padding: 30px 50px 0;
+             height: auto;
+         }
+         .transparent-2 .d-com4 .box {
+             padding: 50px 20px;
+         }
+         .transparent-2 .d-com4 .owl-stage .owl-item.active {
+             width: 1000% !important;
+         }
+         .owl-stage .owl-item {
+             width: auto !important;
+         }
+         .partner .box {
+             border-radius: 10px;
+         }
+         .partner img {
+             border-radius: 10px;
+         }
+         .department .img-height {
+             border-radius: 10px;
+             margin-top: 20px;
+         }
+         .department .box {
+             border-radius: 10px;
+         }
+         .first-part .box {
+             border-radius: 10px;
+         }
+         .first-part .box-2 {
+             border-radius: 10px;
+         }
+         .global-2 .box-1 {
+             border-radius: 10px;
+         }
+         .global-2 .box-1 img {
+             border-radius: 10px;
+         }
+         .mal .main-box {
+             padding: 30px;
+         }
+         .career .box-3 .box-4 {
+             height: 400px;
+         }
+         .alliance-2 .box-4 {
+             height: 390px;
+         }
+         .alliance .box {
+             padding: 50px 20px 50px;
+         }
+         .dark .tech-2 .box {
+             padding-top: 0px;
+         }
+         .dark .tech-2 {
+             height: auto;
+         }
+         .dark .tech-2 img {
+             padding-top: 0px;
+             width: 100%;
+             margin: 0 auto;
+         }
+         .dark .tech-5 .box {
+             padding: 20px;
+         }
+         .dark .tech-6 .box {
+             padding: 50px;
+         }
+         .dark .creative .box {
+             padding: 40px;
+         }
+         .dark .creative .box-2 {
+             padding: 40px;
+         }
+         .dark .creative {
+             padding-right: 20px;
+             padding-left: 20px;
+         }
+         .dark .creative-2 .box-2 .sub-box .blue {
+             width: 80%;
+         }
+         .dark .creative-2 {
+             margin: 0 35px;
+         }
+         .dark .creative-3 {
+             margin: 0 35px;
+             padding: 50px 0;
+         }
+         .transparent .discover .img-w {
+             padding: 40px;
+         }
+         .transparent .discover-5 {
+             padding: 20px;
+         }
+         .transparent .discover-6 {
+             padding: 15px;
+         }
+         .transparent-2 .com-4 .slider .swiper-slide .box-2 {
+             width: 100%;
+         }
+         .transparent-2 .com-4 .slider .swiper-slide .box-2 .sub-box {
+             top: 233px;
+             width: 85%;
+         }
+         .global-2 .box-2 {
+             padding: 20px;
+             border-radius: 10px;
+         }
+         .global-2 .box-4 .swiper-slide {
+             border-radius: 10px;
+         }
+         .global .box img {
+             width: 200px;
+             padding-top: 30px;
+         }
+         .global-2 .box-3 {
+             padding: 60px;
+             border-radius: 10px;
+             /* margin-top: 20px; */
+         }
+         .global-2 .box-2 .blue {
+             width: 100%;
+         }
+         .heritage .box-1 {
+             border-radius: 10px !important;
+             margin-top: 40px;
+         }
+         .heritage .box-2 {
+             border-radius: 10px !important;
+             margin-top: 10px;
+         }
+         .heritage .box-2 .blue {
+             width: 100%;
+         }
+         .heritage .box-1 .sub-box {
+             padding: 30px;
+             border-bottom-left-radius: 10px;
+             border-bottom-right-radius: 10px;
+         }
+         .foundation .box {
+             margin-top: 20px;
+             border-radius: 10px;
+         }
+         .foundation .img-box {
+             border-radius: 10px;
+         }
+         .foundation .box .blue {
+             width: 100%;
+         }
+     }
+     /* 700 */
+     
+     @media only screen and (max-width: 700px) {
+         .fon-programe .in-order .box-3 .content-box {
+             width: 100%;
+             padding: 0 10px;
+         }
+         .updates-1 .com-d-1 h1 {
+             padding: 30px 10px 0 0;
+         }
+         .dark .creative-3 .box-2 .sub-box-1 {
+             height: auto;
+         }
+         .dark .creative-3 .box-2 .sub-box-1 .img-box {
+             height: auto;
+         }
+         .dark .creative-2 .box {
+             padding: 35px;
+         }
+         .transparent-2 .d-com7 .swiper-slide {
+             height: 600px;
+         }
+         .transparent-2 .d-com2 .div {
+             padding-right: 20px;
+         }
+         .transparent .discover-2 {
+             padding: 30px 10px;
+         }
+         .transparent .discover-2 .cards .img {
+             height: auto;
+         }
+         .alliance-4 .main-box .box h1 {
+             font-size: 2.5rem;
+         }
+         .white-page .program .box {
+             padding: 30px;
+         }
+         .white-page .quote .box {
+             padding: 70px 40px;
+         }
+         .fon-programe .getting .img-height {
+             padding: 50px;
+         }
+         .fon-programe .getting .img-height .img-absolute {
+             transform: translate(10px, 95px);
+         }
+     }
+     /* 600 */
+     
+     @media only screen and (max-width: 600px) {
+         .fit .f-i {
+             margin-top: 105px;
+         }
+         .fon-programe .bri-industry {
+             margin-top: 130px;
+         }
+         .white-page .faculty {
+             margin-top: 80px;
+         }
+         .phd .limkok {
+             margin-top: 95px;
+         }
+         .transparent .discover {
+             margin-top: 80px;
+         }
+         .dark .creative {
+             margin-top: 100px;
+         }
+         .transparent-2 .com {
+             padding: 0px 10px;
+         }
+         .exp-com {
+             margin-top: 80px;
+         }
+         .exp-2 {
+             margin-top: 80px;
+         }
+         .exp-1 {
+             margin-top: 85px;
+         }
+         .career {
+             margin-top: 85px;
+         }
+         .alliance-3 {
+             margin-top: 80px;
+         }
+         .alliance-4 {
+             margin-top: 80px;
+         }
+         .partner {
+             margin-top: 80px;
+         }
+         .adm {
+             margin-top: 80px;
+         }
+         .intern-ser {
+             margin-top: 90px;
+         }
+         .financial {
+             margin-top: 90px;
+         }
+         .first-part {
+             margin-top: 85px;
+         }
+         .awards {
+             margin-top: 85px;
+         }
+         .heritage {
+             margin-top: 70px;
+         }
+         .global {
+             margin-top: 80px;
+         }
+         .track {
+             padding: 0 !important;
+             margin-top: 0px !important;
+         }
+         .full {
+             margin: 30px 17px 0 !important;
+             padding: 30px 10px;
+         }
+         .honor-2 {
+             margin-top: 25px;
+         }
+         .honor-2 .box {
+             margin-top: 15px;
+         }
+         .honor-2 .img-box {
+             border-radius: 10px;
+             -webkit-border-radius: 10px;
+             -moz-border-radius: 10px;
+             -ms-border-radius: 10px;
+             -o-border-radius: 10px;
+         }
+         .honor-2 .img-box img {
+             border-radius: 10px;
+             -webkit-border-radius: 10px;
+             -moz-border-radius: 10px;
+             -ms-border-radius: 10px;
+             -o-border-radius: 10px;
+         }
+         .honor .img-box {
+             margin: 10px 0;
+         }
+         .honor .img-box img {
+             border-radius: 10px;
+             -webkit-border-radius: 10px;
+             -moz-border-radius: 10px;
+             -ms-border-radius: 10px;
+             -o-border-radius: 10px;
+         }
+         .slider-2 {
+             padding: 0 !important;
+         }
+         .slider-3 {
+             padding: 10px 0 !important;
+         }
+         .navbar {
+             padding: 10px;
+         }
+         .fit .explore-f .box-1-1 {
+             height: 300px;
+         }
+         .fon-programe .in-order .box-2 {
+             margin: 50px 0px;
+         }
+         .fon-programe .in-order .mcqs ul li .faces li a {
+             color: #7c7c7c;
+             font-size: 2rem;
+         }
+         .fon-programe .ready-start .box .dark {
+             width: 80%;
+         }
+         .phd .ready-start .box .dark {
+             width: 50%;
+         }
+         /* .phd .entry-p {
+             padding: 10px 20px;
+         } */
+         .dark .creative-7 .player-1 {
+             height: 800px;
+             background: black;
+         }
+         .transparent-2 .d-com3 .respon-div .div-last {
+             padding: 50px 10px;
+             margin-right: 70px;
+         }
+         .transparent-2 .d-com3 .respon-div {
+             flex-direction: column;
+         }
+         .transparent-2 .d-com3 .respon-div .div-1 {
+             width: 100% !important;
+         }
+         .transparent-2 .d-com3 .respon-div .div-2 {
+             width: 100% !important;
+         }
+         .transparent-2 .d-com2 {
+             padding: 50px 10px;
+         }
+         .main .box {
+             padding: 50px;
+             height: auto;
+         }
+         .slider-2 .content-box {
+             padding: 50px;
+         }
+         .slider-3 .content-box {
+             padding: 50px;
+         }
+         .cover .cover-box-black {
+             padding: 40px;
+         }
+         .cover .cover-box-white {
+             padding: 40px;
+             margin-top: 30px;
+         }
+         .honor .box {
+             padding: 30px;
+         }
+         .honor-2 .box {
+             padding: 50px;
+         }
+         .full .box {
+             padding: 50px;
+         }
+         .track .box .sub-box {
+             padding: 40px;
+             margin-top: 20px;
+         }
+         .course .box .sub-box-2 {
+             padding: 50px;
+             padding-top: 30px;
+         }
+         .course .box .sub-box {
+             padding: 50px;
+         }
+         .adm2 .box {
+             padding: 30px;
+         }
+         .adm-form .box {
+             padding: 30px;
+         }
+         .updates .card-1 {
+             height: 240px;
+         }
+         .dark .tech .box .dark {
+             width: 55% !important;
+             padding: 10px !important;
+             text-align: center;
+         }
+         .dark .tech .box .blue {
+             width: 40% !important;
+             padding: 10px !important;
+             text-align: center;
+             white-space: inherit;
+         }
+         .transparent .discover .sub-box {
+             padding: 30px;
+             padding-top: 20px;
+         }
+         .transparent-2 .com-3 .box {
+             padding: 30px;
+         }
+         .global .box-2 .sub-box {
+             padding: 50px 25px 30px 25px;
+         }
+         .search-page .box .search-list ul li {
+             padding: 9px;
+         }
+     }
+     /* 500 */
+     
+     @media only screen and (max-width: 575.5px) {
+         .adm2 .img-height {
+             height: 300px;
+             border-radius: 10px;
+             -webkit-border-radius: 10px;
+             -moz-border-radius: 10px;
+             -ms-border-radius: 10px;
+             -o-border-radius: 10px;
+             margin-top: 20px;
+         }
+         .adm2 .img-height img {
+             border-radius: 10px;
+             -webkit-border-radius: 10px;
+             -moz-border-radius: 10px;
+             -ms-border-radius: 10px;
+             -o-border-radius: 10px;
+         }
+         .adm-form .box ul li {
+             width: 100%;
+             padding: 5px 0;
+         }
+         .adm .box .box-2 {
+             height: 160px;
+             margin-bottom: 20px;
+         }
+         .first-part .box h1 {
+             font-size: 2rem;
+         }
+         .fit .ready-start {
+             padding: 0;
+         }
+         .fit .explore-f .head h3 {
+             font-size: 1.5rem;
+         }
+         .fit .explore-f .head p {
+             font-size: 1.5rem;
+         }
+         .fon-programe .ready-start h1 {
+             font-size: 1.75rem;
+         }
+         .fon-programe .explore #global {
+             width: 200px;
+         }
+         .fon-programe .explore h1 {
+             font-size: 1.75rem;
+         }
+         .fon-programe .brands {
+             padding: 50px 10px;
+         }
+         .fon-programe .brands .box h1 {
+             font-size: 1.65rem;
+         }
+         .white-page .faculty-2 .box {
+             background: #fff;
+             height: 400px;
+             overflow: scroll;
+         }
+         .transparent .discover-7 .box-2 {
+             margin: 0 7px;
+             color: #fff;
+         }
+         .transparent .discover-4 .box h3 {
+             font-size: 18px;
+         }
+         .transparent .discover-7 .box h3 {
+             font-weight: 300;
+             font-size: 18px;
+         }
+         .transparent .discover .box-3 {
+             margin: 0 15px;
+         }
+         .dark .creative-3 .box-3 .sub-box-2 {
+             padding: 25px 20px;
+         }
+         .dark .creative-3 .box-3 {
+             padding: 15px;
+         }
+         .dark .creative-3 .box-2 .sub-box-1 {
+             height: 350px;
+         }
+         .dark .creative-3 .box-2 .sub-box-1 .img-box {
+             height: 240px;
+         }
+         .transparent-2 .d-com7 .main-box .box {
+             padding: 15px;
+         }
+         .transparent-2 .com-slider-1 {
+             background-color: #fff;
+             padding-bottom: 20px;
+         }
+         .transparent-2 .com-slider-1 .box .sub-box .divider {
+             margin-top: 20px;
+             margin-bottom: 20px;
+         }
+         .transparent-2 .com-slider-1 .swiper-slide {
+             height: auto;
+             padding: 20px 0 0;
+         }
+         .transparent-2 .com-slider-1 .swiper {
+             padding: 0;
+         }
+         .transparent-2 .com-slider-1 .box .sub-box {
+             padding: 0 5px;
+         }
+         .transparent-2 .com-4 .box .blue {
+             width: 100%;
+             display: inline-block;
+         }
+         .transparent-2 .com-4 .box .black {
+             width: 100%;
+             display: inline-block;
+             margin-top: 15px;
+         }
+         .alliance-3 .main-box .box {
+             padding: 30px;
+         }
+         .alliance-3 .main-box {
+             padding: 30px;
+         }
+         .mal .main-box {
+             padding: 60px 20px 30px;
+         }
+         .mal-sec-1 .box-2 {
+             padding: 10px;
+         }
+         .mal-sec-1 .head-box {
+             padding: 40px 12px 0;
+         }
+         .mal-sec-1 .box-1 {
+             padding: 10px;
+         }
+         .slider-2 .box-4 .swiper-slide {
+             height: 560px !important;
+         }
+         .alliance-2 .box-4 {
+             height: auto;
+         }
+         .alliance-2 .box-1 .sub-box {
+             height: 350px;
+         }
+         .alliance-2 .box-2 h1 {
+             font-size: 2.3rem;
+         }
+         .alliance .box h1 {
+             font-size: 2.66rem;
+         }
+         .updates .card-1 {
+             height: auto;
+         }
+         .dark .creative-2 .box-2 .sub-box .blue {
+             width: 70%;
+         }
+         .dark .creative-2 .box {
+             padding: 60px 0px 50px;
+         }
+         .dark .creative-2 .box h1 {
+             font-size: 30px;
+         }
+         .transparent .discover .box h1 {
+             font-size: 2.4rem;
+         }
+         .transparent .discover .box {
+             padding: 30px;
+         }
+         .transparent .discover .box-2 {
+             padding: 0 30px 0 30px;
+         }
+         .transparent .discover .img-w {
+             padding: 30px;
+         }
+         .transparent .discover-2 .cards .img {
+             height: 200px;
+             overflow: hidden;
+         }
+         .transparent .discover-6 .cards .img {
+             height: 250px;
+             overflow: hidden;
+         }
+         .transparent .discover-3 .box h1 {
+             font-size: 2rem;
+         }
+         .transparent-2 .com-3 {
+             height: 60vh;
+         }
+         transparent-2 .com-4 .slider .swiper-slide .box-2 .sub-box {
+             top: 235px;
+         }
+         .global .box h1 {
+             font-size: 1.7rem;
+         }
+         .global-2 .box-3 {
+             padding: 40px;
+         }
+         .global-2 .box-2 .blue-2 {
+             width: 100%;
+             display: block;
+         }
+         .global-2 .box-2 .dark {
+             width: 100%;
+             display: block;
+             margin-top: 10px;
+         }
+         .alliance-4 .main-box .box .lit-blue {
+             width: 100%;
+         }
+         .white-page .program .box {
+             padding: 20px 10px;
+         }
+     }
+     
+     @media only screen and (max-width: 545.5px) {
+         .fon-programe .bri-industry .box {
+             padding: 10px 0;
+         }
+         .fon-programe .bri-industry .box h1 {
+             font-size: 1.625rem;
+         }
+         .career .box-2 {
+             height: auto;
+         }
+         .search-page .box .sub-search-bar input {
+             width: 90%;
+         }
+         .search-page .box .search-list ul li {
+             padding: 5px;
+         }
+         .d-com7 .swiper-slide h2 {
+             font-size: 1.3rem;
+         }
+         .transparent-2 .d-com7 .swiper-slide {
+             height: auto;
+         }
+         .transparent-2 .d-com2 {
+             padding: 50px 0;
+         }
+         .loader-grey {
+             display: none;
+         }
+         .white-page .program .dark {
+             width: 100%;
+             display: block;
+             text-align: center;
+         }
+         .white-page .program .white {
+             width: 100%;
+             display: block;
+             text-align: center;
+         }
+         .fon-programe .getting .img-height .img-absolute {
+             height: 83%;
+         }
+     }
+     
+     @media only screen and (max-width: 500px) {
+         .phd .entry-p .box-2 .post-rel-3 {
+             height: 400px;
+         }
+         .phd .entry-p .box-2 .post-rel-3 .img-height-3 {
+             height: 350px
+         }
+         .box-parent-alumini {
+             padding: 10rem 10px 50px 10px !important;
+         }
+         .fit .f-i .box {
+             margin-top: 75px;
+         }
+         .fon-programe .in-order .box-3 {
+             margin: 50px 0;
+         }
+         .fon-programe .in-order .box-3 .content-box {
+             width: 100%;
+             padding: 0 10px;
+         }
+         .phd .entry-p .box-2 .last-height {
+             height: auto;
+             margin-top: 0px;
+             padding: 0;
+         }
+         .phd .ready-start .box .dark {
+             width: 80%;
+         }
+         .flexible .box-3 .sub-box-2 {
+             padding: 25px;
+         }
+         .update-2 {
+             padding: 30px 0px;
+             margin: 20px !important;
+         }
+         .updates-1 .box {
+             padding: 20px;
+         }
+         .transparent .discover-7 .box-2 .sub-box-2 {
+             padding: 20px;
+         }
+         .transparent .discover-video .box .sub-box {
+             padding: 20px;
+         }
+         .transparent .discover-8 .box .sub-box {
+             padding: 20px;
+         }
+         .transparent-2 .d-com6 .box .blue {
+             width: 100%;
+         }
+         .transparent-2 .d-com6 .box .black {
+             width: 100%;
+             margin-top: 15px;
+         }
+         .transparent-2 .d-com6 .box {
+             padding: 50px 0;
+         }
+         .transparent-2 .d-com4 .tab-content {
+             padding: 30px 20px 0;
+             height: auto;
+         }
+         .transparent-2 .d-com2 .box {
+             flex-direction: column;
+         }
+         .transparent-2 .d-com2 a {
+             width: 100%;
+             padding-top: 8px;
+         }
+         .main .box {
+             padding: 30px;
+             height: auto;
+         }
+         .main .box .login {
+             width: 100%;
+         }
+         .main .box .intake {
+             width: 100%;
+         }
+         .slider h2 {
+             padding-left: 10px;
+         }
+         .slider-2 .content-box {
+             padding: 20px;
+         }
+         .slider-3 .content-box {
+             padding: 20px;
+         }
+         .cover .cover-box-black {
+             padding: 20px;
+         }
+         .cover .cover-box-white {
+             padding: 20px;
+             margin-top: 30px;
+         }
+         .honor .box {
+             padding: 20px;
+             text-align: center;
+         }
+         .honor .box a {
+             width: 100%;
+         }
+         .honor-2 .box {
+             padding: 20px;
+             text-align: center;
+         }
+         .full .box {
+             padding: 20px 0;
+         }
+         .track .box .sub-box {
+             padding: 20px;
+             margin-top: 20px;
+         }
+         .slider-2 .carousel-item .box {
+             left: 19px;
+         }
+         .slider-2 .carousel-item h5 {
+             left: 21px;
+         }
+         .slider-2 .anchor-prev {
+             left: 19px;
+         }
+         .slider-2 .anchor-next {
+             left: 58px;
+         }
+         .slider-3 .carousel-item .box {
+             left: 19px;
+         }
+         .slider-3 .carousel-item h5 {
+             left: 21px;
+         }
+         .slider-3 .anchor-prev {
+             left: 19px;
+         }
+         .slider-3 .anchor-next {
+             left: 58px;
+         }
+         .slider-3 .content-box .blue {
+             width: 100%;
+         }
+         .slider-3 .content-box .black {
+             width: 100%;
+         }
+         .course .box .sub-box-2 {
+             padding: 30px;
+             padding-top: 30px;
+         }
+         .course .box .sub-box {
+             padding: 30px;
+         }
+         .financial .box {
+             padding: 30px;
+             padding-top: 70px;
+         }
+         .intern-ser .right-bar .cover-pic {
+             padding-top: 38px;
+             height: auto;
+         }
+         .intern-ser .right-bar .cover-pic h1 {
+             font-size: 45px;
+         }
+         .department .box h1 {
+             font-size: 30px;
+         }
+         .alumni .box .card .img-card {
+             height: 180px;
+             overflow: hidden;
+         }
+         .megamenu {
+             padding: 20px;
+         }
+         .white-page .faculty .box .sub-box {
+             padding: 30px;
+             padding-bottom: 100px;
+         }
+         .white-page .faculty .box-2 h2 {
+             margin-top: -10px;
+         }
+         .white-page .faculty-slider .box {
+             padding: 20px;
+             padding-top: 80px;
+         }
+         .white-page .faculty-slider h1 {
+             font-size: 35px;
+             font-weight: 300;
+         }
+         .dark .tech-6 .box {
+             padding: 10px;
+             padding-top: 50px;
+         }
+         .transparent-2 .com {
+             padding: 120px 10px;
+         }
+         .transparent-2 .com .box h1 {
+             font-size: 40px;
+         }
+         .transparent-2 .com-2 {
+             padding: 0 10px;
+             margin-top: -1px;
+         }
+         .dark .creative-7 .blue {
+             width: 100%;
+         }
+         .dark .creative-7 .black {
+             width: 100%;
+         }
+     }
+     
+     @media only screen and (max-width:450px) {
+         .fon-programe .getting .img-height {
+             padding: 40px 20px;
+         }
+         .fon-programe .getting .img-height .img-absolute {
+             transform: translate(-2%, 20%);
+         }
+         .dark .creative-4 {
+             background-color: #0e0e0e;
+             margin: 0 15px;
+             padding: 50px 5px;
+         }
+         .dark .creative-7 {
+             margin: 0 0px;
+         }
+         .transparent-2 .d-com3 .respon-div .div-last {
+             padding: 20px 10px;
+             margin-right: 70px;
+         }
+         .alliance-4 .main-box .box {
+             padding: 30px;
+         }
+         .career .box-3 .sub-box-2 .left-side {
+             padding: 0 15px;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-between;
+         }
+         .career .box-3 .sub-box-2 .simple-2 {
+             padding-left: 0;
+             list-style: none;
+             text-align: center;
+             margin: 0 auto;
+             justify-content: center !important;
+         }
+         .career .box-3 .sub-box-2 .left-side li {
+             margin-right: 0px;
+         }
+         .career .box-3 .sub-box-3 .left-side {
+             justify-content: space-between;
+         }
+         .career .box-3 .sub-box-3 .left-side li {
+             margin-right: 0px;
+         }
+         .dark .tech .box .dark {
+             width: 100% !important;
+         }
+         .dark .tech .box .blue {
+             width: 100% !important;
+         }
+         .dark .creative .box h1 {
+             font-size: 36px;
+         }
+         .dark .creative {
+             padding: 0;
+         }
+         .dark .creative-2 {
+             margin: 0 15px;
+         }
+         .dark .creative-3 {
+             margin: 0 15px;
+         }
+         .transparent .discover-5 {
+             padding: 10px;
+         }
+         .transparent-2 .com-2 .box {
+             padding: 40px 5px;
+         }
+         .transparent-2 .com-2 .box-2 {
+             padding: 40px 10px;
+             padding-bottom: 0;
+         }
+         .transparent-2 .com-2 .box-2 h1 {
+             font-size: 2rem;
+         }
+         .global .box {
+             padding: 30px;
+         }
+         .heritage .box-2 h1 {
+             font-size: 2rem;
+         }
+     }
+     
+     @media only screen and (max-width: 426.5px) {
+         .fon-programe .in-order .box-2 .tag {
+             width: 80%;
+         }
+         .alliance-2 {
+             background: #000;
+             padding: 30px 5px;
+         }
+         .white-page .faculty .box-2 h2 {
+             margin-top: -4px;
+             font-size: 25px;
+         }
+         .transparent .discover .box h1 {
+             font-size: 2.3rem;
+         }
+         .slider-2 .box-4 .swiper-slide .sub-box {
+             padding: 15px;
+             width: 100%;
+         }
+         .slider-3 .box-4 .swiper-slide .sub-box {
+             padding: 15px;
+             width: 100%;
+         }
+         .alliance-4 .main-box .box h1 {
+             font-size: 2rem;
+         }
+         .white-page .quote .box {
+             padding: 10px 0px;
+         }
+     }
+     
+     @media only screen and (max-width: 400px) {
+         .search-page .box .search-list ul li {
+             padding: 8px;
+             text-align: center;
+         }
+         .career .box h2 {
+             font-size: 2.4rem;
+         }
+         .career .box-2 .sub-box-1 h1 {
+             font-size: 2.3rem;
+         }
+         .slider-3 .content-box input {
+             width: 89%;
+         }
+         .slider-2 .carousel-item .box {
+             left: 0px;
+             width: auto;
+         }
+         .slider-2 .carousel-item h5 {
+             left: 0px;
+         }
+         .slider-2 .anchor-prev {
+             left: 0px;
+         }
+         .slider-2 .anchor-next {
+             left: 35px;
+         }
+         .slider-3 .carousel-item .box {
+             left: 0;
+             width: auto;
+         }
+         .slider-3 .carousel-item h5 {
+             left: 0;
+         }
+         .slider-3 .anchor-prev {
+             left: 0;
+         }
+         .slider-3 .anchor-next {
+             left: 35px;
+         }
+         .course .box .sub-box-2 {
+             padding: 20px;
+             padding-top: 30px;
+         }
+         .course .box .sub-box {
+             padding: 20px;
+         }
+         .more .box {
+             padding: 25px;
+         }
+         .adm-form .box {
+             padding: 15px;
+         }
+         .adm-form .box ul {
+             padding: 0;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+         }
+         .updates h1 {
+             font-size: 30px;
+         }
+         .white-page .faculty .box h1 {
+             font-size: 35px;
+         }
+         .white-page .faculty .box .sub-box {
+             padding: 50px 20px 100px 20px;
+         }
+         .white-page .faculty .box-2 h2 {
+             margin-top: 0px;
+         }
+         .white-page .faculty-slider .box {
+             padding: 10px;
+             padding-top: 80px;
+         }
+         .dark .tech-4 .box h2 {
+             font-size: 30px;
+         }
+         .transparent .discover .box h1 {
+             font-size: 1.9rem;
+         }
+         .transparent .discover-2 .box h1 {
+             font-size: 1.9rem;
+         }
+         .global .box {
+             padding: 20px;
+         }
+         .global .box h1 {
+             font-size: 1.6rem;
+         }
+         .global-2 .box-2 {
+             padding: 50px 15px;
+         }
+         .global-2 .box-2 h1 {
+             font-size: 1.7rem;
+         }
+         .alliance-3 .main-box {
+             padding: 15px;
+         }
+         .alliance-3 .main-box .box {
+             padding: 20px;
+         }
+         .alliance-4 .main-box .box {
+             padding: 40px 20px 20px;
+         }
+         .alliance-4 .main-box {
+             padding: 15px;
+         }
+         .white-page .quote {
+             padding: 0;
+         }
+         .transparent-2 .com-4 .box {
+             padding: 30px 5px;
+         }
+     }

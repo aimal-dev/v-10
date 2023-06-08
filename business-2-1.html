@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- bootstrap 4 -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+            />
+        <!-- font awsm -->
+        <script
+            defer
+            src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+            integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+            crossorigin="anonymous"></script>
+        <script
+            defer
+            src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+            integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+            crossorigin="anonymous"></script>
+        <!-- swiper js -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.css"
+            integrity="sha512-5TGRCl3hPoqtruhO+mubTuySHOfcEBvyIfiWHoCK8wDLmf6C1U73OUoNCU6ZvyT/8vfCcha1INDIo8dabDmQjw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+            />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.min.js"
+            integrity="sha512-naEQG74IcOLQ6K/B1PmhIcZ4i3YE2FXs2zm603E1Q3shbron+PmYLg44/q+xAymD/RvskZ2H8l1Qa7I5qELlrg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
+        <!-- style css -->
+        <link rel="stylesheet" href="assets/css/common.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <title>Limkokwing Global Alliance</title>
+    </head>
+
+    <body>
+        <nav
+            class="navbar nav-dd fixed-top navbar-expand-xl pl-xl-3 pl-lg-2
+            pr-xl-3
+            pr-lg-2">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="Home.html">
+                    <img src="assets/images/logo.svg" alt="" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa fa-sliders-h"></i>
+                </button>
+
+                <div
+                    class="collapse navbar-collapse text-xl-block text-center"
+                    id="navbarSupportedContent">
+                    <form class="form-inline my-2 my-lg-0">
+                        <select id="inputState" class="form-control mr-3">
+                            <option selected>CYBERJAYA</option>
+                            <option>CYBERJAYA</option>
+                        </select>
+                        <div class="search">
+                            <img src="assets/images/search.svg" alt="" />
+                            <input
+                                class="form-control mr-sm-2"
+                                type="search"
+                                placeholder="Search"
+                                aria-label="Search"
+                                />
+                        </div>
+                    </form>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link2" href="updates.html"
+                                target="_blank">
+                                UPDATES
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown megamenu-li dmenu">
+                            <a
+                                class="nav-link nav-link2"
+                                href=""
+                                id="dropdown01"
+                                data-toggle=""
+                                aria-haspopup="true"
+                                aria-expanded="false">
+                                ABOUT
+                            </a>
+                            <div
+                                class="dropdown-menu megamenu sm-menu"
+                                aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-6 mb-4">
+                                        <h1>About</h1>
+                                        <a class="dropdown-item pl-0
+                                            border-bottom mt-3"
+                                            href="about-1.html">
+                                            WHY LIMKOKWING
+                                        </a>
+                                        <a class="dropdown-item pl-0
+                                            border-bottom mt-3"
+                                            href="about-2.html">
+                                            HERITAGE
+                                        </a>
+                                        <a class="dropdown-item pl-0 mt-3"
+                                            href="about-3.html">
+                                            ACCREDIATION & AWARDS
+                                        </a>
+                                        <h3 class="mt-5">Cyberjaya Campus</h3>
+                                        <p class="pt-3">
+                                            Inovasi 1-1, Jalan Teknokarat 1/1
+                                            <br />
+                                            63000 Cyberjaya, Selangor Darul
+                                            Ehsan
+                                            <br />
+                                            Malaysia
+                                        </p>
+                                        <a
+                                            class="dropdown-item pl-0 mt-3"
+                                            href="tel:(+603) 8317 8888">
+                                            Tel (+603) 8317 8888
+                                        </a>
+                                        <a class="dropdown-item pl-0"
+                                            href="tel:(+603) 8317 8888">
+                                            Fax(+603) 8317 8888
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-6 d-lg-block
+                                        d-md-block d-none">
+                                        <div
+                                            class="img"
+                                            style="background:
+                                            url('./assets/images/finan-bg.png');"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown megamenu-li dmenu">
+                            <a
+                                class="nav-link nav-link2"
+                                href="academic.html"
+                                id="dropdown01"
+                                data-toggle=""
+                                aria-haspopup="true"
+                                aria-expanded="false">
+                                ACADEMIA
+                            </a>
+                            <div
+                                class="dropdown-menu megamenu sm-menu"
+                                aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-6 mb-4">
+                                        <h1>Academia</h1>
+                                        <a class="dropdown-item pl-0
+                                            border-bottom mt-3"
+                                            href="programe.html">
+                                            PROGRAMMERS
+                                        </a>
+                                        <a class="dropdown-item pl-0
+                                            border-bottom mt-3"
+                                            href="short-courses.html">
+                                            SHORTCOURSES
+                                        </a>
+                                        <a class="dropdown-item pl-0 mt-3
+                                            border-bottom"
+                                            href="financial.html">
+                                            FINANCIAL ASSISTANCE
+                                        </a>
+                                        <a class="dropdown-item pl-0 mt-3
+                                            border-bottom"
+                                            href="international-ser.html">
+                                            INTERNATIONAL SERVICES
+                                        </a>
+                                        <a class="dropdown-item pl-0 mt-3"
+                                            href="admission.html">ADMISSION</a>
+                                        <h3 class="mt-5">Cyberjaya Campus</h3>
+                                        <p class="pt-3">
+                                            Inovasi 1-1, Jalan Teknokarat 1/1
+                                            <br />
+                                            63000 Cyberjaya, Selangor Darul
+                                            Ehsan
+                                            <br />
+                                            Malaysia
+                                        </p>
+                                        <a
+                                            class="dropdown-item pl-0 mt-3"
+                                            href="tel:(+603) 8317 8888">
+                                            Tel (+603) 8317 8888
+                                        </a>
+                                        <a class="dropdown-item pl-0"
+                                            href="tel:(+603) 8317 8888">
+                                            Fax(+603) 8317 8888
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 col-6 d-lg-block
+                                        d-none">
+                                        <div
+                                            class="img"
+                                            style="background:
+                                            url('./assets/images/finan-bg.png');"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown megamenu-li dmenu">
+                            <a
+                                class="nav-link active nav-link2"
+                                href=""
+                                id="dropdown01"
+                                data-toggle=""
+                                aria-haspopup="true"
+                                aria-expanded="false">
+                                BUSINESS
+                            </a>
+                            <div
+                                class="dropdown-menu megamenu sm-menu"
+                                aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-6 mb-4">
+                                        <h1>Business</h1>
+                                        <a class="dropdown-item pl-0
+                                            border-bottom mt-3"
+                                            href="business-1.html">
+                                            INDUSTRY PARTNER
+                                        </a>
+                                        <a class="dropdown-item pl-0
+                                            border-bottom mt-3"
+                                            href="business-2-1.html">
+                                            LIMKOKWING GLOBAL ALLIANCE
+                                        </a>
+                                        <a class="dropdown-item pl-0 mt-3
+                                            border-bottom"
+                                            href="business-3-1.html">
+                                            AGENT NETWORK
+                                        </a>
+                                        <a class="dropdown-item pl-0 mt-3"
+                                            href="business-4.html">CAREERS</a>
+                                    </div>
+                                    <div class="col-sm-6 col-6 d-lg-block
+                                        d-none">
+                                        <div
+                                            class="img"
+                                            style="background:
+                                            url('./assets/images/finan-bg.png');"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown megamenu-li dmenu">
+                            <a
+                                class="nav-link nav-link2"
+                                href=""
+                                id="dropdown01"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false">
+                                EXPERIENCE
+                            </a>
+                            <div
+                                class="dropdown-menu megamenu sm-menu"
+                                aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-6 mb-4">
+                                        <h1>Experience</h1>
+                                        <a class="dropdown-item pl-0
+                                            border-bottom mt-3"
+                                            href="experience-1.html">
+                                            DISCOVER MALAYSIA
+                                        </a>
+                                        <a class="dropdown-item pl-0
+                                            border-bottom mt-3"
+                                            href="experience-2.html">
+                                            SERVICES
+                                        </a>
+                                        <a class="dropdown-item pl-0 mt-3"
+                                            href="#">COMMUNITY</a>
+                                        <h3 class="mt-5">Student portal</h3>
+                                        <form action="">
+                                            <input type="text" name="" id=""
+                                                placeholder="Username" />
+                                            <input
+                                                type="password"
+                                                name=""
+                                                id=""
+                                                placeholder="Password"
+                                                />
+                                            <a
+                                                href="#!"
+                                                class="sim d-inline-block
+                                                text-center mt-4 mr-1">
+                                                LOGIN
+                                            </a>
+                                            <a href="#!" class="blue
+                                                d-inline-block text-center
+                                                mt-4">
+                                                ENROLL FOR FEB INTAKE
+                                            </a>
+                                        </form>
+                                    </div>
+                                    <div class="col-sm-6 col-6 d-lg-block
+                                        d-none">
+                                        <div
+                                            class="img"
+                                            style="background:
+                                            url('./assets/images/finan-bg.png');"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="button" href="admission.html">ENROLL NOW</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar fixed-top navbar-expand-lg" id="main-bar">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item">
+                    <a class="nav-link " href="business-1.html">
+                        Industry Partners
+                        <span class="sr-only"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="business-2-1.html">Limkokwing
+                        Global
+                        Alliance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="business-3-1.html">Agent Network</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="business-4.html">Careers</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- =======================Nav End============================== -->
+        <section
+            class="alliance-4"
+            style="background-image: url('./assets/images/BG.png');">
+            <div class="container-fluid p-3">
+                <div class="main-box">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="box"
+                                style="background-image:url('./assets/images/global-all.png');">
+                                <img style="margin:0 auto ;"
+                                    src="./assets/images/logo-5.png"
+                                    width="130px" alt="">
+                                <h1 class="text-center pt-5">Redefining
+                                    education
+                                    through global academic
+                                    partnerships</h1>
+                                <p class="pt-4">
+                                    For over three decades the Limkokwing
+                                    University of Creative Technology has led
+                                    the world in global education through its
+                                    investment arm, the Limkokwing Global
+                                    Alliance. It merges the best of 282
+                                    universities in 77 countries worldwide.
+                                    Unique, bold and innovative, LGA is a
+                                    strategic academic platform delivering
+                                    cutting-edge education, skills training and
+                                    job-centric learning and teaching
+                                    methodology to thousands of young learners
+                                    from all over the world.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 pt-lg-0 pt-4">
+                            <div class="box p-0 pt-1 text-left">
+                                <h3>Leveraging the best of East and West</h3>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-12">
+                                        <p class="pt-3 text-black">
+                                            Learners from around the world have
+                                            the privilege of pursuing a range of
+                                            recognized diplomas, degrees and
+                                            post-graduate studies offered by
+                                            Limkokwing University.
+
+                                        </p>
+                                        <p class="pt-2 text-black">
+                                            When they graduate, they get to earn
+                                            dual degrees endorsed by Limkokwing
+                                            Global Alliance and the partner
+                                            university respectively.This gives
+                                            graduates better leverage to secure
+                                            high-income careers and promising
+                                            futures anywhere in the world.
+
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-12 pt-md-0
+                                        pt-sm-0">
+                                        <p class="pt-3 text-black">
+                                            Since 1991, the Limkokwing Global
+                                            Alliance continues to transform the
+                                            lives of young people who, with
+                                            their knowledge, skills and talents,
+                                            are emerging as the next generation
+                                            of technopreneurs reinventing the
+                                            way they live, work and earn.
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="#!" class="lit-blue mb-3">Visit
+                                    Limkokwing
+                                    Global alliance <i class="fa fa-share"></i></a>
+                                <img src="./assets/images/celeb.png"
+                                    width="100%" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- =======================footer============================== -->
+        <footer class="mt-lg-5 mt-0">
+            <div
+                class="container-fluid mt-5 pb-3 pl-xl-5 pl-lg-4 pl-3 pr-xl-5
+                pr-lg-4
+                pr-3">
+                <div class="row no-gutters">
+                    <div class="col-xl-6 col-lg-3 col-md-12 pt-1">
+                        <h4>You recently viewed</h4>
+                    </div>
+                    <div class="col-xl-6 col-lg-9 col-md-12">
+                        <div class="row no-gutters">
+                            <div class="col-xl-7 col-lg-6 col-md-12 pr-lg-2">
+                                <form action="">
+                                    <input type="text" placeholder="Your email
+                                        address" />
+                                    <button>SUBSCRIBE</button>
+                                </form>
+                            </div>
+                            <div
+                                class="col-xl-5 col-lg-6 col-md-12 text-lg-right
+                                text-center
+                                foot-btn mt-lg-0 mt-md-3">
+                                <a href="#!" class="contact mr-1">
+                                    CONTACT US
+                                </a>
+                                <a href="#!" class="enroll">
+                                    ENROLL NOW
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3
+                        pr-md-2 pr-sm-2
+                        mt-3">
+                        <div class="box">
+                            <img src="./assets/images/footer-box.svg" alt="" />
+                            <div class="p-3">
+                                <h6 class="pt-1">Faculty of Business &
+                                    Communication</h6>
+                                <h5 class="pt-1 mb-5">
+                                    Bachelor of Business (Hons) in Accounting
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3
+                        pr-md-2 pr-sm-2
+                        mt-3">
+                        <div class="box">
+                            <img src="./assets/images/footer-box.svg" alt="" />
+                            <div class="p-3">
+                                <h6 class="pt-1">Faculty of Business &
+                                    Communication</h6>
+                                <h5 class="pt-1 mb-5">
+                                    Bachelor of Business (Hons) in Accounting
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3
+                        pr-md-2 pr-sm-2
+                        mt-3">
+                        <div class="box">
+                            <img src="./assets/images/footer-box.svg" alt="" />
+                            <div class="p-3">
+                                <h6 class="pt-1">Faculty of Business &
+                                    Communication</h6>
+                                <h5 class="pt-1 mb-5">
+                                    Bachelor of Business (Hons) in Accounting
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3
+                        pr-md-2 pr-sm-2
+                        mt-3">
+                        <div class="box">
+                            <img src="./assets/images/footer-box.svg" alt="" />
+                            <div class="p-3">
+                                <h6 class="pt-1">Faculty of Business &
+                                    Communication</h6>
+                                <h5 class="pt-1 mb-5">
+                                    Bachelor of Business (Hons) in Accounting
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3
+                        pr-md-2 pr-sm-2
+                        mt-3">
+                        <div class="box">
+                            <img src="./assets/images/footer-box.svg" alt="" />
+                            <div class="p-3">
+                                <h6 class="pt-1">Faculty of Business &
+                                    Communication</h6>
+                                <h5 class="pt-1 mb-5">
+                                    Bachelor of Business (Hons) in Accounting
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-3 pr-lg-3
+                        pr-md-2
+                        pr-sm-2">
+                        <div class="box">
+                            <img src="./assets/images/footer-box.svg" alt="" />
+                            <div class="p-3">
+                                <h6 class="pt-1">Faculty of Business &
+                                    Communication</h6>
+                                <h5 class="pt-1 mb-5">
+                                    Bachelor of Business (Hons) in Accounting
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <ul class="cen-ul mt-5">
+                            <li class="pr-4"><a class="active" href="#!">CYBERJAYA</a></li>
+                            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 text-center mt-5">
+                        <img src="./assets/images/logo.svg" alt="" />
+                    </div>
+                    <div class="col-lg-6 mt-lg-5 mt-5 text-lg-left text-center">
+                        <h6>
+                            © 2022 Limkokwing University of Creative Technology.
+                            All Rights
+                            Reserved.
+                        </h6>
+                    </div>
+                    <div class="col-lg-6 mt-lg-5 mt-2 text-lg-right
+                        text-center">
+                        <ul class="last-ul">
+                            <li>
+                                <a href="#!">Terms of Use</a>
+                            </li>
+                            <li>
+                                <a href="#!">Prvacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script
+        src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.mySwiper', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.next-arr',
+        prevEl: '.prev-arr',
+      },
+      breakpoints: {
+        600: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+      },
+    })
+  </script>
+</html>

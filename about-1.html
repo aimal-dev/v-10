@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+    <!-- font awsm -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.css" integrity="sha512-5TGRCl3hPoqtruhO+mubTuySHOfcEBvyIfiWHoCK8wDLmf6C1U73OUoNCU6ZvyT/8vfCcha1INDIo8dabDmQjw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.min.js" integrity="sha512-naEQG74IcOLQ6K/B1PmhIcZ4i3YE2FXs2zm603E1Q3shbron+PmYLg44/q+xAymD/RvskZ2H8l1Qa7I5qELlrg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <title>Why Limkokwing</title>
+</head>
+<style></style>
+
+<body class="body-1">
+    <nav class="navbar nav-dd fixed-top navbar-expand-xl pl-xl-3 pl-lg-2 pr-xl-3
+      pr-lg-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Home.html">
+                <img src="assets/images/logo.svg" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-sliders-h"></i>
+        </button>
+
+            <div class="collapse navbar-collapse text-xl-block text-center" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <select id="inputState" class="form-control mr-3">
+              <option selected>CYBERJAYA</option>
+              <option>CYBERJAYA</option>
+            </select>
+                    <div class="search">
+                        <img src="assets/images/search.svg" alt="" />
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                    </div>
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2" href="updates.html" target="_blank">
+                UPDATES
+              </a>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link active nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                ABOUT
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>About</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="about-1.html">
+                      WHY LIMKOKWING
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="about-2.html">
+                      HERITAGE
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="about-3.html">
+                      ACCREDIATION & AWARDS
+                    </a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br /> 63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br /> Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                      Tel (+603) 8317 8888
+                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-md-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="academic.html" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                ACADEMIA
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Academia</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="programe.html">
+                      PROGRAMMERS
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="short-courses.html">
+                      SHORTCOURSES
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="financial.html">
+                      FINANCIAL ASSISTANCE
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="international-ser.html">
+                      INTERNATIONAL SERVICES
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="admission.html">ADMISSION</a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br /> 63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br /> Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                      Tel (+603) 8317 8888
+                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                BUSINESS
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Business</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="business-1.html">
+                      INDUSTRY PARTNER
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="business-2-1.html">
+                      LIMKOKWING GLOBAL ALLIANCE
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="business-3-1.html">
+                      AGENT NETWORK
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="business-4.html">CAREERS</a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                EXPERIENCE
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Experience</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="experience-1.html">
+                      DISCOVER MALAYSIA
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="experience-2.html">
+                      SERVICES
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">COMMUNITY</a>
+                                    <h3 class="mt-5">Student portal</h3>
+                                    <form action="">
+                                        <input type="text" name="" id="" placeholder="Username" />
+                                        <input type="password" name="" id="" placeholder="Password" />
+                                        <a href="#!" class="sim d-inline-block text-center mt-4 mr-1">
+                        LOGIN
+                      </a>
+                                        <a href="#!" class="blue d-inline-block text-center mt-4">
+                        ENROLL FOR FEB INTAKE
+                      </a>
+                                    </form>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button" href="admission.html">ENROLL NOW</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar fixed-top navbar-expand-lg" id="main-bar">
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="about-1.html">
+            Why Limkokwing
+            <span class="sr-only"></span>
+          </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about-2.html">Heritages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about-3.html">Awards</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- =======================Nav End============================== -->
+    <section class="global">
+        <div class="container-fluid p-3">
+            <div class="row no-gutters">
+                <div class="col-lg-6 col-12">
+                    <div class="box">
+                        <img src="./assets/images/logo-2.svg" width="250px" alt="" />
+                        <h1 class="pt-5">
+                            A Global University merging digital expertise, creative thinking and multicultural competency.
+                        </h1>
+                        <p class="pt-2">
+                            Committed to producing the calibre industry needs to move its business up the value chain and extending this platform to the developing world to strengthen its economic competitiveness.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 pl-lg-3 pr-lg-0 pr-md-2 pt-lg-0
+            pt-3">
+                    <div class="box-2">
+                        <div class="sub-box">
+                            <h2>Vision</h2>
+                            <p class="pt-2">
+                                Produce a new generation of leaders, resilient, creative and skilled in the latest technology who will be the catalysts to change the world to become more sustainable, peaceful and safe.
+                            </p>
+                        </div>
+                        <img src="./assets/images/about-1.png" width="100%" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 pl-lg-3 pl-md-2 pt-lg-0 pt-3">
+                    <div class="box-2">
+                        <div class="sub-box">
+                            <h2>Mission</h2>
+                            <p class="pt-2">
+                                Create the learning ecosystem that will enable youths from across the world to gain the knowledge and build the skills that makes them resilient, creative, responsible, disciplined and open-minded.
+                            </p>
+                        </div>
+                        <img src="./assets/images/about-2.png" width="100%" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- global-2 1-->
+    <section class="global-2">
+        <div class="container-fluid p-3">
+            <div class="row no-gutters">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="box-1">
+                        <img src="./assets/images/about-3.png" width="100%" height="100%" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 pt-lg-0 pt-md-0 pt-3">
+                    <div class="box-2" style="
+              border-top-right-radius: 10px;
+              border-bottom-right-radius: 10px;
+              ">
+                        <h1>
+                            Being creativity-driven our global graduates have a wider perspective that triggers innovation.
+                        </h1>
+                        <p class="pt-4">
+                            Globally businesses are transforming. Large-scale shifts are taking place with artificial intelligence overturning traditional practices. The new workforce needs more creative-thinking capability to manage the transition to the new norm in the workplace.
+                        </p>
+                        <a href="programe.html" class="blue mt-4">view our program</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- global-2 duplicate2 -->
+    <section class="global-2">
+        <div class="container-fluid p-3">
+            <div class="row no-gutters">
+                <div class="col-lg-6 col-md-6 col-12 pt-lg-0 pt-md-0 pt-3">
+                    <div class="box-2" style="
+              border-top-left-radius: 10px;
+              border-bottom-left-radius: 10px;
+              ">
+                        <h1>
+                            Our industry partners help to transition our students into the reinvented world of work.
+                        </h1>
+                        <p class="pt-4">
+                            The world of work is being reinvented. Hence greater involvement of industry in designing our programmes is priority. Our industry partners work closely to help our students understand the new challenges facing them in the networked, global workplace.
+                        </p>
+                        <a href="business-1.html" class="blue mt-4">view our industry partner</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 mt-md-0 mt-3">
+                    <div class="box-3" style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+                        <img src="./assets/images/brand-2.svg" width="100%" height="100%" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- global slider 3-->
+    <section class="global-2">
+        <div class="container-fluid p-3">
+            <div class="row no-gutters">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="box-4">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="
+                    background-image: url('./assets/images/about-slider.png');
+                    ">
+                                    <div class="sub-box">
+                                        <h6>PHILANTHROPY</h6>
+                                        <h4>
+                                            Heal The World : A Peace Initiative by Limkokwing University
+                                        </h4>
+                                        <a class="prev-arr" href="#!" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-7b535c7153aa9a17" aria-disabled="false">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                        <a class="next-arr" href="#!" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-cd63e10ebe8702dcd" aria-disabled="false">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="
+                    background-image: url('./assets/images/about-slider.png');
+                    ">
+                                    <div class="sub-box">
+                                        <h6>PHILANTHROPY</h6>
+                                        <h4>
+                                            Heal The World : A Peace Initiative by Limkokwing University
+                                        </h4>
+                                        <a class="prev-arr" href="#!" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-7b535c7153aa9a17" aria-disabled="false">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                        <a class="next-arr" href="#!" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-cd63e10ebe8702dcd" aria-disabled="false">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="
+                    background-image: url('./assets/images/about-slider.png');
+                    ">
+                                    <div class="sub-box">
+                                        <h6>PHILANTHROPY</h6>
+                                        <h4>
+                                            Heal The World : A Peace Initiative by Limkokwing University
+                                        </h4>
+                                        <a class="prev-arr" href="#!" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-7b535c7153aa9a17" aria-disabled="false">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                        <a class="next-arr" href="#!" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-cd63e10ebe8702dcd" aria-disabled="false">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="
+                    background-image: url('./assets/images/about-slider.png');
+                    ">
+                                    <div class="sub-box">
+                                        <h6>PHILANTHROPY</h6>
+                                        <h4>
+                                            Heal The World : A Peace Initiative by Limkokwing University
+                                        </h4>
+                                        <a class="prev-arr" href="#!" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-7b535c7153aa9a17" aria-disabled="false">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                        <a class="next-arr" href="#!" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-cd63e10ebe8702dcd" aria-disabled="false">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="
+                    background-image: url('./assets/images/about-slider.png');
+                    ">
+                                    <div class="sub-box">
+                                        <h6>PHILANTHROPY</h6>
+                                        <h4>
+                                            Heal The World : A Peace Initiative by Limkokwing University
+                                        </h4>
+                                        <a class="prev-arr" href="#!" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-7b535c7153aa9a17" aria-disabled="false">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                        <a class="next-arr" href="#!" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-cd63e10ebe8702dcd" aria-disabled="false">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 pt-lg-0 pt-md-0 pt-3">
+                    <div class="box-2" style="border-top-right-radius:
+              10px;
+              border-bottom-right-radius:
+              10px;">
+                        <h1>
+                            Philanthropy is embedded in our corporate responsibility in ways that are different from the norm.
+                        </h1>
+                        <p class="pt-4">
+                            The world of work is being reinvented. Hence greater involvement of industry in designing our programmes is priority. Our industry partners work closely to help our students understand the new challenges facing them in the networked, global workplace.
+                        </p>
+                        <a href="updates.html" class="blue mt-4">VIEW OUR PHILANTHROPIC
+                ACTIVITIES</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  4-->
+    <section class="global-2">
+        <div class="container-fluid p-3">
+            <div class="row no-gutters">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="box-2" style="
+              border-top-left-radius: 10px;
+              border-bottom-left-radius: 10px;
+              ">
+                        <h1>
+                            Nation-building comes naturally to us as we involve our students in initiatives that go beyond education.
+                        </h1>
+                        <p class="pt-4">
+                            In all the countries we have established campuses we work closely with the governments to meet their nation-building agenda beyond our commitment to develop the best calibre to move their economies up the value chain.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 mt-md-0 mt-3">
+                    <div class="box-3 p-0" style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+                        <img src="./assets/images/ebola.png" width="100%" height="100%" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 5 -->
+    <section class="global-2">
+        <div class="container-fluid p-3">
+            <div class="row no-gutters">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="box-3 p-0" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
+                        <img src="./assets/images/celebration.png" width="100%" height="100%" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 pt-lg-0 pt-md-0 pt-3">
+                    <div class="box-2" style="
+              border-top-right-radius: 10px;
+              border-bottom-right-radius: 10px;
+              ">
+                        <h1>
+                            We are international in our approach, our delivery and our outcome.
+                        </h1>
+                        <p class="pt-4">
+                            With students and staff that come from all four corners of the world, we cannot help but be international in how we perceive our role as a University that designs and develops the citizens of the future.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .global-6 -->
+    <section class="global-2">
+        <div class="container-fluid p-3">
+            <div class="row no-gutters pt-5 pb-5" style="background: white; border-radius: 10px;">
+                <div class="col-lg-6 col-12">
+                    <div class="box-2" style="background: white; color: #000;">
+                        <h1 class="kick">
+                            Kickstart your education journey.
+                        </h1>
+                        <div class="d-lg-flex d-md-flex d-inline-block mt-4">
+                            <a href="admission.html" class="blue-2 mr-lg-2 mr-md-1 mr-2">
+                  Register Now
+                </a>
+                            <a href="financial.html" class="dark">View FInancial Assistance</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 pt-lg-0 pt-3">
+                    <div class="box-3 p-0" style="background: white;">
+                        <img src="./assets/images/cap-d.png" width="100%" height="100%" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================footer============================== -->
+    <footer class="mt-5">
+        <div class="container-fluid mt-5 pb-3 pl-xl-5 pl-lg-4 pl-3 pr-xl-5 pr-lg-4
+        pr-3">
+            <div class="row no-gutters">
+                <div class="col-xl-6 col-lg-3 col-md-12 pt-1">
+                    <h4>You recently viewed</h4>
+                </div>
+                <div class="col-xl-6 col-lg-9 col-md-12">
+                    <div class="row no-gutters">
+                        <div class="col-xl-7 col-lg-6 col-md-12 pr-lg-2">
+                            <form action="">
+                                <input type="text" placeholder="Your email address" />
+                                <button>SUBSCRIBE</button>
+                            </form>
+                        </div>
+                        <div class="col-xl-5 col-lg-6 col-md-12 text-lg-right text-center
+                foot-btn mt-lg-0 mt-md-3">
+                            <a href="#!" class="contact mr-1">
+                  CONTACT US
+                </a>
+                            <a href="#!" class="enroll">
+                  ENROLL NOW
+                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-3 pr-lg-3 pr-md-2
+            pr-sm-2">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <ul class="cen-ul mt-5">
+                        <li class="pr-4"><a class="active" href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center mt-5">
+                    <img src="./assets/images/logo.svg" alt="" />
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-5 text-lg-left text-center">
+                    <h6>
+                        © 2022 Limkokwing University of Creative Technology. All Rights Reserved.
+                    </h6>
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-2 text-lg-right text-center">
+                    <ul class="last-ul">
+                        <li>
+                            <a href="#!">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#!">Prvacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.next-arr',
+            prevEl: '.prev-arr',
+        },
+        breakpoints: {
+            600: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+            },
+        },
+    })
+</script>
+
+</html>

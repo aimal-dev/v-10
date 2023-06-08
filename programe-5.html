@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+    <!-- font awsm -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.css" integrity="sha512-5TGRCl3hPoqtruhO+mubTuySHOfcEBvyIfiWHoCK8wDLmf6C1U73OUoNCU6ZvyT/8vfCcha1INDIo8dabDmQjw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.min.js" integrity="sha512-naEQG74IcOLQ6K/B1PmhIcZ4i3YE2FXs2zm603E1Q3shbron+PmYLg44/q+xAymD/RvskZ2H8l1Qa7I5qELlrg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <title>Programmes 5</title>
+</head>
+
+<body class="transparent" style="background: url('./assets/images/transparent.png');">
+    <nav class="navbar nav-dd fixed-top scroll navbar-expand-xl pl-xl-3 pl-lg-2 pr-xl-3 pr-lg-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Home.html">
+                <img src="assets/images/logo.svg" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-sliders-h"></i>
+        </button>
+
+            <div class="collapse navbar-collapse text-xl-block text-center" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <select id="inputState" class="form-control mr-2">
+              <option selected>CYBERJAYA</option>
+              <option>CYBERJAYA</option>
+            </select>
+                    <div class="search">
+                        <img src="assets/images/search.svg" alt="" />
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                    </div>
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link2" href="home.html" target="_blank">
+                UPDATES
+              </a>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                ABOUT
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>About</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      WHY LIMKOKWING
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      HERITAGE
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">
+                      ACCREDIATION & AWARDS
+                    </a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br /> 63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br /> Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                      Tel (+603) 8317 8888
+                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-md-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link active nav-link2" href="academic.html" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                ACADEMIA
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Academia</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      PROGRAMMERS
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      SHORTCOURSES
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      FINANCIAL ASSISTANCE
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      INTERNATIONAL SERVICES
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">ADMISSION</a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br /> 63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br /> Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                      Tel (+603) 8317 8888
+                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                BUSINESS
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Business</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      INDUSTRY PARTNER
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      LIMKOKWING GLOBAL ALLIANCE
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      AGENT NETWORK
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">CAREERS</a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                EXPERIENCE
+              </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Experience</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      DISCOVER MALAYSIA
+                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      SERVICES
+                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">COMMUNITY</a>
+                                    <h3 class="mt-5">Student portal</h3>
+                                    <form action="">
+                                        <input type="text" name="" id="" placeholder="Username" />
+                                        <input type="password" name="" id="" placeholder="Password" />
+                                        <a href="#!" class="sim d-inline-block text-center mt-4 mr-1">
+                        LOGIN
+                      </a>
+                                        <a href="#!" class="blue d-inline-block text-center mt-4">
+                        ENROLL FOR FEB INTAKE
+                      </a>
+                                    </form>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button" href="#!">ENROLL NOW</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar fixed-top navbar-expand-lg nav-dark-black scroll" id="main-bar">
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="programe.html">
+            Programmes
+            <span class="sr-only"></span>
+          </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="short-courses.html">Short Courses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="financial.html">Financial Assistance</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">International Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Admission</a>
+            </li>
+        </ul>
+    </nav>
+    <!--============================================ Nav end====================================== -->
+
+    <!-- section 1 -->
+    <section class="discover">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="box">
+                        <h1>
+                            Discover endless possibilities at the Faculty of Creative Technology.
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box-2">
+                        <p>
+                            Here are two pathways with one leading to technology development and the other to visual content development. For those attracted to programming then you can focus on acquiring hard-core technical skills which is a powerful place to be. But if you have
+                            stories in your head and your imagination is running wild, get the technical skills to turn your ideas into digital content.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="container-fluid">
+                        <div class="box-3">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <span>NEXT INTAKE</span>
+                                    <h1>SEPTEMBER 2022</h1>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex justify-content-center flex-lg-row flex-md-row flex-column mt-4">
+                                        <a href="#!" class="yellow mr-2">REGISTER NOW</a>
+                                        <a href="#!" class="white mt-lg-0 mt-md-0 mt-3">VIEW OUR PROGRAMMES</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="img-w">
+                        <img src="./assets/images/dicover-1.png" width="100%" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 2 -->
+    <section class="discover-3">
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-md-6">
+                    <div class="box">
+                        <h1>A wide-ranging platform brimming with excitement.</h1>
+                        <p class="pt-4">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img">
+                        <img src="./assets/images/dicover-4.png" width="100%" height="100%" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 3 -->
+    <section class="discover-4">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="box">
+                        <h6>INDUSTRY DEMAND</h6>
+                        <h3>
+                            The creative economy creates nearly 30 million jobs worldwide, employing more people aged 15−29 than any other sector. With the emergence of new technologies such as artificial intelligence, augmented reality, virtual reality, and blockchain, creative
+                            spaces and work are being redesigned. As new technology trends emerge, barriers between creative industries and the ICT sector are blurring therefore there is an influx of new digital proposals to respond to new trends as well
+                            as career opportunities.
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center mt-lg-5 mt-md-4 mt-4 d-flex flex-column justify-content-center">
+                    <svg class="radial-progress" data-percentage="10" viewBox="0 0 80 80">
+              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 147.3406954533613;"></circle>
+              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">10%</text>
+            </svg>
+                    <h5 class="pt-3">Bachelor of Science (Hons) in Information Technology</h5>
+                </div>
+                <div class="col-lg-4 text-center mt-lg-5 mt-md-4 mt-4 d-flex flex-column justify-content-center">
+                    <svg class="radial-progress" data-percentage="20" viewBox="0 0 80 80">
+              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 147.3406954533613;"></circle>
+              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">20%</text>
+            </svg>
+                    <h5 class="pt-3">Bachelor of Science (Hons) in Information Technology</h5>
+                </div>
+                <div class="col-lg-4 text-center mt-lg-5 mt-md-4 mt-4 d-flex flex-column justify-content-center">
+                    <svg class="radial-progress" data-percentage="40" viewBox="0 0 80 80">
+              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 147.3406954533613;"></circle>
+              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">40%</text>
+            </svg>
+                    <h5 class="pt-3">Bachelor of Science (Hons) in Information Technology</h5>
+                </div>
+                <div class="col-lg-4 text-center mt-lg-5 mt-md-4 mt-4 d-flex flex-column justify-content-center">
+                    <svg class="radial-progress" data-percentage="10" viewBox="0 0 80 80">
+              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 147.3406954533613;"></circle>
+              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">10%</text>
+            </svg>
+                    <h5 class="pt-3">Bachelor of Science (Hons) in Information Technology</h5>
+                </div>
+
+
+                <div class="col-lg-4 text-center mt-lg-5 mt-md-4 mt-4 d-flex flex-column justify-content-center">
+                    <svg class="radial-progress" data-percentage="50" viewBox="0 0 80 80">
+              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 147.3406954533613;"></circle>
+              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">50%</text>
+            </svg>
+                    <h5 class="pt-3">Bachelor of Science (Hons) in Information Technology</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 4 -->
+    <section class="discover-7 mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="box">
+                        <h6>INDUSTRY DEMAND</h6>
+                        <h3>
+                            The creative economy creates nearly 30 million jobs worldwide, employing more people aged 15−29 than any other sector. With the emergence of new technologies such as artificial intelligence, augmented reality, virtual reality, and blockchain, creative
+                            spaces and work are being redesigned. As new technology trends emerge, barriers between creative industries and the ICT sector are blurring therefore there is an influx of new digital proposals to respond to new trends as well
+                            as career opportunities.
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <img class="img-w" src="./assets/images/vision-program.png" width="100%" alt="">
+                </div>
+                <div class="col-12">
+                    <div class="box-2">
+                        <div class="row no-gutters">
+                            <div class="col-lg-6 pr-1 text-left">
+                                <div class="sub-box-1">
+                                    <h1>Bachelor of Science (Hons) in Business Information Technology</h1>
+                                    <p class="pt-3">
+                                        When IT is embedded into the heart of business it contributes to smoothen the flow of data. How well the systems are designed determines how efficiently an organisation functions and how effectively it communicates to all its stakeholders.
+                                    </p>
+                                    <div class="d-flex flex-xl-row flex-column justify-content-between mt-3">
+                                        <a href="#!" class=" yellow mr-md-2 mr-0">REGISTER NOW</a>
+                                        <a href="tech-5.html" class=" white">PROGRAMME DETAILS</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 pr-1 text-left">
+                                <div class="sub-box-1">
+                                    <h1>Bachelor of Science (Hons) in Business Information Technology</h1>
+                                    <p class="pt-3">
+                                        When IT is embedded into the heart of business it contributes to smoothen the flow of data. How well the systems are designed determines how efficiently an organisation functions and how effectively it communicates to all its stakeholders.
+                                    </p>
+                                    <div class="d-flex flex-xl-row flex-column justify-content-between mt-3">
+                                        <a href="#!" class=" yellow mr-md-2 mr-0">REGISTER NOW</a>
+                                        <a href="tech-5.html" class=" white">PROGRAMME DETAILS</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- New section added 2/15/2023 -->
+    <section class="discover-8" style="background-image: url('./assets/images/coinview.png');">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-lg-6 col-md-8 col-12">
+                    <div class="box">
+                        <div class="sub-box">
+                            <h1>Diploma in Information Technology</h1>
+                            <p class="pt-3">
+                                As trends like artificial intelligence, cloud computing, big data analytics, automation arise, organisations worldwide are on the lookout for information technology specialists. If you are interested in solving technology problems and assisting businesses
+                                with technical questions, then our Diploma in Information Technology. You’ll learn advanced concepts of IT, C++ Programming, Computer Architecture, Software Project Management as well as Information System Planning.
+                            </p>
+                            <div class="d-flex flex-lg-row flex-column">
+                                <a href="#!" class="yellow mr-lg-2">register now</a>
+                                <a href="tech-9.html" class="white ">register now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 5 -->
+    <section class="discover-video">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="player-1">
+                        <video autoplay="" playsinline="" width="100%" height="100%" controls="" loop="" muted="" style="pointer-events: none;">
+                <source src="./assets/video/dot-project.mp4" type="video/mp4">
+                <source src="./assets/video/dot-project.mp4" type="video/ogg">
+              </video>
+                        <div class="box">
+                            <div class="row">
+                                <div class="col-6"></div>
+                                <div class="col-lg-6 col-md-9 col-12">
+                                    <div class="sub-box">
+                                        <h1>Bachelor of Arts (Hons) in Animation</h1>
+                                        <p class="pt-3">
+                                            More and more digital animation is being used in industry beyond the field of entertainment. It is used for advanced training, simulation and planning programmes, medical diagnosis, interactive learning and architectural virtual walkthrough.
+                                        </p>
+                                        <div class="d-lg-flex">
+                                            <a href="#!" class=" yellow">REGISTER NOW</a>
+                                            <a href="tech-7.html" class=" white">PROGRAMME DETAILS</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 6 -->
+    <section class="discover-3">
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-md-6 order-lg-1 order-2">
+                    <div class="box">
+                        <h1>Bachelor of Arts (Hons) in Creative Multimedia</h1>
+                        <p class="pt-4 pb-4">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+                        </p>
+                        <div class="d-lg-flex">
+                            <a href="#!" class="yellow mr-lg-2">register now</a>
+                            <a href="tech-8.html" class="white ">register now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order-lg-2 order-1">
+                    <div class="img">
+                        <img src="./assets/images/designing.png" width="100%" height="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 7 -->
+    <section class="discover-8" style="background-image: url('./assets/images/Game4.png');">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-lg-6"></div>
+                <div class="col-lg-6 col-md-8 col-12">
+                    <div class="box">
+                        <div class="sub-box">
+                            <h1>Bachelor of Arts (Hons) in Games Design</h1>
+                            <p class="pt-3">
+                                The global games market is huge – expected to bypass USD 200 billion in consumer spending for 2022 involving over 3 billion players. The market is expanding so rapidly that there is a shortfall in talent – artists, engineers and producers and those involved
+                                in research as well as management.
+                            </p>
+                            <div class="d-flex flex-lg-row flex-column">
+                                <a href="#!" class="yellow mr-lg-2">register now</a>
+                                <a href="tech-9.html" class="white ">register now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 8 -->
+    <section class="discover-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="box">
+                        <img class="mt-5" src="./assets/images/brand-group.png" width="100%" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 9 -->
+    <section class="discover-3 mt-5 pt-lg-5">
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-md-6 order-lg-1 order-2">
+                    <div class="box">
+                        <h1>Diploma in Animation Multemedia Design</h1>
+                        <p class="pt-4 pb-4">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+                        </p>
+                        <div class="d-lg-flex">
+                            <a href="#!" class="yellow mr-lg-2">register now</a>
+                            <a href="tech-10.html" class="white ">register now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order-lg-2 order-1">
+                    <div class="img">
+                        <img src="./assets/images/designing.png" width="100%" height="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 10 -->
+    <section class="discover-6">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="box">
+                        <h6>OUR ALUMNI</h6>
+                        <h1>Listen to what our students have to say</h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mt-3">
+                    <div class="cards">
+                        <div class="img">
+                            <img src="./assets/images/an-1.png" width="100%" alt="" />
+                        </div>
+                        <div class="content">
+
+                            <p class="pt-2">
+                                “Studying Design and Multimedia at Limkokwing, we learned all aspects of multimedia; 3D animation, 2D animation, film, music, design, concept development, communications; the whole package. It has helped me understand the process of every step of pre-production,
+                                production and post production because while technology and platforms are always changing, the spark of conceptualising entertaining content will never change. A great story will always be a great story no matter the platform
+                                it’s conveyed through.”
+                            </p>
+                            <div class="sub-box-p">
+                                <h5 class="mt-5 pt-3">Hendra Wardi, Malaysia</h5>
+                                <p class="small">
+                                    Bachelor of Arts (Hons) in Creative Multimedia, Co-creator & Storyteller of Tales Down Below
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mt-3">
+                    <div class="cards">
+                        <div class="img">
+                            <img src="./assets/images/an-2.png" width="100%" alt="" />
+                        </div>
+                        <div class="content">
+
+                            <p class="pt-2">
+                                “I studied a Bachelor of Arts (Hons) in Creative Multimedia in Limkokwing and it was one of the best decisions I have ever taken. This programme introduces you to everything that you would need in the creative field, and I only knew that I wanted to become
+                                an animator and a storyteller after being introduced to one of these programs that I have previously never heard of before! Without After Effects, I think my current career would’ve taken a completely different turn, so
+                                I’m always going to be grateful for that.”
+                            </p>
+                            <div class="sub-box-p">
+                                <h5 class="mt-5 pt-3">Hendra Wardi, Malaysia</h5>
+                                <p class="small">
+                                    Bachelor of Arts (Hons) in Creative Multimedia, Co-creator & Storyteller of Tales Down Below
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mt-3">
+                    <div class="cards">
+                        <div class="img">
+                            <img src="./assets/images/an-3.png" width="100%" alt="" />
+                        </div>
+                        <div class="content">
+
+                            <p class="pt-2">
+                                “Animation is all about timing, and having a good sense of timing will help you craft a good and endearing story. I have been drawing since the age of three and art has always been a huge part of my life. However, now that I’m older, I have found that
+                                my true passion is in story-telling. I discovered that sharing stories with people brings me so much joy.”
+                            </p>
+                            <div class="sub-box-p">
+                                <h5 class="mt-5 pt-3">Hendra Wardi, Malaysia</h5>
+                                <p class="small">
+                                    Bachelor of Arts (Hons) in Creative Multimedia, Co-creator & Storyteller of Tales Down Below
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 11 -->
+    <section class="discover-3">
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-md-6 order-lg-1 order-2">
+                    <div class="box">
+                        <h2>“The Web, as | envisaged it, we have not seen it yet. The future is still so much bigger than the past.”</h2>
+                        <p class="pt-4 pb-4">
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                        <div class="d-lg-flex">
+                            <a href="#!" class="yellow mr-lg-2">register now</a>
+                            <a href="#!" class="white">register now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order-lg-2 order-1">
+                    <div class="img">
+                        <img src="./assets/images/dicover-4.png" width="100%" height="100%" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======================footer============================== -->
+    <footer>
+        <div class="container-fluid mt-5 pb-3 pl-xl-5 pl-lg-4 pl-3 pr-xl-5 pr-lg-4 pr-3">
+            <div class="row no-gutters">
+                <div class="col-xl-6 col-lg-3 col-md-12 pt-1">
+                    <h4>You recently viewed</h4>
+                </div>
+                <div class="col-xl-6 col-lg-9 col-md-12">
+                    <div class="row no-gutters">
+                        <div class="col-xl-7 col-lg-6 col-md-12 pr-lg-2">
+                            <form action="">
+                                <input type="text" placeholder="Your email address" />
+                                <button>SUBSCRIBE</button>
+                            </form>
+                        </div>
+                        <div class="col-xl-5 col-lg-6 col-md-12 text-lg-right text-center foot-btn mt-lg-0 mt-md-3">
+                            <a href="#!" class="contact mr-1">
+                  CONTACT US
+                </a>
+                            <a href="#!" class="enroll">
+                  ENROLL NOW
+                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-3 pr-lg-3 pr-md-2 pr-sm-2">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <ul class="cen-ul mt-5">
+                        <li class="pr-4"><a class="active" href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center mt-5">
+                    <img src="./assets/images/logo.svg" alt="" />
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-5 text-lg-left text-center">
+                    <h6>
+                        © 2022 Limkokwing University of Creative Technology. All Rights Reserved.
+                    </h6>
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-2 text-lg-right text-center">
+                    <ul class="last-ul">
+                        <li>
+                            <a href="#!">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#!">Prvacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<!--  -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<!--  -->
+<script>
+    var swiper = new Swiper('.mySwiper', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'fraction',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.slide-next',
+                prevEl: '.slide-prev',
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 20,
+                },
+                400: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                575: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                640: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 1.3,
+                    spaceBetween: 20,
+                },
+                800: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 20,
+                },
+                900: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 20,
+                },
+                1000: {
+                    slidesPerView: 1.3,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 1.9,
+                    spaceBetween: 20,
+                },
+            },
+        })
+        // On scroll
+    $(document).ready(function() {
+        $(window).on('scroll', function() {
+            var wn = $(window).scrollTop()
+            if (wn > 12) {
+                $('.scroll').css(
+                    'background',
+                    ' linear-gradient(117deg, rgba(0, 0, 0, .9) 0%, rgba(40, 133, 158, .9) 400%)',
+                )
+            } else {
+                $('.scroll').css('background', 'transparent')
+            }
+        })
+    });
+
+    // Progress BAr
+    $(function() {
+
+        // Remove svg.radial-progress .complete inline styling
+        $('svg.radial-progress').each(function(index, value) {
+            $(this).find($('circle.complete')).removeAttr('style');
+        });
+
+        // Activate progress animation on scroll
+        $(window).scroll(function() {
+            $('svg.radial-progress').each(function(index, value) {
+                // If svg.radial-progress is approximately 25% vertically into the window when scrolling from the top or the bottom
+                if (
+                    $(window).scrollTop() > $(this).offset().top - ($(window).height() * 0.75) &&
+                    $(window).scrollTop() < $(this).offset().top + $(this).height() - ($(window).height() * 0.25)
+                ) {
+                    // Get percentage of progress
+                    percent = $(value).data('percentage');
+                    // Get radius of the svg's circle.complete
+                    radius = $(this).find($('circle.complete')).attr('r');
+                    // Get circumference (2πr)
+                    circumference = 2 * Math.PI * radius;
+                    // Get stroke-dashoffset value based on the percentage of the circumference
+                    strokeDashOffset = circumference - ((percent * circumference) / 100);
+                    // Transition progress for 1.25 seconds
+                    $(this).find($('circle.complete')).animate({
+                        'stroke-dashoffset': strokeDashOffset
+                    }, 1250);
+                }
+            });
+        }).trigger('scroll');
+
+    });
+</script>
+
+</html>

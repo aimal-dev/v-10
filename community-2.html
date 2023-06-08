@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <!-- bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+
+    <!-- font awsm -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+      integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"
+    ></script>
+    <!-- swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.css"
+      integrity="sha512-5TGRCl3hPoqtruhO+mubTuySHOfcEBvyIfiWHoCK8wDLmf6C1U73OUoNCU6ZvyT/8vfCcha1INDIo8dabDmQjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.min.js"
+      integrity="sha512-naEQG74IcOLQ6K/B1PmhIcZ4i3YE2FXs2zm603E1Q3shbron+PmYLg44/q+xAymD/RvskZ2H8l1Qa7I5qELlrg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/extra.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+
+    <title>Community-2</title>
+  </head>
+
+  <body>
+    <!-- Nav -->
+    <nav
+      class="navbar nav-dd fixed-top navbar-expand-xl pl-xl-3 pl-lg-2 pr-xl-3 pr-lg-2"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Home.html">
+          <img src="assets/images/logo.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-sliders-h"></i>
+        </button>
+
+        <div
+          class="collapse navbar-collapse text-xl-block text-center"
+          id="navbarSupportedContent"
+        >
+          <form class="form-inline my-2 my-lg-0">
+            <select id="inputState" class="form-control mr-3">
+              <option selected>CYBERJAYA</option>
+              <option>CYBERJAYA</option>
+            </select>
+            <div class="search">
+              <img src="assets/images/search.svg" alt="" />
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </div>
+          </form>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="home.html" target="_blank">
+                UPDATES
+              </a>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                ABOUT
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01"
+              >
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>About</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      WHY LIMKOKWING
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      HERITAGE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">
+                      ACCREDIATION & AWARDS
+                    </a>
+                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                    <p class="pt-3">
+                      Inovasi 1-1, Jalan Teknokarat 1/1
+                      <br />
+                      63000 Cyberjaya, Selangor Darul Ehsan
+                      <br />
+                      Malaysia
+                    </p>
+                    <a
+                      class="dropdown-item pl-0 mt-3"
+                      href="tel:(+603) 8317 8888"
+                    >
+                      Tel (+603) 8317 8888
+                    </a>
+                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-md-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png')"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href="academic.html"
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                ACADEMIA
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01"
+              >
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Academia</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      PROGRAMMERS
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      SHORTCOURSES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      FINANCIAL ASSISTANCE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      INTERNATIONAL SERVICES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">ADMISSION</a>
+                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                    <p class="pt-3">
+                      Inovasi 1-1, Jalan Teknokarat 1/1
+                      <br />
+                      63000 Cyberjaya, Selangor Darul Ehsan
+                      <br />
+                      Malaysia
+                    </p>
+                    <a
+                      class="dropdown-item pl-0 mt-3"
+                      href="tel:(+603) 8317 8888"
+                    >
+                      Tel (+603) 8317 8888
+                    </a>
+                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png')"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                BUSINESS
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01"
+              >
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Business</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      INDUSTRY PARTNER
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      LIMKOKWING GLOBAL ALLIANCE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      AGENT NETWORK
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">CAREERS</a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png')"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link active nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                EXPERIENCE
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01"
+              >
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Experience</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      DISCOVER MALAYSIA
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      SERVICES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="./community.html"
+                      >COMMUNITY</a
+                    >
+                    <h3 class="mt-5">Student portal</h3>
+                    <form action="">
+                      <input type="text" name="" id="" placeholder="Username" />
+                      <input
+                        type="password"
+                        name=""
+                        id=""
+                        placeholder="Password"
+                      />
+                      <a
+                        href="#!"
+                        class="sim d-inline-block text-center mt-4 mr-1"
+                      >
+                        LOGIN
+                      </a>
+                      <a href="#!" class="blue d-inline-block text-center mt-4">
+                        ENROLL FOR FEB INTAKE
+                      </a>
+                    </form>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png')"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="button" href="#!">ENROLL NOW</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar fixed-top navbar-expand-lg" id="main-bar">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="business-1.html">
+            Discover Malaysia
+            <span class="sr-only"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="business-2.html"> Services </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./community.html">Community</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- =======================Nav End============================== -->
+    <section
+      class="exp-2"
+      style="background-image: url('assets/images/BG.png')"
+    ></section>
+    <section class="main-comunity">
+      <div class="comunity">
+        <img src="assets/images/BG.png" alt="" class="bg-image" />
+        <div class="container-fluid">
+          <div class="row pt-3">
+            <div class="col-lg-6 padding-right">
+              <div class="leftimage">
+                <img src="assets/images/left.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6 client-content-main-div padding-left">
+              <div class="client-content">
+                <div class="content-inner">
+                  <div class="mb-2" style="color: #aaaaaa">
+                 <a href="" style="color: #aaaaaa;">   <i class="fa fa-angle-left mr-2"></i> Back</a>
+                  </div>
+                  <h3 class="text-light mt-4 lamyang">Lam Yung Ni</h3>
+                  <p class="m-0">Malaysia • Architect</p>
+                  <p class="m-0">
+                    Bachelor of Science (Hons.) in Architectural Studies
+                  </p>
+                  <h2
+                    id="lageHeading"
+                    class="mt-2 mb-5 col-md-11 explore-header"
+                  >
+                  Limkokwing University signs MoU with SMK Sungai Pelek to strengthen academic ties
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="comunity-posts">
+          <div class="mt-5">
+            <div id="changeOrder" class="row d-flex align-items-center">
+              <div id="firstDiv" class="col-lg-6 col-md-12 col-sm-12">
+                <div class="post-content">
+                  <h6 class="text-light">
+                    Lam Yung Ni – “A truly rewarding experience”
+                  </h6>
+                  <p>
+                    Lam Yung Ni from Pahang, who graduated with a Bachelor of Science in Architectural Studies in July 2017, describes Limkokwing University as a great place for young people to grow and she is happy to have had a chance to study at the world’s most global university.
+
+                  </p>
+                  <p>
+                    “Pursuing this line of study was a tough challenge for me as my parents were not really encouraging but they respected my passion and supported me all the way,” said Yung Ni.
+                   <br>
+                   She believes the multicultural environment at Limkokwing allowed her to learn different cultures and traditions in interesting ways and also improved her social life.
+                  </p>
+                  <p class="tex-light learn-paragraph">
+                    “I was able to learn how other people came up with ideas,
+                    solutions and most importantly working as a team player.”
+                  </p>
+                </div>
+              </div>
+              <div id="secondDiv" class="col-lg-6 col-md-12 col-sm-12">
+                <div class="post-image">
+                  <img src="assets/images/post1.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="row d-flex align-items-center mt-3">
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="post-image">
+                  <img src="assets/images/post2.png" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12" class="post-content">
+                <p class="post-para mt-md-3 mb-md-3">
+                  With a long track record of delivering 21st century education,
+                  Limkokwing University is steadfast in continuing to form
+                  partnerships with local and international organisations alike
+                  in order to deliver an industry relevant curriculum -
+                  instilling students with high in demand skills for high income
+                  careers.
+                  <br />
+                  Naming the project Eco-Water Edge Centre (Timber Forest), Yung
+                  Ni said she intended to create a relaxing space and at the
+                  same time, a space that would enable humans to connect with
+                  wildlife without the need to harm the habitat.
+                  <br />
+                  <br />
+                  Naming the project Eco-Water Edge Centre (Timber Forest), Yung
+                  Ni said she intended to create a relaxing space and at the
+                  same time, a space that would enable humans to connect with
+                  wildlife without the need to harm the habitat.
+                </p>
+                <br />
+                <div>
+                  <h5 class="text-light">The future</h5>
+                  <p class="post-para mt-3">
+                    With a long track record of delivering 21st century
+                    education, Limkokwing University is steadfast in continuing
+                    to form partnerships with local and international
+                    organisations alike in order to deliver an industry relevant
+                    curriculum - instilling students with high in demand skills
+                    for high income careers.
+                  </p>
+                </div>
+
+                <br />
+                <!-- <div class="post-image ">
+                  <img src="assets/images/post1.png" alt="" />
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- slide section -->
+    <section class="alumni">
+      <div class="container-fluid p-3">
+        <div class="row">
+          <div class="col-12">
+            <div class="box">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="slider-top py-4 post-slider">
+                    <h3>More Alumni</h3>
+                    <p class="more-alumi-desc">
+                      They represent the finest of Limkokwing University graduates who
+                      are making waves in the world as today’s transformers and
+                      tomorrow’s creators in every spectrum of nation-building. We
+                      acknowledge them for who they are in their respective
+                      endeavours.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card card-slider-alumni">
+                      <div class="img-card">
+                        <img
+                          src="./assets/images/first-part.png"
+                          alt=""
+                          width="100%"
+                          />
+                      </div>
+                      <div class="content-card">
+                        <h5>
+                          Jonathan Andrews
+                        </h5>
+                        <p class="small-p">
+                          United States • Software Developer
+                        </p>
+                        <p class="normal-p ">
+                          But I must explain to you how all this mistaken idea
+                          of denouncing pleasure and praising pain was born.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card card-slider-alumni">
+                      <div class="img-card">
+                        <img
+                          src="./assets/images/card.png"
+                          alt=""
+                          width="100%"
+                          />
+                      </div>
+                      <div class="content-card">
+                        <h5>
+                          Jonathan Andrews
+                        </h5>
+                        <p class="small-p">
+                          United States • Software Developer
+                        </p>
+                        <p class="normal-p ">
+                          But I must explain to you how all this mistaken idea
+                          of denouncing pleasure and praising pain was born.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card card-slider-alumni">
+                      <div class="img-card">
+                        <img
+                          src="./assets/images/card.png"
+                          alt=""
+                          width="100%"
+                          />
+                      </div>
+                      <div class="content-card">
+                        <h5>
+                          Jonathan Andrews
+                        </h5>
+                        <p class="small-p">
+                          United States • Software Developer
+                        </p>
+                        <p class="normal-p ">
+                          But I must explain to you how all this mistaken idea
+                          of denouncing pleasure and praising pain was born.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card card-slider-alumni">
+                      <div class="img-card">
+                        <img
+                          src="./assets/images/card.png"
+                          alt=""
+                          width="100%"
+                          />
+                      </div>
+                      <div class="content-card">
+                        <h5>
+                          Jonathan Andrews
+                        </h5>
+                        <p class="small-p">
+                          United States • Software Developer
+                        </p>
+                        <p class="normal-p ">
+                          But I must explain to you how all this mistaken idea
+                          of denouncing pleasure and praising pain was born.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card card-slider-alumni">
+                      <div class="img-card">
+                        <img
+                          src="./assets/images/card.png"
+                          alt=""
+                          width="100%"
+                          />
+                      </div>
+                      <div class="content-card">
+                        <h5>
+                          Jonathan Andrews
+                        </h5>
+                        <p class="small-p">
+                          United States • Software Developer
+                        </p>
+                        <p class="normal-p ">
+                          But I must explain to you how all this mistaken idea
+                          of denouncing pleasure and praising pain was born.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card card-slider-alumni">
+                      <div class="img-card">
+                        <img
+                          src="./assets/images/card.png"
+                          alt=""
+                          width="100%"
+                          />
+                      </div>
+                      <div class="content-card">
+                        <h5>
+                          Jonathan Andrews
+                        </h5>
+                        <p class="small-p">
+                          United States • Software Developer
+                        </p>
+                        <p class="normal-p ">
+                          But I must explain to you how all this mistaken idea
+                          of denouncing pleasure and praising pain was born.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card card-slider-alumni">
+                      <div class="img-card">
+                        <img
+                          src="./assets/images/card.png"
+                          alt=""
+                          width="100%"
+                          />
+                      </div>
+                      <div class="content-card">
+                        <h5>
+                          Jonathan Andrews
+                        </h5>
+                        <p class="small-p">
+                          United States • Software Developer
+                        </p>
+                        <p class="normal-p ">
+                          But I must explain to you how all this mistaken idea
+                          of denouncing pleasure and praising pain was born.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card card-slider-alumni">
+                      <div class="img-card">
+                        <img
+                          src="./assets/images/card.png"
+                          alt=""
+                          width="100%"
+                          />
+                      </div>
+                      <div class="content-card">
+                        <h5>
+                          Jonathan Andrews
+                        </h5>
+                        <p class="small-p">
+                          United States • Software Developer
+                        </p>
+                        <p class="normal-p ">
+                          But I must explain to you how all this mistaken idea
+                          of denouncing pleasure and praising pain was born.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card card-slider-alumni">
+                      <div class="img-card">
+                        <img
+                          src="./assets/images/card.png"
+                          alt=""
+                          width="100%"
+                          />
+                      </div>
+                      <div class="content-card">
+                        <h5>
+                          Jonathan Andrews
+                        </h5>
+                        <p class="small-p">
+                          United States • Software Developer
+                        </p>
+                        <p class="normal-p ">
+                          But I must explain to you how all this mistaken idea
+                          of denouncing pleasure and praising pain was born.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- =======================footer============================== -->
+  <footer>
+    <div class="container-fluid mt-5 pb-3 pl-xl-5 pl-lg-4 pl-3 pr-xl-5 pr-lg-4 pr-3">
+      <div class="row no-gutters">
+        <div class="col-xl-6 col-lg-3 col-md-12 pt-1">
+          <h4>You recently viewed</h4>
+        </div>
+        <div class="col-xl-6 col-lg-9 col-md-12">
+          <div class="row no-gutters">
+            <div class="col-xl-7 col-lg-6 col-md-12 pr-lg-2">
+              <form action="">
+                <input type="text" placeholder="Your email address" />
+                <button>SUBSCRIBE</button>
+              </form>
+            </div>
+            <div class="col-xl-5 col-lg-6 col-md-12 text-lg-right text-center foot-btn mt-lg-0 mt-md-3">
+              <a href="#!" class="contact mr-1">
+                CONTACT US
+              </a>
+              <a href="#!" class="enroll">
+                ENROLL NOW
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3">
+          <div class="box">
+            <img src="./assets/images/footer-box.svg" alt="" />
+            <div class="p-3">
+              <h6 class="pt-1">Faculty of Business & Communication</h6>
+              <h5 class="pt-1 mb-5">
+                Bachelor of Business (Hons) in Accounting
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3">
+          <div class="box">
+            <img src="./assets/images/footer-box.svg" alt="" />
+            <div class="p-3">
+              <h6 class="pt-1">Faculty of Business & Communication</h6>
+              <h5 class="pt-1 mb-5">
+                Bachelor of Business (Hons) in Accounting
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3">
+          <div class="box">
+            <img src="./assets/images/footer-box.svg" alt="" />
+            <div class="p-3">
+              <h6 class="pt-1">Faculty of Business & Communication</h6>
+              <h5 class="pt-1 mb-5">
+                Bachelor of Business (Hons) in Accounting
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3">
+          <div class="box">
+            <img src="./assets/images/footer-box.svg" alt="" />
+            <div class="p-3">
+              <h6 class="pt-1">Faculty of Business & Communication</h6>
+              <h5 class="pt-1 mb-5">
+                Bachelor of Business (Hons) in Accounting
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2 mt-3">
+          <div class="box">
+            <img src="./assets/images/footer-box.svg" alt="" />
+            <div class="p-3">
+              <h6 class="pt-1">Faculty of Business & Communication</h6>
+              <h5 class="pt-1 mb-5">
+                Bachelor of Business (Hons) in Accounting
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-3 pr-lg-3 pr-md-2 pr-sm-2">
+          <div class="box">
+            <img src="./assets/images/footer-box.svg" alt="" />
+            <div class="p-3">
+              <h6 class="pt-1">Faculty of Business & Communication</h6>
+              <h5 class="pt-1 mb-5">
+                Bachelor of Business (Hons) in Accounting
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <ul class="cen-ul mt-5">
+            <li class="pr-4"><a class="active" href="#!">CYBERJAYA</a></li>
+            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+            <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+          </ul>
+        </div>
+        <div class="col-12 text-center mt-5">
+          <img src="./assets/images/logo.svg" alt="" />
+        </div>
+        <div class="col-lg-6 mt-lg-5 mt-5 text-lg-left text-center">
+          <h6>
+            © 2022 Limkokwing University of Creative Technology. All Rights
+            Reserved.
+          </h6>
+        </div>
+        <div class="col-lg-6 mt-lg-5 mt-2 text-lg-right text-center">
+          <ul class="last-ul">
+            <li>
+              <a href="#!">Terms of Use</a>
+            </li>
+            <li>
+              <a href="#!">Prvacy Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"
+  ></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        600: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+      },
+    });
+    // swiper-2
+    var swiper = new Swiper(".mySwiper-2", {
+      slidesPerView: 2,
+      grid: {
+        rows: 2,
+      },
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      breakpoints: {
+        300: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        400: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        500: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        600: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          marginTop: 0,
+          slidesPerView: 1,
+          spaceBetween: 40,
+        },
+        900: {
+          marginTop: 0,
+          slidesPerView: 1,
+          spaceBetween: 20,
+          grid: {
+            rows: 2,
+            marginTop: 0,
+          },
+        },
+        1000: {
+          marginTop: 0,
+          slidesPerView: 2,
+          spaceBetween: 10,
+          grid: {
+            rows: 2,
+            marginTop: 0,
+          },
+        },
+        1024: {
+          marginTop: 0,
+          slidesPerView: 2,
+          spaceBetween: 10,
+          grid: {
+            rows: 2,
+            marginTop: 0,
+          },
+        },
+        1200: {
+          marginTop: 0,
+          slidesPerView: 2,
+          spaceBetween: 10,
+          grid: {
+            rows: 2,
+            marginTop: 0,
+          },
+        },
+        1600: {
+          marginTop: 0,
+          slidesPerView: 3,
+          spaceBetween: 10,
+          grid: {
+            rows: 2,
+            marginTop: 0,
+          },
+        },
+      },
+    });
+  </script>
+  <!-- / -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"
+  ></script>
+ 
+
+
+
+  <script>
+    function myFunction(e) {
+      debugger;
+      var x = e.parentElement.childNodes[1];
+      if (x && x.style.display === "none") {
+        x.style.display = "block";
+        x.style.color = "#000";
+        x.style.fontSize = "12px";
+        x.style.backgroundColor = "#fff";
+        x.style.padding = "15px 10px 15px 10px";
+        x.style.borderRadius = "10px";
+      } else {
+        x.style.display = "none";
+      }
+      var y = document.getElementById("support");
+      if (y.style.display === "block") {
+        y.style.display = "none";
+      } else {
+        y.style.display = "none";
+      }
+    }
+
+    function customerSupport() {
+      var x = document.getElementById("support");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+      var y = document.getElementById("myDIV");
+      var z = document.getElementById("aa");
+      if (y && y.style.display === "block") {
+        y.style.display = "none";
+      } else {
+        y.style.display = "none";
+      }
+    }
+    // ///
+    var swiper = new Swiper('.mySwiper', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        600: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+      },
+    })
+  </script>
+</html>

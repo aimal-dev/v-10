@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      />
+    <!-- font awsm -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+      integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+      crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"></script>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <title>Admission</title>
+  </head>
+
+  <body>
+    <nav
+      class="navbar nav-dd fixed-top navbar-expand-xl pl-xl-3 pl-lg-2 pr-xl-3
+      pr-lg-2">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fa fa-sliders-h"></i>
+        </button>
+
+        <div
+          class="collapse navbar-collapse text-xl-block text-center"
+          id="navbarSupportedContent">
+          <form class="form-inline my-2 my-lg-0">
+            <select id="inputState" class="form-control mr-3">
+              <option selected>CYBERJAYA</option>
+              <option>CYBERJAYA</option>
+            </select>
+            <div class="search">
+              <img src="assets/images/search.svg" alt="" />
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+                />
+            </div>
+          </form>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-link2" href="home.html" target="_blank">
+                UPDATES
+              </a>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false">
+                ABOUT
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>About</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      WHY LIMKOKWING
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      HERITAGE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">
+                      ACCREDIATION & AWARDS
+                    </a>
+                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                    <p class="pt-3">
+                      Inovasi 1-1, Jalan Teknokarat 1/1
+                      <br />
+                      63000 Cyberjaya, Selangor Darul Ehsan
+                      <br />
+                      Malaysia
+                    </p>
+                    <a
+                      class="dropdown-item pl-0 mt-3"
+                      href="tel:(+603) 8317 8888">
+                      Tel (+603) 8317 8888
+                    </a>
+                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-md-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png');"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link active nav-link2"
+                href="academic.html"
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false">
+                ACADEMIA
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Academia</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      PROGRAMMERS
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      SHORTCOURSES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      FINANCIAL ASSISTANCE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      INTERNATIONAL SERVICES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">ADMISSION</a>
+                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                    <p class="pt-3">
+                      Inovasi 1-1, Jalan Teknokarat 1/1
+                      <br />
+                      63000 Cyberjaya, Selangor Darul Ehsan
+                      <br />
+                      Malaysia
+                    </p>
+                    <a
+                      class="dropdown-item pl-0 mt-3"
+                      href="tel:(+603) 8317 8888">
+                      Tel (+603) 8317 8888
+                    </a>
+                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                      Fax(+603) 8317 8888
+                    </a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png');"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle=""
+                aria-haspopup="true"
+                aria-expanded="false">
+                BUSINESS
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Business</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      INDUSTRY PARTNER
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      LIMKOKWING GLOBAL ALLIANCE
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                      AGENT NETWORK
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">CAREERS</a>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png');"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown megamenu-li dmenu">
+              <a
+                class="nav-link nav-link2"
+                href=""
+                id="dropdown01"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false">
+                EXPERIENCE
+              </a>
+              <div
+                class="dropdown-menu megamenu sm-menu"
+                aria-labelledby="dropdown01">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-4">
+                    <h1>Experience</h1>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      DISCOVER MALAYSIA
+                    </a>
+                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                      SERVICES
+                    </a>
+                    <a class="dropdown-item pl-0 mt-3" href="#">COMMUNITY</a>
+                    <h3 class="mt-5">Student portal</h3>
+                    <form action="">
+                      <input type="text" name="" id="" placeholder="Username" />
+                      <input
+                        type="password"
+                        name=""
+                        id=""
+                        placeholder="Password"
+                        />
+                      <a
+                        href="#!"
+                        class="sim d-inline-block text-center mt-4 mr-1">
+                        LOGIN
+                      </a>
+                      <a href="#!" class="blue d-inline-block text-center mt-4">
+                        ENROLL FOR FEB INTAKE
+                      </a>
+                    </form>
+                  </div>
+                  <div class="col-sm-6 col-6 d-lg-block d-none">
+                    <div
+                      class="img"
+                      style="background: url('./assets/images/finan-bg.png');"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="button" href="#!">ENROLL NOW</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar fixed-top navbar-expand-lg pt-3" id="main-bar">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="programe.html">
+            Programmes
+            <span class="sr-only"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="short-courses.html">Short Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="financial.html">Financial Assistance</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="international-ser.html">
+            International Services
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="admission.html">Admission</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- =======================Nav End============================== -->
+    <section class="adm2" style="background: url('./assets/images/BG.png');">
+      <div class="container-fluid p-3">
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <div class="box">
+              <a href="#!">
+                <i class="fa fa-angle-left"></i>
+                Back
+              </a>
+              <h1 class="pt-5">
+                Frequently Ask
+                <br />
+                Question
+              </h1>
+              <p class="pt-3">
+                What can we help you with? Search any keywords E.g. Visa, Fees,
+                Application procedures
+              </p>
+              <form action="" class="mt-4">
+                <img src="./assets/images/search.svg" alt="" />
+                <input type="search" placeholder="Search" />
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="img-height">
+              <img
+                src="./assets/images/faq.png"
+                width="100%"
+                height="100%"
+                alt=""
+                />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- adm-3 Part -->
+    <section class="adm-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="box">
+              <div class="nav flex-row nav-pills table-Nav mb-4"
+                id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-gen-tab"
+                  data-toggle="pill" data-target="#v-pills-gen" type="button"
+                  role="tab" aria-controls="v-pills-gen" aria-selected="true">
+                  General
+                </button>
+                <button class="nav-link" id="v-pills-course-tab"
+                  data-toggle="pill" data-target="#v-pills-course" type="button"
+                  role="tab" aria-controls="v-pills-course"
+                  aria-selected="false">
+                  Courses
+                </button>
+                <button class="nav-link" id="v-pills-reg-tab" data-toggle="pill"
+                  data-target="#v-pills-reg" type="button" role="tab"
+                  aria-controls="v-pills-reg" aria-selected="false">
+                  Registration
+                </button>
+                <button class="nav-link" id="v-pills-fees-tab"
+                  data-toggle="pill" data-target="#v-pills-fees" type="button"
+                  role="tab" aria-controls="v-pills-fees" aria-selected="false">
+                  Fees
+                </button>
+                <button class="nav-link" id="v-pills-visa-tab"
+                  data-toggle="pill" data-target="#v-pills-visa" type="button"
+                  role="tab" aria-controls="v-pills-visa" aria-selected="false">
+                  Visa
+                </button>
+                <button class="nav-link" id="v-pills-privacy-tab"
+                  data-toggle="pill" data-target="#v-pills-privacy"
+                  type="button" role="tab" aria-controls="v-pills-privacy"
+                  aria-selected="false">
+                  Privacy
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade active show" id="v-pills-gen"
+                role="tabpanel" aria-labelledby="v-pills-gen-tab">
+                 <div class="row">
+                  <div class="col-lg-6">
+                    <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left"
+                              type="button" data-toggle="collapse"
+                              data-target="#collapseOne" aria-expanded="true"
+                              aria-controls="collapseOne">
+                              I have just graduated from Limkokwing and wish to continue my studies. Do I need to pay for
+the registration fee again?<span class="rotate-0"><i
+                                  class="fa fa-angle-down"></i></span>
+                            </button>
+                          </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse"
+                          aria-labelledby="headingOne"
+                          data-parent="#accordionExample">
+                          <div class="card-body">
+                            Some placeholder content for the first accordion
+                            panel. This panel is shown by default, thanks to the
+                            <code>.show</code> class.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left
+                              collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseTwo" aria-expanded="false"
+                              aria-controls="collapseTwo">
+                              I am applying for a Governmental Scholarship and need to present a Letter of Acceptance. <span class="rotate-0"><i
+                                  class="fa fa-angle-down"></i></span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse"
+                          aria-labelledby="headingTwo"
+                          data-parent="#accordionExample">
+                          <div class="card-body">
+                            Some placeholder content for the second accordion
+                            panel. This panel is hidden by default.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left
+                              collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseThree" aria-expanded="false"
+                              aria-controls="collapseThree">
+                              Can I get a job while studying? <span class="rotate-0"><i
+                                  class="fa fa-angle-down"></i></span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse"
+                          aria-labelledby="headingThree"
+                          data-parent="#accordionExample">
+                          <div class="card-body">
+                            And lastly, the placeholder content for the third
+                            and final accordion panel. This panel is hidden by
+                            default.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="heading4">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left"
+                              type="button" data-toggle="collapse"
+                              data-target="#collapse4" aria-expanded="true"
+                              aria-controls="collapse4">
+                              Can I get a job while studying? <span class="rotate-0"><i
+                                  class="fa fa-angle-down"></i></span>
+                            </button>
+                          </h2>
+                        </div>
+
+                        <div id="collapse4" class="collapse"
+                          aria-labelledby="heading4"
+                          data-parent="#accordionExample">
+                          <div class="card-body">
+                            Some placeholder content for the first accordion
+                            panel. This panel is shown by default, thanks to the
+                            <code>.show</code> class.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="heading5">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left
+                              collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapse5" aria-expanded="false"
+                              aria-controls="collapse5">
+                              I am applying for a Governmental Scholarship and need to present a Letter of Acceptance. <span class="rotate-0"><i
+                                  class="fa fa-angle-down"></i></span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse5" class="collapse"
+                          aria-labelledby="heading5"
+                          data-parent="#accordionExample">
+                          <div class="card-body">
+                            Some placeholder content for the second accordion
+                            panel. This panel is hidden by default.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="heading6">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left
+                              collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapse6" aria-expanded="false"
+                              aria-controls="collapse6">
+                              Can I get a job while studying? <span class="rotate-0"><i
+                                  class="fa fa-angle-down"></i></span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse6" class="collapse"
+                          aria-labelledby="heading6"
+                          data-parent="#accordionExample">
+                          <div class="card-body">
+                            And lastly, the placeholder content for the third
+                            and final accordion panel. This panel is hidden by
+                            default.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header" id="heading7">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left"
+                              type="button" data-toggle="collapse"
+                              data-target="#collapse7" aria-expanded="true"
+                              aria-controls="collapse7">
+                              Collapsible Group Item #7 <span class="rotate-0"><i
+                                  class="fa fa-angle-down"></i></span>
+                            </button>
+                          </h2>
+                        </div>
+
+                        <div id="collapse7" class="collapse"
+                          aria-labelledby="heading7"
+                          data-parent="#accordionExample">
+                          <div class="card-body">
+                            Some placeholder content for the first accordion
+                            panel. This panel is shown by default, thanks to the
+                            <code>.show</code> class.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="heading8">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left
+                              collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapse8" aria-expanded="false"
+                              aria-controls="collapse8">
+                              I am applying for a Governmental Scholarship and need to present a Letter of Acceptance. <span class="rotate-0"><i
+                                  class="fa fa-angle-down"></i></span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse8" class="collapse"
+                          aria-labelledby="heading8"
+                          data-parent="#accordionExample">
+                          <div class="card-body">
+                            Some placeholder content for the second accordion
+                            panel. This panel is hidden by default.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="heading9">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left
+                              collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapse9" aria-expanded="false"
+                              aria-controls="collapse9">
+                              Can I get a job while studying? <span class="rotate-0"><i
+                                  class="fa fa-angle-down"></i></span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse9" class="collapse"
+                          aria-labelledby="heading9"
+                          data-parent="#accordionExample">
+                          <div class="card-body">
+                            And lastly, the placeholder content for the third
+                            and final accordion panel. This panel is hidden by
+                            default.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="heading10">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left"
+                              type="button" data-toggle="collapse"
+                              data-target="#collapse10" aria-expanded="true"
+                              aria-controls="collapse10">
+                              I have just graduated from Limkokwing and wish to continue my studies. Do I need to pay for
+the registration fee again?<span class="rotate-0"><i
+                                  class="fa fa-angle-down"></i></span>
+                            </button>
+                          </h2>
+                        </div>
+
+                        <div id="collapse10" class="collapse"
+                          aria-labelledby="heading10"
+                          data-parent="#accordionExample">
+                          <div class="card-body">
+                            Some placeholder content for the first accordion
+                            panel. This panel is shown by default, thanks to the
+                            <code>.show</code> class.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="heading5">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left
+                              collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapse11" aria-expanded="false"
+                              aria-controls="collapse11">
+                              Collapsible Group Item #11 <span class="rotate-0"><i
+                                  class="fa fa-angle-down"></i></span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse11" class="collapse"
+                          aria-labelledby="heading11"
+                          data-parent="#accordionExample">
+                          <div class="card-body">
+                            Some placeholder content for the second accordion
+                            panel. This panel is hidden by default.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="heading12">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left
+                              collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapse12" aria-expanded="false"
+                              aria-controls="collapse12">
+                              Can I get a job while studying? <span class="rotate-0"><i
+                                  class="fa fa-angle-down"></i></span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse12" class="collapse"
+                          aria-labelledby="heading12"
+                          data-parent="#accordionExample">
+                          <div class="card-body">
+                            And lastly, the placeholder content for the third
+                            and final accordion panel. This panel is hidden by
+                            default.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+                <div class="tab-pane fade" id="v-pills-course" role="tabpanel"
+                  aria-labelledby="v-pills-course-tab">
+                  Course
+                </div>
+                <div class="tab-pane fade" id="v-pills-reg" role="tabpanel"
+                  aria-labelledby="v-pills-reg-tab">
+                  Reg
+                </div>
+                <div class="tab-pane fade" id="v-pills-fees" role="tabpanel"
+                  aria-labelledby="v-pills-blue-tab">
+                  fees
+                </div>
+                <div class="tab-pane fade" id="v-pills-visa" role="tabpanel"
+                  aria-labelledby="v-pills-visa-tab">
+                  visa
+                </div>
+                <div class="tab-pane fade" id="v-pills-privacy" role="tabpanel"
+                  aria-labelledby="v-pills-privacy-tab">
+                  privacy
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================footer============================== -->
+    <footer class="mt-5">
+      <div
+        class="container-fluid mt-5 pb-3 pl-xl-5 pl-lg-4 pl-3 pr-xl-5 pr-lg-4
+        pr-3">
+        <div class="row no-gutters">
+          <div class="col-xl-6 col-lg-3 col-md-12 pt-1">
+            <h4>You recently viewed</h4>
+          </div>
+          <div class="col-xl-6 col-lg-9 col-md-12">
+            <div class="row no-gutters">
+              <div class="col-xl-7 col-lg-6 col-md-12 pr-lg-2">
+                <form action=" ">
+                  <input type="text " placeholder="Your email address " />
+                  <button>SUBSCRIBE</button>
+                </form>
+              </div>
+              <div
+                class="col-xl-5 col-lg-6 col-md-12 text-lg-right text-center
+                foot-btn mt-lg-0 mt-md-3">
+                <a href="#! " class="contact mr-1">
+                  CONTACT US
+                </a>
+                <a href="#! " class="enroll">
+                  ENROLL NOW
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-3 pr-lg-3 pr-md-2
+            pr-sm-2">
+            <div class="box">
+              <img src="./assets/images/footer-box.svg " alt=" " />
+              <div class="p-3">
+                <h6 class="pt-1">Faculty of Business & Communication</h6>
+                <h5 class="pt-1 mb-5">
+                  Bachelor of Business (Hons) in Accounting
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <ul class="cen-ul mt-5">
+              <li class="pr-4"><a class="active" href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+              <li class="pr-4"><a href="#! ">CYBERJAYA</a></li>
+            </ul>
+          </div>
+          <div class="col-12 text-center mt-5">
+            <img src="./assets/images/logo.svg " alt=" " />
+          </div>
+          <div class="col-lg-6 mt-lg-5 mt-5 text-lg-left text-center">
+            <h6>
+              © 2022 Limkokwing University of Creative Technology. All Rights
+              Reserved.
+            </h6>
+          </div>
+          <div class="col-lg-6 mt-lg-5 mt-2 text-lg-right text-center">
+            <ul class="last-ul">
+              <li>
+                <a href="#! ">Terms of Use</a>
+              </li>
+              <li>
+                <a href="#! ">Prvacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js
+    "></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js "
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN
+    "
+    crossorigin="anonymous "></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js "
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2
+    "
+    crossorigin="anonymous "></script>
+  <script>
+  $(document).ready(function() {
+    $('.btn-link').click(function(){
+      // $(this).find('i').toggleClass('fa-angle-down fa-angle-up');
+      $(this).find('.rotate-0, .rotate-1').toggleClass('rotate-0 rotate-1');
+    })
+  })
+ </script>
+</html>

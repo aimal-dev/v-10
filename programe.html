@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+    <!-- font awsm -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.css" integrity="sha512-5TGRCl3hPoqtruhO+mubTuySHOfcEBvyIfiWHoCK8wDLmf6C1U73OUoNCU6ZvyT/8vfCcha1INDIo8dabDmQjw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.min.js" integrity="sha512-naEQG74IcOLQ6K/B1PmhIcZ4i3YE2FXs2zm603E1Q3shbron+PmYLg44/q+xAymD/RvskZ2H8l1Qa7I5qELlrg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <title>Programmes</title>
+</head>
+<style></style>
+
+<body class="body-1">
+    <nav class="navbar nav-dd fixed-top navbar-expand-xl pl-xl-3 pl-lg-2 pr-xl-3
+          pr-lg-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Home.html">
+                <img src="assets/images/logo.svg" alt="" />
+            </a>
+            <form class="form-inline d-lg-none d-md-none d-flex">
+                <select id="inputState" class="form-control pl-0">
+                    <option selected>CYBERJAYA</option>
+                    <option>CYBERJAYA</option>
+                </select>
+            </form>
+            <button class="navbar-toggler hamburger mr-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <i class="fa fa-sliders-h"></i> -->
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </button>
+
+            <div class="collapse navbar-collapse text-xl-block text-center" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0 d-lg-flex d-none">
+                    <select id="inputState" class="form-control mr-3">
+                        <option selected>CYBERJAYA</option>
+                        <option>CYBERJAYA</option>
+                    </select>
+                    <div class="search">
+                        <img src="assets/images/search.svg" alt="" />
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                    </div>
+                </form>
+                <ul class="navbar-nav ml-auto d-lg-flex d-md-flex d-none">
+                    <li class="nav-item ">
+                        <a class="nav-link nav-link2 " href="updates.html" target="_blank">
+                            UPDATES
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                            ABOUT
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>About</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        WHY LIMKOKWING
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        HERITAGE
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">
+                                        ACCREDIATION & AWARDS
+                                    </a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br /> 63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br /> Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                                        Tel (+603) 8317 8888
+                                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                                        Fax(+603) 8317 8888
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-md-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu active">
+                        <a class="nav-link nav-link2 active" href="academic.html" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                            ACADEMIA
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Academia</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        PROGRAMMERS
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        SHORTCOURSES
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                                        FINANCIAL ASSISTANCE
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                                        INTERNATIONAL SERVICES
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">ADMISSION</a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br /> 63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br /> Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                                        Tel (+603) 8317 8888
+                                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                                        Fax(+603) 8317 8888
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                            BUSINESS
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Business</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        INDUSTRY PARTNER
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        LIMKOKWING GLOBAL ALLIANCE
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                                        AGENT NETWORK
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">CAREERS</a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            EXPERIENCE
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Experience</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        DISCOVER MALAYSIA
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        SERVICES
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">COMMUNITY</a>
+                                    <h3 class="mt-5">Student portal</h3>
+                                    <form action="">
+                                        <input type="text" name="" id="" placeholder="Username" />
+                                        <input type="password" name="" id="" placeholder="Password" />
+                                        <a href="#!" class="sim d-inline-block text-center mt-4 mr-1">
+                                            LOGIN
+                                        </a>
+                                        <a href="#!" class="blue d-inline-block text-center mt-4">
+                                            ENROLL FOR FEB INTAKE
+                                        </a>
+                                    </form>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button" href="#!">ENROLL NOW</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto text-left pl-2 pr-2 mob-mode d-lg-none d-md-none d-flex">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="updates.html" target="_blank">
+                            UPDATES
+                        </a>
+                    </li>
+                    <div class="divider"></div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link d-flex justify-content-between" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ABOUT <i class="fas fa-angle-right"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">WHY LIMKOKWING</a>
+                            <a class="dropdown-item" href="#">Heritage</a>
+                            <a class="dropdown-item" href="#">ACCREDIATION & AWARDS</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link d-flex justify-content-between active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            academia <i class="fas fa-angle-right"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">WHY LIMKOKWING</a>
+                            <a class="dropdown-item" href="#">Heritage</a>
+                            <a class="dropdown-item" href="#">ACCREDIATION & AWARDS</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link d-flex justify-content-between" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Business <i class="fas fa-angle-right"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">WHY LIMKOKWING</a>
+                            <a class="dropdown-item" href="#">Heritage</a>
+                            <a class="dropdown-item" href="#">ACCREDIATION & AWARDS</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link d-flex justify-content-between" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Experience <i class="fas fa-angle-right"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">WHY LIMKOKWING</a>
+                            <a class="dropdown-item" href="#">Heritage</a>
+                            <a class="dropdown-item" href="#">ACCREDIATION & AWARDS</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mt-5 pt-5 text-center">
+                        <a class="button" href="#!">ENROLL NOW</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar fixed-top navbar-expand-lg" id="main-bar">
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="programe.html">
+            Programmes
+            <span class="sr-only"></span>
+          </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="short-courses.html">Short Courses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="financial.html">Financial Assistance</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">International Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Admission</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- =======================Nav End============================== -->
+    <section class="first-part">
+        <div class="container-fluid p-3">
+            <div class="row no-gutters">
+                <div class="col-lg-5 col-md-6 col-12">
+                    <div class="box">
+                        <h1>
+                            Building the skillset and addressing the mindset to create the future-ready graduate.
+                        </h1>
+                        <p class="pt-3">
+                            All programmes are designed for students to become competent to manage in the fast-evolving global environment. We are aware of how fast technology is advancing and how that is influencing changes in the workplace and lifestyle, in general.
+                        </p>
+                        <p>
+                            Therefore, creativity is given priority because it is the one element that keeps pace with changes and requires a mindset that is solutions-oriented. Our students are required to be results-driven, work with discipline, be mindful of time management and
+                            other factors needed to achieve success in employment or as entrepreneurs.
+                        </p>
+                        <form action="" class="position-relative pt-3">
+                            <img src="./assets/images/search.svg" alt="" />
+                            <input type="search" placeholder="Search" />
+                        </form>
+                        <div class="tabs-btn nav nav-pills active pt-5">
+                            <a class="active d-none" data-toggle="pill" href="#home2"></a>
+                            <a data-toggle="pill" href="#home">Faculty</a>
+                            <a data-toggle="pill" href="#menu1">Industry</a>
+                            <a data-toggle="pill" href="#menu2">Career</a>
+                            <a data-toggle="pill" href="#menu3">Scholarship</a>
+                        </div>
+                        <h4 class="pt-5">All Industry</h4>
+                        <div class="tabs-btn pt-3">
+                            <a class="blue" href="#!">Programming</a>
+                            <a href="#!">
+                                <i class="fa fa-plus"></i> Architecture
+                            </a>
+                            <a href="#!">
+                                <i class="fa fa-plus"></i> Fashion
+                            </a>
+                            <a href="#!">
+                                <i class="fa fa-plus"></i> Design
+                            </a>
+                            <a href="#!">
+                                <i class="fa fa-plus"></i> Communication
+                            </a>
+                            <a href="#!">
+                                <i class="fa fa-plus"></i> Accounting
+                            </a>
+                            <a href="#!">
+                                <i class="fa fa-plus"></i> Finance
+                            </a>
+                            <a href="#!">
+                                <i class="fa fa-plus"></i> Advertising
+                            </a>
+                            <a href="#!">
+                                <i class="fa fa-plus"></i> Animation
+                            </a>
+                            <a href="#!">
+                                <i class="fa fa-plus"></i> Marketing
+                            </a>
+                            <a href="#!">
+                                <i class="fa fa-plus"></i> Broadcasting
+                            </a>
+                            <a href="#!">
+                                <i class="fa fa-plus"></i> Music
+                            </a>
+                            <a href="#!">
+                                <i class="fa fa-plus"></i> Business
+                            </a>
+                            <a href="#!">
+                                <i class="fa fa-plus"></i> Games
+                            </a>
+                        </div>
+                        <div class="divider mt-5"></div>
+                        <div class="row mt-5">
+                            <div class="col-6">
+                                <h5>Apply for May intake 2022</h5>
+                            </div>
+                            <div class="col-6 text-right">
+                                <a href="admission.html" class="blue">
+                    ENROLL NOW
+                  </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 col-12 mt-lg-0 mt-md-0 mt-3">
+                    <div class="box-2">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-12">
+                                <h3 class="pt-4">5 Programmes Available</h3>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 pt-4">
+                                <select id="inputState" class="form-control mr-3">
+                    <option selected="">All study level</option>
+                    <option>CYBERJAYA</option>
+                  </select>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div id="home2" class="tab-pane fade in active">
+                                <div class="row pt-4">
+                                    <div class="col-lg-4 col-md-6 col-sm-6 mt-lg-4 mt-3">
+                                        <div class="card c-h">
+                                            <div class="img-card">
+                                                <img src="./assets/images/first-part.png" alt="" width="100%" />
+                                            </div>
+                                            <div class="content-card">
+                                                <a href="#!" class=" pt-0">
+                                                    <h6>
+                                                        Faculty of Business & Communication
+                                                    </h6>
+                                                    <span class=" d-block">Learn More</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 mt-lg-4 mt-3">
+                                        <div class="card c-h">
+                                            <div class="img-card">
+                                                <img src="./assets/images/re-2.png" alt="" width="100%" />
+                                            </div>
+
+                                            <div class="content-card">
+                                                <a href="#!" class="pt-0">
+                                                    <h6>
+                                                        Faculty of Creative Technology
+                                                    </h6>
+                                                    <span class=" d-block">Learn More</span>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 mt-lg-4 mt-3">
+                                        <div class="card c-h">
+                                            <div class="img-card">
+                                                <img src="./assets/images/ch.png" alt="" width="100%" />
+                                            </div>
+                                            <div class="content-card">
+                                                <h6>
+                                                    Faculty of Creative Arts & Lifestyle
+                                                </h6>
+                                                <a href="programe-4.html">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 mt-lg-4 mt-3">
+                                        <div class="card c-h">
+                                            <div class="img-card">
+                                                <img src="./assets/images/about-2.png" alt="" width="100%" />
+                                            </div>
+                                            <div class="content-card">
+                                                <h6>
+                                                    Faculty of Architecture & Engineering
+                                                </h6>
+                                                <a href="programe-2.html">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 mt-lg-4 mt-3">
+                                        <div class="card c-h">
+                                            <div class="img-card">
+                                                <img src="./assets/images/creat-2.png" alt="" width="100%" />
+                                            </div>
+                                            <div class="content-card">
+                                                <h6>
+                                                    Faculty of Foundation & Language
+                                                </h6>
+                                                <a href="programe-6.html">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 mt-lg-4 mt-3">
+                                        <div class="card c-h">
+                                            <div class="img-card">
+                                                <img src="./assets/images/cup-of cofee.png" alt="" width="100%" />
+                                            </div>
+                                            <div class="content-card">
+                                                <h6>
+                                                    Limkokwing Graduate School
+                                                </h6>
+                                                <a href="#!">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="home" class="tab-pane fade">
+                                <div class="swiper swiper-2 mySwiper-2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/first-part.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/first-part.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card-2.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card-2.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card-2.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card-2.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card-2.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card-2.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card-2.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card-2.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="belt">
+                                        <div class="swiper-pagination"></div>
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-next"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div id="menu1" class="tab-pane fade">
+                                <div class="swiper swiper-2 mySwiper-2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card">
+                                                <div class="img-card">
+                                                    <img src="./assets/images/card.png" alt="" width="100%" />
+                                                </div>
+                                                <div class="content-card card-height text-left pl-3
+                            pr-0">
+                                                    <p class="small-p">
+                                                        Faculty of Creative Technology
+                                                    </p>
+                                                    <h6 class="mb-4">
+                                                        Bachelor of Computer Science (Hons) in Mobile Computing
+                                                    </h6>
+                                                    <a href="#!" class="blue">Degree</a>
+                                                    <a href="#!" class="dark">Architecture</a>
+                                                    <a href="#!" class="dark">Design</a>
+                                                    <a href="#!" class="dark">3D</a>
+                                                    <a href="#!" class="dark">Communication</a>
+                                                    <a href="#!" class="dark">Interior</a>
+                                                    <a href="#!" class="dark">Art</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="alumni">
+        <div class="container-fluid p-3">
+            <div class="row">
+                <div class="col-12">
+                    <div class="box">
+                        <h1>Our Alumni: The Best Of The Best</h1>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-9 col-12">
+                                <p class="pt-3 text-white">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit consectetur voluptatum numquam voluptas error ratione unde autem mollitia doloremque ullam quisquam, doloribus architecto officia accusamus cupiditate obcaecati veritatis expedita?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="img-card">
+                                            <img src="./assets/images/first-part.png" alt="" width="100%" />
+                                        </div>
+                                        <div class="content-card">
+                                            <h5>
+                                                Jonathan Andrews
+                                            </h5>
+                                            <p class="small-p">
+                                                United States • Software Developer
+                                            </p>
+                                            <p class="normal-p ">
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="img-card">
+                                            <img src="./assets/images/card.png" alt="" width="100%" />
+                                        </div>
+                                        <div class="content-card">
+                                            <h5>
+                                                Jonathan Andrews
+                                            </h5>
+                                            <p class="small-p">
+                                                United States • Software Developer
+                                            </p>
+                                            <p class="normal-p">
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="img-card">
+                                            <img src="./assets/images/card.png" alt="" width="100%" />
+                                        </div>
+                                        <div class="content-card">
+                                            <h5>
+                                                Jonathan Andrews
+                                            </h5>
+                                            <p class="small-p">
+                                                United States • Software Developer
+                                            </p>
+                                            <p class="normal-p">
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="img-card">
+                                            <img src="./assets/images/card.png" alt="" width="100%" />
+                                        </div>
+                                        <div class="content-card">
+                                            <h5>
+                                                Jonathan Andrews
+                                            </h5>
+                                            <p class="small-p">
+                                                United States • Software Developer
+                                            </p>
+                                            <p class="normal-p ">
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="img-card">
+                                            <img src="./assets/images/card.png" alt="" width="100%" />
+                                        </div>
+                                        <div class="content-card">
+                                            <h5>
+                                                Jonathan Andrews
+                                            </h5>
+                                            <p class="small-p">
+                                                United States • Software Developer
+                                            </p>
+                                            <p class="normal-p ">
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="img-card">
+                                            <img src="./assets/images/card.png" alt="" width="100%" />
+                                        </div>
+                                        <div class="content-card">
+                                            <h5>
+                                                Jonathan Andrews
+                                            </h5>
+                                            <p class="small-p">
+                                                United States • Software Developer
+                                            </p>
+                                            <p class="normal-p ">
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="img-card">
+                                            <img src="./assets/images/card.png" alt="" width="100%" />
+                                        </div>
+                                        <div class="content-card">
+                                            <h5>
+                                                Jonathan Andrews
+                                            </h5>
+                                            <p class="small-p">
+                                                United States • Software Developer
+                                            </p>
+                                            <p class="normal-p">
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="img-card">
+                                            <img src="./assets/images/card.png" alt="" width="100%" />
+                                        </div>
+                                        <div class="content-card">
+                                            <h5>
+                                                Jonathan Andrews
+                                            </h5>
+                                            <p class="small-p">
+                                                United States • Software Developer
+                                            </p>
+                                            <p class="normal-p ">
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="img-card">
+                                            <img src="./assets/images/card.png" alt="" width="100%" />
+                                        </div>
+                                        <div class="content-card">
+                                            <h5>
+                                                Jonathan Andrews
+                                            </h5>
+                                            <p class="small-p">
+                                                United States • Software Developer
+                                            </p>
+                                            <p class="normal-p ">
+                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================footer============================== -->
+    <footer>
+        <div class="container-fluid mt-5 pb-3 pl-xl-5 pl-lg-4 pl-3 pr-xl-5 pr-lg-4
+        pr-3">
+            <div class="row no-gutters">
+                <div class="col-xl-6 col-lg-3 col-md-12 pt-1">
+                    <h4>You recently viewed</h4>
+                </div>
+                <div class="col-xl-6 col-lg-9 col-md-12">
+                    <div class="row no-gutters">
+                        <div class="col-xl-7 col-lg-6 col-md-12 pr-lg-2">
+                            <form action="">
+                                <input type="text" placeholder="Your email address" />
+                                <button>SUBSCRIBE</button>
+                            </form>
+                        </div>
+                        <div class="col-xl-5 col-lg-6 col-md-12 text-lg-right text-center
+                foot-btn mt-lg-0 mt-md-3">
+                            <a href="#!" class="contact mr-1">
+                  CONTACT US
+                </a>
+                            <a href="#!" class="enroll">
+                  ENROLL NOW
+                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-3 pr-md-2 pr-sm-2
+            mt-3">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-3 pr-lg-3 pr-md-2
+            pr-sm-2">
+                    <div class="box">
+                        <img src="./assets/images/footer-box.svg" alt="" />
+                        <div class="p-3">
+                            <h6 class="pt-1">Faculty of Business & Communication</h6>
+                            <h5 class="pt-1 mb-5">
+                                Bachelor of Business (Hons) in Accounting
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <ul class="cen-ul mt-5">
+                        <li class="pr-4"><a class="active" href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                        <li class="pr-4"><a href="#!">CYBERJAYA</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center mt-5">
+                    <img src="./assets/images/logo.svg" alt="" />
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-5 text-lg-left text-center">
+                    <h6>
+                        © 2022 Limkokwing University of Creative Technology. All Rights Reserved.
+                    </h6>
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-2 text-lg-right text-center">
+                    <ul class="last-ul">
+                        <li>
+                            <a href="#!">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#!">Prvacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.mySwiper', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                600: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                },
+            },
+        })
+        // swiper-2
+    var swiper = new Swiper('.mySwiper-2', {
+        slidesPerView: 2,
+        grid: {
+            rows: 2,
+        },
+        spaceBetween: 30,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            300: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            400: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            500: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            600: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            768: {
+                marginTop: 0,
+                slidesPerView: 1,
+                spaceBetween: 40,
+            },
+            900: {
+                marginTop: 0,
+                slidesPerView: 1,
+                spaceBetween: 20,
+                grid: {
+                    rows: 2,
+                    marginTop: 0,
+                },
+            },
+            1000: {
+                marginTop: 0,
+                slidesPerView: 2,
+                spaceBetween: 10,
+                grid: {
+                    rows: 2,
+                    marginTop: 0,
+                },
+            },
+            1024: {
+                marginTop: 0,
+                slidesPerView: 2,
+                spaceBetween: 10,
+                grid: {
+                    rows: 2,
+                    marginTop: 0,
+                },
+            },
+            1200: {
+                marginTop: 0,
+                slidesPerView: 2,
+                spaceBetween: 10,
+                grid: {
+                    rows: 2,
+                    marginTop: 0,
+                },
+            },
+            1600: {
+                marginTop: 0,
+                slidesPerView: 2,
+                spaceBetween: 10,
+                grid: {
+                    rows: 2,
+                    marginTop: 0,
+                },
+            },
+        },
+    });
+    $('.mob-mode .nav-link').click(function() {
+        $('.fa-angle-right').toggleClass('rotate');
+    })
+    $('.hamburger').on('click', function() {
+        $(this).toggleClass('active');
+    });
+</script>
+
+</html>

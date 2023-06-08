@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
+    <!-- font awsm -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <!-- swiper js -->
+    <link rel="stylesheet" href="./assets/swiper/swiper-bundle.css" />
+    <script src="./assets/swiper/swiper-bundle.min.js"></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style.scss">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <title>Phd</title>
+</head>
+
+<body class="phd">
+    <!-- Nav 1 -->
+    <nav class="navbar nav-dd fixed-top navbar-expand-xl pl-xl-3 pl-lg-2 pr-xl-3
+      pr-lg-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Home.html">
+                <img src="assets/images/logo.svg" alt="" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-sliders-h"></i>
+            </button>
+
+            <div class="collapse navbar-collapse text-xl-block text-center" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <select id="inputState" class="form-control mr-3">
+                        <option selected>CYBERJAYA</option>
+                        <option>CYBERJAYA</option>
+                    </select>
+                    <div class="search">
+                        <img src="assets/images/search.svg" alt="" />
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                    </div>
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link nav-link2 " href="updates.html" target="_blank">
+                            UPDATES
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                            ABOUT
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>About</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        WHY LIMKOKWING
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        HERITAGE
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">
+                                        ACCREDIATION & AWARDS
+                                    </a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br /> 63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br /> Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                                        Tel (+603) 8317 8888
+                                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                                        Fax(+603) 8317 8888
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-md-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu active">
+                        <a class="nav-link nav-link2 active" href="academic.html" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                            ACADEMIA
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Academia</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        PROGRAMMERS
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        SHORTCOURSES
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                                        FINANCIAL ASSISTANCE
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                                        INTERNATIONAL SERVICES
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">ADMISSION</a>
+                                    <h3 class="mt-5">Cyberjaya Campus</h3>
+                                    <p class="pt-3">
+                                        Inovasi 1-1, Jalan Teknokarat 1/1
+                                        <br /> 63000 Cyberjaya, Selangor Darul Ehsan
+                                        <br /> Malaysia
+                                    </p>
+                                    <a class="dropdown-item pl-0 mt-3" href="tel:(+603) 8317 8888">
+                                        Tel (+603) 8317 8888
+                                    </a>
+                                    <a class="dropdown-item pl-0" href="tel:(+603) 8317 8888">
+                                        Fax(+603) 8317 8888
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                            BUSINESS
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Business</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        INDUSTRY PARTNER
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        LIMKOKWING GLOBAL ALLIANCE
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3 border-bottom" href="#">
+                                        AGENT NETWORK
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">CAREERS</a>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li dmenu">
+                        <a class="nav-link nav-link2" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            EXPERIENCE
+                        </a>
+                        <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-4">
+                                    <h1>Experience</h1>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        DISCOVER MALAYSIA
+                                    </a>
+                                    <a class="dropdown-item pl-0 border-bottom mt-3" href="#">
+                                        SERVICES
+                                    </a>
+                                    <a class="dropdown-item pl-0 mt-3" href="#">COMMUNITY</a>
+                                    <h3 class="mt-5">Student portal</h3>
+                                    <form action="">
+                                        <input type="text" name="" id="" placeholder="Username" />
+                                        <input type="password" name="" id="" placeholder="Password" />
+                                        <a href="#!" class="sim d-inline-block text-center mt-4 mr-1">
+                                            LOGIN
+                                        </a>
+                                        <a href="#!" class="blue d-inline-block text-center mt-4">
+                                            ENROLL FOR FEB INTAKE
+                                        </a>
+                                    </form>
+                                </div>
+                                <div class="col-sm-6 col-6 d-lg-block d-none">
+                                    <div class="img" style="background: url('./assets/images/finan-bg.png');"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button" href="#!">ENROLL NOW</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav 2 -->
+    <nav class="navbar fixed-top navbar-expand-lg" id="main-bar">
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="programe.html">
+                    Programmes
+                    <span class="sr-only"></span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="short-courses.html">Short Courses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="financial.html">Financial Assistance</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">International Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Admission</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Limkok -->
+    <section class="limkok">
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="box-1 d-lg-flex d-md-flex d-none">
+                        <h1>Doctor of Philosophy (PhD) Management</h1>
+                        <p class="pt-3">
+                            This programme aims to produce “Doctors of Philosophy” in Management with advanced knowledge and skills in management practices and research.
+                        </p>
+                        <h5 class="pt-4">Next intake</h5>
+                        <div class="divider"></div>
+                        <h2>February 2023</h2>
+                        <div class="d-flex justify-content-between flex-lg-row flex-column mt-5">
+                            <a href="admission.html" class="blue mr-lg-3 mr-0">register now</a>
+                            <a href="#OurProgram" class="dark mt-lg-0 mt-3" id="dark">view our program</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 d-lg-block d-md-block d-none">
+                    <div class="img-height">
+                        <img src="./assets/images/latest-imgs/phd-1.png" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="col-12 d-lg-none d-md-none d-sm-flex">
+                    <div class="bg-img" style="background-image: url('./assets/images/latest-imgs/phd-1.png');">
+                        <div class="bg-absolute"></div>
+                        <div class="box-1 d-lg-none d-md-none d-sm-flex">
+                            <h1>Limkokwing Graduate School</h1>
+                            <p class="pt-3">
+                                Two distinct pathways that lean on each other to manage the marketing of products and services. The business-minded look at the profit margin and juggle the spending, while the communicator builds the branding.
+                            </p>
+                            <h5 class="pt-4">Next intake</h5>
+                            <div class="divider"></div>
+                            <h2>May 2022</h2>
+                            <div class="d-flex justify-content-between flex-lg-row flex-column mt-5">
+                                <a href="admission.html" class="blue mr-lg-3 mr-0">register now</a>
+                                <a href="#OurProgram" class="dark mt-lg-0 mt-3" id="dark">view our program</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="doctor" id="OurProgram">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="img-height">
+                        <img src="./assets/images/latest-imgs/phd-2.png" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="box pt-lg-0 pt-md-0 pt-5">
+                        <h1>Master of Business Administration (MBA) in Project Management</h1>
+                        <p class="pt-3">
+                            Future project managers will be created by our dynamic, modern, and useful MBA in (Project Management) programme.
+                        </p>
+                        <div class="d-flex justify-content-between flex-lg-row flex-column mt-5">
+                            <a href="#!" class="blue mr-lg-3 mr-0">register now</a>
+                            <a href="#!" class="dark mt-lg-0 mt-3">financial assistance</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="entry-p">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="box">
+                        <h2>Entry Requirements</h2>
+                        <h5 class="mb-5">Cyberjaya</h5>
+                        <div class="sub-box">
+                            <p>
+                                • A Master’s degree in a business or related field as accepted by the HEP <br> Senate OR
+                            </p>
+                        </div>
+                        <div class="sub-box">
+                            <p>
+                                • Bachelor’s Degree in the field or related fields with excellent results (CGPA:3.67<br> and above)<br> and accepted work experience recognised by the Senate OR
+                            </p>
+                        </div>
+                        <div class="sub-box">
+                            <p>
+                                • Other qualifications equivalent to a Master’s degree as accepted by the<br> HEP Senate AND
+                            </p>
+                        </div>
+                        <div class="sub-box">
+                            <p>
+                                • English Proficiency Requirement for International Students <br>
+                                <span class="block">
+                                    IELTS 6.0 OR TOEFL iBT 68-93 OR TOEFL PBT 551-589 OR CAE 169 - 194(Cambridge Advance
+                                    English)
+                                    OR CPE 169 - 194(Cambridge Proficiency English) OR CFE 169 - 194(Cambridge First
+                                    English) OR PTE 51-64(Pearson Test of
+                                    English Academic) OR MUET Band 4
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 d-lg-block d-md-block d-none">
+                    <div class="box-2">
+                        <h2>International Students</h2>
+                        <p>
+                            For non-Malaysian citizens, please refer to the Malaysian Qualification Agency’s (MQA) List of Overseas Qualifications & its equivalency with Malaysian Education System (PDF) to see if you meet the minimum entry requirements to obtain a student visa into
+                            Malaysia to undertake this course.
+                        </p>
+                        <div class="post-rel-1 d-lg-block d-md-block d-none">
+                            <div class="img-height-1 " style="background-image: url('./assets/images/latest-imgs/phd-3.png');">
+                                <!-- <img src="./assets/images/latest-imgs/phd-3.png" width="100%" alt=""> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="entry-p pl-md-0">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xxl-6 col-lg-7 col-md-6 col-12 order-lg-first order-last">
+                    <div class="box-3 d-lg-flex d-none">
+
+                        <div class="d-1" style="background-image: url('./assets/images/latest-imgs/phd-8.png');">
+                            <div class="bg-opacity"></div>
+                            <p>
+                                To improve professional practices through the application of research and case methodologies.
+                            </p>
+                        </div>
+                        <div class="d-2" style="background-image: url('./assets/images/latest-imgs/phd-6.png');">
+                            <div class="bg-opacity"></div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, aliquam? Rerum porro numquam cupiditate aut illum assumenda sint voluptates est!
+                            </p>
+                        </div>
+                        <div class="d-3" style="background-image: url('./assets/images/latest-imgs/phd-s-1.png');">
+                            <div class="bg-opacity"></div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, aliquam? Rerum porro numquam cupiditate aut illum assumenda sint voluptates est!
+                            </p>
+                        </div>
+                        <div class="d-4" style="background-image: url('./assets/images/latest-imgs/phd-7.png');">
+                            <div class="bg-opacity"></div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, aliquam? Rerum porro numquam cupiditate aut illum assumenda sint voluptates est!
+                            </p>
+                        </div>
+                        <div class="d-5" style="background-image: url('./assets/images/latest-imgs/ph-s.png');">
+                            <div class="bg-opacity"></div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, aliquam? Rerum porro numquam cupiditate aut illum assumenda sint voluptates est!
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="slider-phd d-lg-none d-block mt-0 pt-0">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image: url('./assets/images/latest-imgs/phd-5.png')">
+                                    <div class="bg-blur"></div>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, accusantium?
+                                    </p>
+                                </div>
+                                <div class="swiper-slide" style="background-image: url('./assets/images/latest-imgs/phd-6.png')">
+                                    <div class="bg-blur"></div>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, accusantium?
+                                    </p>
+                                </div>
+                                <div class="swiper-slide" style="background-image: url('./assets/images/latest-imgs/phd-7.png')">
+                                    <div class="bg-blur"></div>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, accusantium?
+                                    </p>
+                                </div>
+                                <div class="swiper-slide" style="background-image: url('./assets/images/latest-imgs/phd-8.png')">
+                                    <div class="bg-blur"></div>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, accusantium?
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-lg-5 col-md-6 order-lg-last order-first">
+                    <div class="box-2 box-2-1">
+                        <h2>Objectives</h2>
+                        <p>
+                            Anything and everything that has to do with money and its movement is a business. It is about how products are packaged and marketed and how services are developed and promoted. It all boils down to the right strategy in both business and communications.
+                        </p>
+                        <div class="post-rel-2 d-lg-block d-md-block d-none">
+                            <div class="img-height-2 " style="background-image: url('./assets/images/latest-imgs/phd-4.png');">
+                                <!-- <img src="./assets/images/latest-imgs/phd-3.png" width="100%" alt=""> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            /* d-5 */
+            
+            .box-3 .d-5::before {
+                background-image: url('./assets/images/latest-imgs/ph-s.png');
+            }
+            /* d-5 */
+            /* d-4 */
+            
+            .box-3 .d-4::before {
+                background-image: url('./assets/images/latest-imgs/phd-7.png');
+            }
+            /* d-4 */
+            /* d-3 */
+            
+            .box-3 .d-3::before {
+                background-image: url('./assets/images/latest-imgs/phd-s-1.png');
+            }
+            /* d-3 */
+            /* d-2 */
+            
+            .box-3 .d-2::before {
+                background-image: url('./assets/images/latest-imgs/phd-6.png');
+            }
+            /* d-2 */
+            /* d-1 */
+            
+            .box-3 .d-1::before {
+                background-image: url('./assets/images/latest-imgs/phd-8.png');
+            }
+            /* d-1 */
+        </style>
+    </section>
+    <section class="entry-p">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 order-lg-first order-md-first  order-last">
+                    <div class="box justify-content-start pt-5">
+                        <h2>Learning Outcome</h2>
+                        <p class="text-white pt-2">
+                            At the end of this programme, students will be able to:
+                        </p>
+                        <ul class="pl-lg-0 pl-2 pt-4">
+                            <li>
+                                <p class="text-white">
+                                    Apply a range of quantitative and qualitative research methods frequently used in research works to solve contemporary problems in management practices.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="text-white">
+                                    Construct research questions that can be examined empirically using scientific methods.
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="text-white">
+                                    Demonstrate an understanding of state-of-the-art knowledge in the field of the student's research.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="text-white">
+                                    Demonstrate independent and critical thinking ability and appreciate the ethical issues and concerns relevant to the discipline;
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="text-white">
+                                    Generate new and readily applicable knowledge in a chosen area of management typically relevant to their host organisations and their own career objectives, leading to an improved understanding of the management practices in a global and rapidly changing
+                                    environment.
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="text-white">
+                                    Appraise and select innovative and creative solutions to management problems and opportunities;
+
+                                </p>
+                            </li>
+                            <li>
+                                <p class="text-white">
+                                    Apply relevant theoretical knowledge to contemporary debates in the field.
+                                </p>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 order-lg-last order-md-last order-first last-height">
+                    <div class="box-2">
+                        <div class="post-rel-3">
+                            <div class="img-height-3" style="background-image: url('./assets/images/latest-imgs/phd-9.png');">
+                                <!-- <img src="./assets/images/latest-imgs/phd-3.png" width="100%" alt=""> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="entry-p">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="box">
+                        <h2>Programme Structure</h2>
+                        <h5 class="mb-5">Cyberjaya</h5>
+                        <div class="row">
+                            <div class="col-lg-6 pt-2">
+                                <h6 class="text-white font-weight-bold d-lg-block d-md-block d-none d-lg-block d-md-block d-none">
+                                    <i class="fas fa-circle mr-2" style="font-size: 0.5rem;"></i> Year 1. Semester 1
+                                </h6>
+                                <div class="sub-box text-left">
+                                    <h5 class="d-lg-none d-md-none d-block pb-3">Year 1. Semester 1</h5>
+                                    <p>
+                                        Advanced Research Methodologies<br> Advanced Research Methodologies
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 pt-2">
+                                <h6 class="text-white font-weight-bold d-lg-block d-md-block d-none d-lg-block d-md-block d-none">
+                                    <i class="fas fa-circle mr-2" style="font-size: 0.5rem;"></i> Year 1. Semester 2
+                                </h6>
+                                <div class="sub-box text-left">
+                                    <h5 class="d-lg-none d-md-none d-block pb-3">Year 1. Semester 2</h5>
+                                    <p>
+                                        Thesis 01
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 pt-2">
+                                <h6 class="text-white font-weight-bold d-lg-block d-md-block d-none"><i class="fas fa-circle mr-2" style="font-size: 0.5rem;"></i> Year 2. Semester 1
+                                </h6>
+                                <div class="sub-box text-left">
+                                    <h5 class="d-lg-none d-md-none d-block pb-3">Year 2. Semester 1</h5>
+                                    <p>
+                                        Thesis 02
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 pt-2">
+                                <h6 class="text-white font-weight-bold d-lg-block d-md-block d-none"><i class="fas fa-circle mr-2" style="font-size: 0.5rem;"></i> Year 2. Semester 2
+                                </h6>
+                                <div class="sub-box text-left">
+                                    <h5 class="d-lg-none d-md-none d-block pb-3">Year 2. Semester 2</h5>
+                                    <p>
+                                        Thesis 03
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 pt-2">
+                                <h6 class="text-white font-weight-bold d-lg-block d-md-block d-none "><i class="fas fa-circle mr-2" style="font-size: 0.5rem;"></i> Year 3. Semester 1
+                                </h6>
+                                <div class="sub-box text-left">
+                                    <h5 class="d-lg-none d-md-none d-block pb-3">Year 3. Semester 1</h5>
+                                    <p>
+                                        Thesis 04
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 pt-2">
+                                <h6 class="text-white font-weight-bold d-lg-block d-md-block d-none"><i class="fas fa-circle mr-2" style="font-size: 0.5rem;"></i> Year 3. Semester 2
+                                </h6>
+                                <div class="sub-box text-left">
+                                    <h5 class="d-lg-none d-md-none d-block pb-3">Year 3. Semester 2</h5>
+                                    <p>
+                                        Thesis/Viva
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ready-start">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="box">
+                        <h1>Ready to start your education journey?</h1>
+                        <a href="#!" class="dark">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="mt-2">
+        <div class="container-fluid mt-5 pb-3 pl-xl-5 pl-lg-4 pl-3 pr-xl-5 pr-lg-4
+                                                                                                                                                                                                                                                                                                                                            pr-3">
+            <div class="row no-gutters">
+                <div class="col-xl-6 col-lg-3 col-md-12 pt-1">
+                    <h4>You recently viewed</h4>
+                </div>
+                <div class="col-xl-6 col-lg-9 col-md-12">
+                    <div class="row no-gutters">
+                        <div class="col-xl-7 col-lg-6 col-md-12 pr-lg-2">
+                            <form action="">
+                                <input type="text" placeholder="Your email address">
+                                <button>SUBSCRIBE</button>
+                            </form>
+                        </div>
+                        <div class="col-xl-5 col-lg-6 col-md-12 text-lg-right text-center
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    foot-btn mt-lg-0 mt-md-3">
+                            <a href="#!" class="contact mr-1">
+                                CONTACT US
+                            </a>
+                            <a href="#!" class="enroll">
+                                ENROLL NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row" id="recent_view_section">
+                        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-2 pr-md-2 pr-sm-2 mt-3">
+                            <a href="#!" style="text-decoration: none;">
+                                <div class="box">
+                                    <div class="img-height">
+                                        <img src="./assets/images/footer-box.svg" alt="">
+                                    </div>
+                                    <div class="p-3">
+                                        <h6 class="pt-1">Faculty of Business &amp; Communication</h6>
+                                        <h5 class="pt-1 ">
+                                            Bachelor of Business (Hons) in Accounting
+                                        </h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-2 pr-md-2 pr-sm-2 mt-3">
+                            <div class="box">
+                                <div class="img-height">
+                                    <img src="./assets/images/about-2.png" alt="">
+                                </div>
+                                <div class="p-3">
+                                    <h6 class="pt-1">Faculty of Business &amp; Communication</h6>
+                                    <h5 class="pt-1 ">
+                                        Bachelor of Business (Hons) in Accounting
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-2 pr-md-2 pr-sm-2
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            mt-3">
+                            <div class="box">
+                                <div class="img-height">
+                                    <img src="./assets/images/admission-bg.png" alt="">
+                                </div>
+                                <div class="p-3">
+                                    <h6 class="pt-1">Faculty of Business &amp; Communication</h6>
+                                    <h5 class="pt-1 ">
+                                        Bachelor of Business (Hons) in Accounting
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-2 pr-md-2 pr-sm-2
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            mt-3">
+                            <div class="box">
+                                <div class="img-height">
+                                    <img src="./assets/images/blue.png" alt="">
+                                </div>
+                                <div class="p-3">
+                                    <h6 class="pt-1">Faculty of Business &amp; Communication</h6>
+                                    <h5 class="pt-1 ">
+                                        Bachelor of Business (Hons) in Accounting
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 pr-lg-2 pr-md-2 pr-sm-2
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            mt-3">
+                            <div class="box">
+                                <div class="img-height">
+                                    <img src="./assets/images/cup-of cofee.png" alt="">
+                                </div>
+                                <div class="p-3">
+                                    <h6 class="pt-1">Faculty of Business &amp; Communication</h6>
+                                    <h5 class="pt-1 ">
+                                        Bachelor of Business (Hons) in Accounting
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-3 pr-lg-2 pr-md-2 pr-sm-2">
+                            <div class="box">
+                                <div class="img-height">
+                                    <img src="./assets/images/Game4.png" alt="">
+                                </div>
+                                <div class="p-3">
+                                    <h6 class="pt-1">Faculty of Business &amp; Communication</h6>
+                                    <h5 class="pt-1 ">
+                                        Bachelor of Business (Hons) in Accounting
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12">
+                    <ul class="cen-ul mt-5">
+                        <li class="pr-4">
+                            <a class="active" href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                        <li class="pr-4">
+                            <a href="#!">CYBERJAYA</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center mt-5">
+                    <img src="./assets/images/logo.svg" alt="">
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-5 text-lg-left text-center">
+                    <h6>
+                        © 2022 Limkokwing University of Creative Technology. All Rights Reserved.
+                    </h6>
+                </div>
+                <div class="col-lg-6 mt-lg-5 mt-2 text-lg-right text-center">
+                    <ul class="last-ul">
+                        <li>
+                            <a href="#!">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#!">Prvacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./assets/Jquery/3.1.1-jquery.min.js"></script>
+<script src="./assets/Jquery/popper.min.js"></script>
+<script src="./assets/bootstrap/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#dark').mouseenter(function() {
+            $(this).text('Programe List');
+        })
+        $('#dark').mouseleave(function() {
+            $(this).text('View Our Programe');
+        });
+        // d-5
+
+    });
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+    $(window).resize(function() {
+        var width = $(window).width();
+        if (width < 768) {
+            let a = './assets/images/latest-imgs/e8df5f4d92.png';
+            $('.last-height').hover(function() {
+                    $('.last-height img').attr('src', a);
+
+                },
+                function() {
+                    $('.last-height img').attr('src', './assets/images/latest-imgs/phd-9.png');
+                }
+            )
+        } else {
+            $('.last-height').hover(function() {
+                $('.last-height img').css('pointer-events', 'none');
+            })
+
+        }
+    });
+</script>
+
+</html>
